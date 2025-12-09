@@ -1,6 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java</title>
+    <url>/2025/12/09/java/</url>
+    <content><![CDATA[<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NDExMTM0ZTlkNGRhYWU5MTgyM2M2ZTk1Yjg5YzUzZGFfeUN2U0w2b01zdnBJTFJTdXRvcVlyVWQ5dnlrRlNtbTlfVG9rZW46VHc4UWJtNnlEb1Fta294c250UGM4a1VMblZmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>*<em>1.<strong><strong>值传递</strong></strong>与</em>*<strong>引用传递</strong></p>
+<p>①值传递是基本数据类型的值给形参，在方法中对形参的修改将不会影响原来的变量</p>
+<p>②引用传递是对象引用，是把对象的地址传递给形参，在方法体内对参数的修改会影响原来的对象</p>
+<p>*<em>2.<strong><strong>抽象类</strong></strong>与接口</em>*</p>
+<p>1.abstract：</p>
+<p>1.用abstract修饰的类是抽象类，用abstract修饰的方法是抽象方法</p>
+<p>2.抽象类中可以有零个或多个抽象方法，抽象方法只指定方法名和具体类型，而不写实现代码；也可       以包含非抽象方法，非抽象方法可以调用抽象方法</p>
+<p>3.抽象类不能创建对象，必须派生子类，若子类是具体类，则具体类必须实现抽象类中所有抽象方法     （覆盖），若子类还是抽象类，如果父类中已有同名abstract方法，则子类中不能再有同名的抽象方法</p>
+<p>4.抽象类可以有声明，声明能引用所有具体子类的对象</p>
+<p>  5.abstract不能与final并列修饰同一个类（逻辑矛盾，因为abstract类必须被继承，而final类不能被继  承）；abstract不能与private，static，final，native并列修饰同一个方法；abstract类中不能有   private 成员（因为抽象类必须有子类，抽象类无法自己实例化对象，而子类又无法访问父类的private 成员）</p>
+<p>2.interface：</p>
+<p>1.定义接口</p>
+<blockquote>
+<p>public interface myinterface [extends fatherinterface]{</p>
+<p> static final int a&#x3D;1;</p>
+<p> abstract int function(int a);</p>
+<p>}</p>
+</blockquote>
+<p>用关键字interface定义，要么public要么缺省</p>
+<p>内部数据类型全是final static，访问级别要么public要么缺省</p>
+<p>没有构造方法（因为不是类，没有用class定义，与抽象类不同），但所有成员方法都是抽象方法（可以不用abstract修饰，但性质是抽象方法）</p>
+<p>接口可以通过extends关键字声明接口的父接口</p>
+<p>2.实现接口</p>
+<blockquote>
+<p>public void class A implements myinterface{</p>
+<p> public int function(int a){</p>
+<p>  return a;</p>
+<p> }</p>
+<p>}</p>
+</blockquote>
+<p><strong>在类中用implements关键字实现接口，一个类可以实现多个接口，一个接口也可以被多个类实现</strong></p>
+<p>接口的实现类可以继承接口中定义的静态常量</p>
+<p>如果实现接口的类不是抽象类，那么实现类中必须实现接口中的所有抽象方法；如果实现接口的是抽象类，那么它可以不实现该接口的所有方法，但对抽象类的任何一个非抽象子类而言，接口中所有抽象方法必须被实现，*<em>反正非抽象类中不能有抽象方法（<strong><strong>继承</strong></strong>了</em><em><strong>父类</strong></em><em>的抽象方法必须具体实现）</em>*</p>
+<p><strong>子类实现接口的抽象方法时必须显式使用public修饰符</strong></p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NmIwYTE5OTdjN2Q1Yjc2NDljYzRiOGRmZWUxODA1MDNfZTNwUVpUalhRQXVKT0NsRVlZUEptSWtPRGNMblNxdnhfVG9rZW46RThwbmJISjdLbzZuSUt4MEJNUmN1YXhwbm96XzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=N2I5YWRhNzQ0NGJkM2NjZjg2ODUyNGY1YzM4Njk2ZDhfN0hZdlpBZGRoREM5eHpaSXFITlU2eWN3RmVRSWVBamZfVG9rZW46UXc1S2JicmdvbzNiYXh4OHJKVGNQSDAzbnVjXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>*<em>3.<strong><strong>泛型</strong></strong>与框架</em>*</p>
+<p><strong>ArrayList</strong> <strong>(基于数组)：</strong></p>
+<ul>
+<li><strong>内部结构</strong>：ArrayList 内部封装了一个动态数组 (<code>Object[]</code>)。数组在内存中是<strong>连续存储</strong>的。</li>
+<li><strong>劣势</strong>：当进行<strong>添加或删除</strong>操作（特别是插入到中间或删除中间元素）时，为了保持内存连续性，必须将操作点之后的所有元素<strong>向后或向前移动</strong>（System.arraycopy）。这需要大量的内存复制操作，时间复杂度为 $O(N)$，效率较低。</li>
+</ul>
+<p><strong>LinkedList (基于**<strong>链表</strong></strong>)：**</p>
+<ul>
+<li><strong>内部结构</strong>：LinkedList 内部是<strong>双向链表</strong>结构。每个节点（Node）包含数据以及指向前一个节点（prev）和后一个节点（next）的引用（指针）。</li>
+<li><strong>优势</strong>：进行<strong>添加或删除</strong>操作时，只需要<strong>修改相关节点的引用指向</strong>即可（断开旧链接，连上新链接），不需要移动任何其他元素。无论数据量多大，该物理操作的时间复杂度都是 $O(1)$，因此在频繁增删的场景下性能远优于 ArrayList。</li>
+</ul>
+<p><strong>4.final和finally</strong></p>
+<p><strong>【final 的特点】</strong></p>
+<ol>
+<li><strong>修饰数据成员（变量）：</strong><ol>
+<li>该变量变为<strong>常量</strong>，其值一旦初始化后就<strong>不能被修改</strong>。</li>
+</ol>
+</li>
+<li><strong>修饰方法：</strong><ol>
+<li>该方法可以<strong>被子类****继承</strong>，但是<strong>不能被重载</strong></li>
+</ol>
+</li>
+<li><strong>修饰类：</strong><ol>
+<li>该类<strong>不能被****继承</strong>（即不能有子类）</li>
+</ol>
+</li>
+</ol>
+<p><strong>【finally 的用途】</strong></p>
+<ul>
+<li><strong>用途</strong>：<code>finally</code> 只能配合 <code>try-catch</code> 语句块使用。</li>
+<li><strong>特点</strong>：无论 <code>try</code> 块中是否发生异常，也不管有没有 <code>catch</code> 住异常，<code>finally</code> 代码块中的代码<strong>一定会被执行</strong>。</li>
+<li><strong>场景</strong>：通常用于<strong>释放资源</strong>，例如关闭数据库连接、关闭文件流（IO）、释放锁等操作，确保资源不会泄露。</li>
+</ul>
+<p><strong>【static】</strong></p>
+<p>用static修饰的数据成员不属于任何一个类的具体对象，而是类的静态数据成员，一个类的任何对象访问它获取的都是相同的值</p>
+<p>用static修饰的方法，可以被所有对象访问，static方法内部代码只能访问类中static属性或方法，不能访问类中非static属性或方法（因为那是对象方法），但非static方法（对象方法）可以访问static数据成员</p>
+<p>**5.**<strong>多线程</strong></p>
+<h3 id="线程和进程的区别"><a href="#线程和进程的区别" class="headerlink" title="线程和进程的区别"></a>线程和进程的区别</h3><p>1.进程是独立执行的实体，一个执行中的程序，每个进程有独立的一块内存空间代码，一组系统资源，每个进程内部数据与状态都独立**（程序的一次执行）**</p>
+<p>2.线程是进程内的执行单元，同类的多个线程共享一块内存空间和系统资源，多线程是指一个进程中运行多个不同的线程**（进程中程序代码的一个执行序列）**</p>
+<ol>
+<li><h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3></li>
+</ol>
+<h4 id="方法一：继承-Thread-类"><a href="#方法一：继承-Thread-类" class="headerlink" title="方法一：继承 Thread 类"></a>方法一：继承 <code>Thread</code> 类</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义一个类继承 Thread</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SumThread</span> <span class="keyword">extends</span> <span class="title class_">Thread</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;= <span class="number">10000</span>; i++) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;继承 Thread 方式计算结果: &quot;</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TestThread</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 启动线程</span></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">SumThread</span>().start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>方法二：实现 <code>Runnable</code> 接口</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义一个类实现 Runnable 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SumRunnable</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;= <span class="number">10000</span>; i++) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;实现 Runnable 方式计算结果: &quot;</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TestRunnable</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 创建任务对象</span></span><br><span class="line">        <span class="type">SumRunnable</span> <span class="variable">task</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SumRunnable</span>();</span><br><span class="line">        <span class="comment">// 将任务交给 Thread 对象执行</span></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Thread</span>(task).start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h3 id="两种定义方式的区别"><a href="#两种定义方式的区别" class="headerlink" title="两种定义方式的区别"></a><strong>两种定义方式的区别</strong></h3></li>
+</ol>
+<p>比较维度继承 Thread 类实现 Runnable 接口继承限制受限。Java 是单继承机制，如果继承了 Thread 类，就无法再继承其他业务父类。灵活。实现接口后，该类依然可以继承其他父类。资源共享多个线程对象各自独立，不方便共享资源（除非使用 static）。多个 Thread 可以共用同一个 Runnable 任务对象，非常适合多个线程处理同一份资源的情况（如卖票系统）。解耦性线程定义与任务逻辑耦合在一起。将任务逻辑（Runnable）与线程控制（Thread）分离，代码结构更清晰（体现了组合优于继承的原则）。</p>
+<ol>
+<li><h3 id="场景回答"><a href="#场景回答" class="headerlink" title="场景回答"></a>场景回答</h3></li>
+</ol>
+<p><strong>题目问：</strong> 如果该线程类已经继承了某个父类，那么应该使用哪种方法定义该线程？</p>
+<p><strong>回答：</strong> 应该使用 <strong>实现</strong> <strong><code>Runnable</code></strong> <strong>接口</strong> 的方法。 <strong>原因：</strong> 因为 Java <strong>不支持多重****继承</strong>（即一个类不能同时继承两个父类）。如果该类已经继承了某个业务父类，它就不能再继承 <code>Thread</code> 类了，但它可以实现 <code>Runnable</code> 接口，从而兼顾父类功能和多线程能力。</p>
+<ol>
+<li><h3 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h3></li>
+</ol>
+<h3 id="一、-什么是死锁？"><a href="#一、-什么是死锁？" class="headerlink" title="一、 什么是死锁？"></a>一、 什么是死锁？</h3><p>死锁是指两个或两个以上的线程在执行过程中，因<strong>争夺资源</strong>而造成的一种<strong>互相等待</strong>的现象。如果没有外力干涉，它们都将无法继续执行下去。</p>
+<p><strong>通俗比喻：</strong> 两个人过独木桥，A 在桥头要去 B 那边，B 在桥头要去 A 那边。桥很窄（资源互斥），A 占着一边不退让（占有且等待），B 也占着一边不退让，且谁也推不动谁（不可抢占），结果两人大眼瞪小眼，谁也过不去。</p>
+<h3 id="二、-产生死锁的四个必要条件"><a href="#二、-产生死锁的四个必要条件" class="headerlink" title="二、 产生死锁的四个必要条件"></a>二、 产生死锁的四个必要条件</h3><p>这四个条件<strong>必须同时满足</strong>才会发生死锁。只要破坏其中任何一个，死锁就解除了。</p>
+<ol>
+<li><strong>互斥****条件 (<strong><strong>Mutual Exclusion</strong></strong>):</strong><ol>
+<li>资源是独占的，同一时间只能被一个线程使用（如 <code>synchronized</code> 锁住的资源）。</li>
+</ol>
+</li>
+<li><strong>请求与保持条件 (Hold and Wait):</strong><ol>
+<li>线程已经持有了至少一个资源，但又提出了新的资源请求，而新资源被其他线程占有。此时该线程<strong>保持</strong>对自己已获资源的占有，同时<strong>等待</strong>新资源。</li>
+</ol>
+</li>
+<li><strong>不可剥夺条件 (No Preemption):</strong><ol>
+<li>线程已获得的资源在未使用完之前，不能被其他线程强行抢走（<code>synchronized</code> 就是不可抢占的，除非线程自己释放）。</li>
+</ol>
+</li>
+<li><strong>循环等待条件 (Circular Wait):</strong><ol>
+<li>发生死锁时，必然存在一个进程-资源的环形链。例如：线程 A 等待 线程 B 的资源，线程 B 等待 线程 A 的资源。</li>
+</ol>
+</li>
+</ol>
+<p><strong>6.覆盖与重载</strong></p>
+<p>1.重载是在<strong>一个类中方法名相同</strong>，但<strong>参数类型或者参数个数不同</strong>的方法，<strong>重载与修饰符，返回类型无关</strong></p>
+<p>2.覆写是<strong>子类<strong><strong>继承</strong></strong>父类</strong>中的方法，<strong>方法名，参数类型和参数个数要和父类一样，而返回<strong><strong>值类型</strong></strong>以及抛出的异常类型，要么和父类相同，要么是父类类型的子类，修饰符的限制需要大于父类的修饰符</strong></p>
+<p>3.static方法可以覆盖static方法，不能覆盖非static方法，也不能被非static方法覆盖</p>
+<p>4.方法前有final修饰符，则此方法不能在子类方法中进行覆盖</p>
+<p>5.抽象类中如果存在抽象方法，则具体子类中必须对抽象方法进行覆盖</p>
+<p><strong>方法名称相同，参数名称相同，返回类型相同：覆盖</strong></p>
+<p><strong>方法名称相同，参数名称不同：重载</strong></p>
+<p><strong>方法名称相同，参数名称相同，返回类型不同：编译不能通过</strong></p>
+<p><strong>7.Map接口</strong></p>
+<p>以下是针对 <strong>第 7 题</strong> 的完整解答：</p>
+<h3 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h3><ol>
+<li><strong>简述 Java 集合框架中 Map 接口的特点，并简述其两个实现类 HashMap 与 TreeMap 的区别。</strong></li>
+</ol>
+<h3 id="解答"><a href="#解答" class="headerlink" title="解答"></a><strong>解答</strong></h3><ol>
+<li><h4 id="Map-接口的特点"><a href="#Map-接口的特点" class="headerlink" title="Map 接口的特点"></a><strong>Map 接口的特点</strong></h4></li>
+</ol>
+<ul>
+<li><strong>键值对存储</strong>：Map 接口用于存储键值对（Key-Value Pair）映射关系的数据。</li>
+<li><strong>键（Key）唯一</strong>：Map 中的键（Key）不允许重复，每个键最多只能映射到一个值。</li>
+<li><strong>值（Value）可重复</strong>：Map 中的值（Value）可以重复，不同的键可以指向相同的值。</li>
+<li><strong>非 Collection 子接口</strong>：Map 接口没有继承 <code>Collection</code> 接口，它是独立的一个顶层接口。</li>
+</ul>
+<p>比较维度HashMapTreeMap底层数据结构哈希表 (数组 + 链表&#x2F;红黑树)。<br>Java 8 之后，当链表长度超过阈值（8）时会转换为红黑树。红黑树 (Red-Black Tree)。<br>一种自平衡的二叉查找树。排序性无序。不保证映射的顺序，插入顺序和遍历顺序可能不一致。有序。默认按照键（Key）的自然顺序（从小到大）排序，或者根据创建时提供的 Comparator 进行排序。查找效率更高。增删改查的平均时间复杂度为 $O(1)$。相对较低。基于树结构，操作的时间复杂度为 $O(\log N)$。对 Null 的支持支持。允许 1 个 Null 键 和 多个 Null 值。不支持 Null 键（通常会抛出 NullPointerException，因为需要进行比较），但允许 Null 值。适用场景适用于大多数需要快速查找、插入、删除的场景，不关心顺序。适用于需要对 Key 进行排序或范围查找的场景。</p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NWQzMzc3OGFlNzVjN2FmMDNlZWMwY2RhMzA3MzY0NDdfZzg5N0ZybzNSeEJPYmt5RXFtUDRyZmZCazNUUkpCdzZfVG9rZW46WVVPaWI3VnFob3R4NlF4bmpGVWNwUXhGbjhkXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p><strong>8.字符串</strong></p>
+<h3 id="1-结果分析"><a href="#1-结果分析" class="headerlink" title="1. 结果分析"></a><strong>1. 结果分析</strong></h3><ul>
+<li><strong>程序一运行结果为 “a” 的原因：</strong><ul>
+<li><strong>String 是不可变类 (Immutable)</strong>。</li>
+<li>在 <code>changePara</code> 方法中，执行 <code>s = s + &quot;hello&quot;</code> 时，并没有修改原来的那个 “a” 对象，而是<strong>在<strong><strong>内存</strong></strong>中创建了一个新的 String 对象</strong> “ahello”，并将方法内的局部变量 <code>s</code> 指向了这个新对象。</li>
+<li><code>main</code> 方法中的 <code>s</code> 依然指向原来的 “a” 对象，所以打印结果为 “a”。</li>
+</ul>
+</li>
+<li><strong>程序二运行结果为 “ahello” 的原因：</strong><ul>
+<li><strong>StringBuilder</strong> <strong>是可变类 (Mutable)</strong>。</li>
+<li>在 <code>changePara</code> 方法中，执行 <code>s.append(&quot;hello&quot;)</code> 时，<strong>直接修改了<strong><strong>堆内存</strong></strong>中同一个</strong> <strong>StringBuilder</strong> <strong>对象的内容</strong>。</li>
+<li><code>main</code> 方法中的 <code>s</code> 指向的也是这个对象，所以打印结果为被修改后的 “ahello”。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-知识总结"><a href="#2-知识总结" class="headerlink" title="2.知识总结"></a>2.知识总结</h3><p>1.string，stringbuffer，stringbuilder实现都是基于字符数组，都封装了对字符串的一系列操作，<strong>String</strong>内部实现基于常量字符数组，<strong>是final类型，不能被修改，StringBuilder和StringBuffer</strong>内部实现基于普通字符数组，<strong>可以修改，数组大小可以根据字符串实际长度实现自动扩容</strong></p>
+<p>2.字符串构建方法，<strong>考最多创建几个对象</strong></p>
+<p>**&#x2F;&#x2F;**只有用引号包含文本的方式创建的string对象间使用+连接产生的新对象才会加入字符串池中</p>
+<p>**&#x2F;&#x2F;**所有用new方式创建的新对象+连接的表达式所产生的新对象都不会被加入字符串池中</p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YWM5M2I0ZTJiZTI4MGFjMWQ1N2UxYWVmN2UxNmIxYzdfaHhVZFR6SnJYVVFkMU9JelZxdXFHQjNJOERGU0J1QlJfVG9rZW46SEVnTWJIZVpIbzFrM1R4Y3R1eGN2WkJTbnRnXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MjhhMTUwYTlmNWE3NjJiNmFhMWJhNmU1NjVjOGJiYTBfUVhBTXk5SkhEZERZWmp1c1daMTRzSHNybGRDdGVRT0hfVG9rZW46WDA4WmJiVU90b0lLcXF4WjJhRmNkRzcybmVjXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>比较维度StringStringBuilder可变性不可变 (Immutable)。一旦创建，其内容无法被修改。任何拼接、替换操作都会产生新的对象。可变 (Mutable)。内部维护一个可变的字符数组，可以直接对原对象进行修改（如 append, insert）。性能较低（在频繁拼接时）。因为每次拼接都会创建新对象，产生大量垃圾内存，增加 GC 压力。较高。直接在原内存上操作，避免了频繁的对象创建和销毁。线程安全线程安全（因为不可变）。非线程安全。多线程环境下使用 StringBuffer 代替。</p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmVhNTNkZDkyNTc2M2E1OTMzYzYzM2JmMmI1YTJjYTRfVWk2Z1ZNNnliMmp6emo4NEpqNUlINUwzck5ra1ZoSHZfVG9rZW46QWdNZWI1NjZDb2RwYXh4SkJreWN2SDFDbjFlXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p><strong>9.异常</strong></p>
+<h3 id="知识总结"><a href="#知识总结" class="headerlink" title="知识总结"></a><strong>知识总结</strong></h3><ol>
+<li><h3 id="Java-异常体系结构-Hierarchy"><a href="#Java-异常体系结构-Hierarchy" class="headerlink" title="Java 异常体系结构 (Hierarchy)"></a>Java 异常体系结构 (Hierarchy)</h3></li>
+</ol>
+<p>在 Java 中，所有的异常对象都继承自一个共同的父类：<code>java.lang.Throwable</code>。</p>
+<p><code>Throwable</code> 分为两个大分支：</p>
+<ol>
+<li><p><strong>Error (错误)</strong>：</p>
+<ol>
+<li><strong>含义</strong>：这是系统级的灾难，程序通常<strong>无法恢复</strong>。例如：JVM 内存溢出 (<code>OutOfMemoryError</code>)、栈溢出 (<code>StackOverflowError</code>)。</li>
+<li><strong>处理</strong>：我们一般<strong>不</strong>在代码里捕获处理它，因为处理不了。</li>
+</ol>
+</li>
+<li><p><strong>Exception (异常)</strong>：</p>
+<ol>
+<li><strong>含义</strong>：程序运行时的逻辑错误或外部问题，程序<strong>可以处理并恢复</strong>。</li>
+<li><strong>分类</strong>：<ul>
+<li><strong>受检异常 (Checked Exception)</strong>：编译器强制要求你处理（如 <code>IOException</code>, <code>SQLException</code>）。如果你不处理，代码编译都通不过。</li>
+<li><strong>非受检异常 (Unchecked&#x2F;Runtime Exception)</strong>：继承自 <code>RuntimeException</code>。通常是代码逻辑错误（如空指针 <code>NullPointerException</code>、数组越界 <code>IndexOutOfBoundsException</code>）。编译器不强制要求处理。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><h3 id="捕获异常：try-catch-finally"><a href="#捕获异常：try-catch-finally" class="headerlink" title="捕获异常：try-catch-finally"></a>捕获异常：try-catch-finally</h3></li>
+</ol>
+<p>这是我们处理异常的“盾牌”。</p>
+<ul>
+<li><strong>try</strong>：把可能发生异常的代码包起来。</li>
+<li><strong>catch</strong>：如果 try 里面出事了，在这里进行补救（捕获）。</li>
+<li><strong>finally</strong>：无论出没出事，<strong>一定</strong>要执行的代码（通常用于关闭资源，如数据库连接、IO流）</li>
+</ul>
+<ol>
+<li><h3 id="自定义异常-Custom-Exception"><a href="#自定义异常-Custom-Exception" class="headerlink" title="自定义异常 (Custom Exception)"></a>自定义异常 (Custom Exception)</h3></li>
+</ol>
+<p>Java 自带的异常（如空指针、数组越界）有时候不能准确描述具体的业务问题（比如“余额不足”、“用户不存在”）。这时我们需要自定义异常。</p>
+<p><strong>步骤：</strong></p>
+<ol>
+<li>创建一个类。</li>
+<li>继承 <code>Exception</code> (如果要强制处理) 或 <code>RuntimeException</code> (如果不需要强制处理)。</li>
+<li>提供构造方法，调用父类的 <code>super(message)</code>。</li>
+</ol>
+<h3 id="题目分析"><a href="#题目分析" class="headerlink" title="题目分析"></a><strong>题目分析</strong></h3><p><strong>问题所在</strong>： 代码中的 <code>SelfException</code> 继承自 <code>Exception</code> 类，属于 <strong>检查型异常 (Checked Exception)</strong>。 方法 <code>called()</code> 声明抛出了该异常 (<code>throws SelfException</code>)，因此在 <code>main</code> 方法中调用 <code>called()</code> 时，<strong>必须</strong>对该异常进行处理，否则编译器会报错（编译不通过）。</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a><strong>解决方案</strong></h3><p>在 Java 中，处理检查型异常有两种方式，对于 <code>main</code> 方法，通常建议使用 <strong>try-catch 块</strong> 进行捕获处理。</p>
+<p><strong>修正后的代码如下：</strong></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">// 尝试调用可能抛出异常的方法</span></span><br><span class="line">        called();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SelfException e) &#123;</span><br><span class="line">        <span class="comment">// 捕获并处理异常</span></span><br><span class="line">        e.printStackTrace(); <span class="comment">// 打印异常堆栈信息，或者输出自定义错误提示</span></span><br><span class="line">        System.out.println(<span class="string">&quot;捕获到了自定义异常: &quot;</span> + e.getMessage());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> SelfException &#123;     </span><br><span class="line">    called(); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Try-catch-finall:</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">readFile</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">// 1. 尝试执行可能出错的代码</span></span><br><span class="line">        System.out.println(<span class="string">&quot;开始计算...&quot;</span>);</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> <span class="number">10</span> / <span class="number">0</span>; <span class="comment">// 这里会发生 ArithmeticException</span></span><br><span class="line">        System.out.println(<span class="string">&quot;计算结果：&quot;</span> + result); <span class="comment">// 这行不会执行</span></span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">catch</span> (ArithmeticException e) &#123;</span><br><span class="line">        <span class="comment">// 2. 捕获特定的异常并处理</span></span><br><span class="line">        System.out.println(<span class="string">&quot;出错了：不能除以 0！&quot;</span>);</span><br><span class="line">        e.printStackTrace(); <span class="comment">// 打印错误堆栈信息</span></span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        <span class="comment">// 3. 可以有多个 catch，父类异常通常放在最后兜底</span></span><br><span class="line">        System.out.println(<span class="string">&quot;发生了其他未知异常&quot;</span>);</span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">        <span class="comment">// 4. 无论是否发生异常，这里都会执行</span></span><br><span class="line">        System.out.println(<span class="string">&quot;计算结束，清理资源。&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>抛出异常：throw vs throws</p>
+<p>特性throw (动词：扔)throws (声明：可能抛出)位置写在方法体内部写在方法声明处（方法名后面）数量只能抛出一个异常对象可以声明多个异常类 (用逗号隔开)作用真正的动作。程序执行到这里，立即抛出一个异常对象。一种告知&#x2F;甩锅。告诉调用者：“我这个方法可能会出这些错，你自己看着办”。对象后面跟的是异常对象 (new xxxException)后面跟的是异常类名 (xxxException)</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 使用 throws 声明该方法可能会抛出异常（甩锅给调用者）</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setAge</span><span class="params">(<span class="type">int</span> age)</span> <span class="keyword">throws</span> IllegalArgumentException &#123;</span><br><span class="line">    <span class="keyword">if</span> (age &lt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// 使用 throw 真正地抛出一个异常对象（制造异常）</span></span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;年龄不能为负数&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println(<span class="string">&quot;年龄设置为：&quot;</span> + age);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 调用者必须处理这个异常</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        setAge(-<span class="number">5</span>);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (IllegalArgumentException e) &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;设置失败：&quot;</span> + e.getMessage());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>自定义异常</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 定义一个“余额不足异常”</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">InsufficientBalanceException</span> <span class="keyword">extends</span> <span class="title class_">RuntimeException</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">InsufficientBalanceException</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>(message); <span class="comment">// 将错误信息传给父类</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 在业务中使用</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BankAccount</span> &#123;</span><br><span class="line">    <span class="type">double</span> <span class="variable">balance</span> <span class="operator">=</span> <span class="number">100.0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">withdraw</span><span class="params">(<span class="type">double</span> amount)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (amount &gt; balance) &#123;</span><br><span class="line">            <span class="comment">// 抛出自定义异常</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">InsufficientBalanceException</span>(<span class="string">&quot;取款失败：余额不足，当前只有 &quot;</span> + balance);</span><br><span class="line">        &#125;</span><br><span class="line">        balance -= amount;</span><br><span class="line">        System.out.println(<span class="string">&quot;取款成功&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 测试</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">BankAccount</span> <span class="variable">account</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BankAccount</span>();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            account.withdraw(<span class="number">200</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InsufficientBalanceException e) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;捕获到业务异常：&quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>10.super.i和this.i的作用</strong></p>
+<h3 id="分析下列程序"><a href="#分析下列程序" class="headerlink" title="分析下列程序"></a><strong>分析下列程序</strong></h3><p><strong>1.</strong> <strong><code>this.i</code></strong> <strong>和</strong> <strong><code>super.i</code></strong> <strong>分别是什么含义？</strong></p>
+<ul>
+<li><strong><code>this.i</code></strong>：指的是**当前类（子类 <code>Construct</code>）**中定义的成员变量 <code>i</code>。<ul>
+<li><em>解析：由于子类</em> <em><code>Construct</code></em> <em>定义了一个与<strong>父类</strong>同名的变量</em> <em><code>i</code>**，发生了“变量遮蔽” (Shadowing)。在子类中直接使用</em> <em><code>i</code></em> <em>或</em> <em><code>this.i</code></em> <em>时，默认访问的是子类自己的那个变量。</em></li>
+</ul>
+</li>
+<li><strong><code>super.i</code></strong>：指的是**父类（<code>Pare</code>）**中定义的成员变量 <code>i</code>。<ul>
+<li><em>解析：关键字</em> <em><code>super</code></em> <em>用于显式访问被子类遮蔽的<strong>父类</strong>成员。</em></li>
+</ul>
+</li>
+</ul>
+<ol>
+<li><strong>该程序是否有错误？</strong></li>
+</ol>
+<ul>
+<li><strong>有错误</strong>（编译错误）。</li>
+</ul>
+<p><strong>错误原因：</strong></p>
+<ul>
+<li>父类 <code>Pare</code> 定义了一个带参数的构造方法 <code>Pare(int i)</code>，这导致 Java 编译器<strong>不再自动提供</strong>默认的无参构造方法 <code>Pare()</code>。</li>
+<li>子类 <code>Construct</code> 的构造方法 <code>Construct(int num)</code> 中，没有显式调用父类的构造方法。此时，Java 编译器会默认尝试插入一句 <code>super();</code> 来调用父类的无参构造方法。</li>
+<li>因为父类中<strong>不存在</strong>无参构造方法，所以编译失败。</li>
+</ul>
+<ol>
+<li><strong>指出修改方案</strong></li>
+</ol>
+<p><strong>修改方法：</strong> 在子类 <code>Construct</code> 的构造方法的第一行，<strong>显式调用</strong>父类已存在的带参构造方法。</p>
+<p><strong>代码修改示例：</strong></p>
+<blockquote>
+<p>Construct(int num) {</p>
+<p>​    super(num); &#x2F;&#x2F; 【新增这行】显式调用父类构造器 Pare(int i)</p>
+<p>​    i &#x3D; num;</p>
+<p>}</p>
+</blockquote>
+<h3 id="1-知识总结（this的作用）："><a href="#1-知识总结（this的作用）：" class="headerlink" title="1.知识总结（this的作用）："></a><strong>1.知识总结（this的作用）：</strong></h3><ol>
+<li><h3 id="核心场景一：解决“重名”冲突（最常用）"><a href="#核心场景一：解决“重名”冲突（最常用）" class="headerlink" title="核心场景一：解决“重名”冲突（最常用）"></a>核心场景一：解决“重名”冲突（最常用）</h3></li>
+</ol>
+<p>当<strong>局部变量</strong>（比如方法参数）和<strong>成员变量</strong>（类里定义的属性）名字一样时，Java 会默认遵循“就近原则”，使用局部变量。 这时，我们需要用 <code>this</code> 来特指“成员变量”。</p>
+<ul>
+<li><strong>场景</strong>：构造方法或 Setter 方法中。</li>
+<li><strong>口诀</strong>：<code>this.name</code> 是我的属性，<code>name</code> 是别人传进来的参数</li>
+</ul>
+<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line">    <span class="title class_">String</span> name; <span class="comment">// 成员变量</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title class_">Student</span>(<span class="title class_">String</span> name) &#123;</span><br><span class="line">        <span class="comment">// name = name;  &lt;-- 错误！这是把自己赋值给自己，成员变量没变</span></span><br><span class="line">        </span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = name; <span class="comment">// 正确！把参数 name 赋值给当前对象的成员变量 name</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h3 id="核心场景二：构造方法“偷懒”互调（构造器链）"><a href="#核心场景二：构造方法“偷懒”互调（构造器链）" class="headerlink" title="核心场景二：构造方法“偷懒”互调（构造器链）"></a>核心场景二：构造方法“偷懒”互调（构造器链）</h3></li>
+</ol>
+<p>如果一个类有多个构造方法（重载），我们不想在每个构造方法里都写一遍重复的初始化代码，可以用 <code>this(...)</code> 来调用本类的其他构造方法。</p>
+<ul>
+<li><strong>语法</strong>：<code>this(参数...)</code></li>
+<li><strong>铁律</strong>：<strong>必须写在构造方法的第一行！</strong></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line">    String name;</span><br><span class="line">    <span class="type">int</span> age;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 1. 全参构造方法（干活最全的）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(String name, <span class="type">int</span> age)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.name = name;</span><br><span class="line">        <span class="built_in">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 2. 无参构造方法（偷懒的）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Student</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 调用上面那个全参构造方法，给个默认值</span></span><br><span class="line">        <span class="comment">// 相当于：我虽然没传参，但我委托全参构造器帮我初始化为 &quot;未知&quot;, 0</span></span><br><span class="line">        <span class="built_in">this</span>(<span class="string">&quot;未知姓名&quot;</span>, <span class="number">0</span>); </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h3 id="核心场景三：把自己交出去（返回或传递）"><a href="#核心场景三：把自己交出去（返回或传递）" class="headerlink" title="核心场景三：把自己交出去（返回或传递）"></a>核心场景三：把自己交出去（返回或传递）</h3></li>
+</ol>
+<p>有时候我们需要把“我自己”（当前对象）作为一个参数传递给别的函数，或者作为返回值返回（常见于链式调用）。</p>
+<ul>
+<li><strong>用法</strong>：直接使用 <code>this</code>。</li>
+</ul>
+<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="comment">// 1. 链式调用（Builder模式的基础）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title class_">Person</span> <span class="title function_">grow</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">age</span>++;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">this</span>; <span class="comment">// 返回当前对象自己，这样可以一直 .grow().grow()</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 2. 把自己传给别人</span></span><br><span class="line">    <span class="keyword">public</span> <span class="built_in">void</span> <span class="title function_">register</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="comment">// 假设有一个登记册类 RegisterBook</span></span><br><span class="line">        <span class="comment">// 把“我”传进去进行登记</span></span><br><span class="line">        <span class="title class_">RegisterBook</span>.<span class="title function_">add</span>(<span class="variable language_">this</span>); </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><h3 id="⚠️-一个致命禁区：Static-方法中不能用-this"><a href="#⚠️-一个致命禁区：Static-方法中不能用-this" class="headerlink" title="⚠️ 一个致命禁区：Static 方法中不能用 this"></a>⚠️ 一个致命禁区：Static 方法中不能用 this</h3></li>
+</ol>
+<p>这是考试和面试的<strong>超级坑点</strong>。</p>
+<ul>
+<li><strong>规则</strong>：<strong>静态方法</strong><strong>（static）中绝对不能出现</strong> <strong><code>this</code></strong> <strong>关键字。</strong></li>
+</ul>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YmQ1MTRhOTI2ODFlNWU2NDM3YjNlZTQzZjYwZTk5MzZfQlpxRk9zWUhzQlR3d2xROEU1RUY4WDlib2xYYVFSVzVfVG9rZW46UmtSYmJTNWtib0dnS0V4M1B3QWNlWmpabkxlXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>*<em>11.<strong><strong>多线程</strong></strong>的</em><em><strong>互斥</strong></em><em>与同步</em>*</p>
+<h3 id="1-结论"><a href="#1-结论" class="headerlink" title="1.结论"></a><strong>1.结论</strong></h3><p><strong>不能</strong>。 在多线程环境下，如果不采取同步措施，<code>Sta</code> 对象的 <code>size</code> 和 <code>data</code> 数据成员 <strong>不一定</strong> 能够得到预期的结果（即可能会出现数据丢失或覆盖的情况）。</p>
+<ol>
+<li><h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a><strong>原因分析</strong></h3></li>
+</ol>
+<p>根本原因在于 <code>addChar</code> 方法中的代码 <code>data[size++] = c;</code> <strong>不是****原子操作</strong>。</p>
+<p>这行代码在 JVM 底层执行时，实际上包含了以下三个步骤：</p>
+<ol>
+<li><strong>读取</strong>：读取当前 <code>size</code> 的值（例如 <code>size = 0</code>）。</li>
+<li><strong>赋值</strong>：将字符 <code>c</code> 存入数组 <code>data</code> 的指定位置（<code>data[0] = c</code>）。</li>
+<li><strong>自增并写回</strong>：计算 <code>size + 1</code> 并将新值写回内存（<code>size</code> 变为 1）。</li>
+</ol>
+<p><strong>并发冲突场景：</strong> 假设线程 1 和线程 2 同时进入该方法：</p>
+<ol>
+<li>线程 1 读取了 <code>size</code> 为 0。</li>
+<li>线程 2 在同一时刻也读取了 <code>size</code>，因为线程 1 还没来得及修改，所以线程 2 读到的也是 0。</li>
+<li>线程 1 将字符 ‘k’ 写入 <code>data[0]</code>。</li>
+<li>线程 2 将字符 ‘h’ 写入 <code>data[0]</code> —— <strong>注意：这里发生了覆盖，’k’ 丢失了。</strong></li>
+<li>线程 1 将 <code>size</code> 更新为 1。</li>
+<li>线程 2 也将 <code>size</code> 更新为 1。</li>
+</ol>
+<p><strong>最终结果：</strong> 此时 <code>size</code> 为 1（预期应该是 2），且数组中只有 ‘h’（’k’ 被覆盖）。这就是典型的<strong>竞态条件</strong> <strong>(<strong><strong>Race Condition</strong></strong>)</strong> 问题。</p>
+<ol>
+<li><h3 id="修改方案"><a href="#修改方案" class="headerlink" title="修改方案"></a><strong>修改方案</strong></h3></li>
+</ol>
+<p>要解决这个问题，必须保证 <code>addChar</code> 方法的操作是<strong>原子性</strong>的，即同一时刻只能有一个线程执行该方法。</p>
+<p>最简单有效的方法是使用 <code>synchronized</code> 关键字修饰该方法。</p>
+<p><strong>修改后的代码：</strong></p>
+<blockquote>
+<p>class Sta {</p>
+<p>​    private int size &#x3D; 0;</p>
+<p>​    private char[] data &#x3D; new char[10];</p>
+<p>​    &#x2F;&#x2F; 修改方案：添加 <strong>synchronized</strong> 关键字，使其成为同步方法</p>
+<p>​    public synchronized void addChar(char c) {</p>
+<p>​        data[size++] &#x3D; c;</p>
+<p>​    }</p>
+<p>}</p>
+</blockquote>
+<p><strong>修改后的效果：</strong> 当线程 1 进入 <code>addChar</code> 方法时，会获取当前对象的锁（Monitor）。此时线程 2 想要执行该方法，必须在外面等待，直到线程 1 执行完毕并释放锁。这样就保证了 <code>size</code> 的读取、赋值和自增操作是按顺序安全执行的。</p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=OGQyODAyODJmZjgxNmE5Yzc0NjFlMjdkMjQ1Zjg5ZDZfVUc0Tm1nSnAwVzZVcWZoZnE0RU9hRzVsM0xTY0ZvSmpfVG9rZW46VWxiRmJlNnE1b0RXZE54TjlNbWMwUXRobnljXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><p><strong>构造方法的****继承</strong> </p>
+<p>构造方法的继承遵循以下的原则:</p>
+<p>1.父类构造方法，子类可以在自己的构造方法中使用 super 来调用，但必须是子类构造方法的第一个可执行语句。</p>
+<p>2.若子类构造方法中没有显式调用父类构造方法，也没有用this 调用重载的其它构造方法，则在产生子类的对象时，系统在调用子类构造方法的同时，默认调用父类无参构造方法。若子类构造方法中显式调用了父类构造方法，或使用了 this, 则不会默认调用父类无参构造方法。</p>
+<p>综上两点：子类的构造方法必定调用父类的构造方法。如果不显式用super 方法，必然隐含调用 super()。</p>
+<p><strong>创建对象时的初始化顺序:</strong></p>
+<p>1.系统会对数据成员进行默认初始化</p>
+<p>2.执行数据成员定义处的初始化语句</p>
+<p>3.调用构造方法为数据成员指定初值</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.Comparator;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Complex</span> &#123;</span><br><span class="line">    <span class="comment">// (1) 定义 private 成员变量</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> real;   <span class="comment">// 实部</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> imagin; <span class="comment">// 虚部</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// (2) 无参构造方法，初始化为 0</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Complex</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.real = <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">this</span>.imagin = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// (2) 带参构造方法，初始化实部和虚部</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Complex</span><span class="params">(<span class="type">int</span> r, <span class="type">int</span> i)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.real = r;</span><br><span class="line">        <span class="built_in">this</span>.imagin = i;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// (3) 定义 sub 方法，实现复数相减</span></span><br><span class="line">    <span class="keyword">public</span> Complex <span class="title function_">sub</span><span class="params">(Complex a)</span> &#123;</span><br><span class="line">        <span class="comment">// 新实部 = 当前实部 - 参数实部</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">newReal</span> <span class="operator">=</span> <span class="built_in">this</span>.real - a.real;</span><br><span class="line">        <span class="comment">// 新虚部 = 当前虚部 - 参数虚部</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">newImagin</span> <span class="operator">=</span> <span class="built_in">this</span>.imagin - a.imagin;</span><br><span class="line">        <span class="comment">// 返回一个新的 Complex 对象</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(newReal, newImagin);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 为了方便打印结果（如题目要求的 -3-5i），重写 toString 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (imagin &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> real + <span class="string">&quot;+&quot;</span> + imagin + <span class="string">&quot;i&quot;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> real + <span class="string">&quot;&quot;</span> + imagin + <span class="string">&quot;i&quot;</span>; <span class="comment">// 虚部本身带负号，不需要加 &quot;+&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 获取实部的方法，用于外部访问（排序时用到）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getReal</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> real;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// (4) 测试两个复数相减：(2+3i) - (5+8i)</span></span><br><span class="line">        <span class="type">Complex</span> <span class="variable">c1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">2</span>, <span class="number">3</span>);</span><br><span class="line">        <span class="type">Complex</span> <span class="variable">c2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">5</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="type">Complex</span> <span class="variable">result</span> <span class="operator">=</span> c1.sub(c2);</span><br><span class="line">        </span><br><span class="line">        System.out.println(<span class="string">&quot;相减的结果: &quot;</span> + result); <span class="comment">// 输出应该为 -3-5i</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// (5) ArrayList 存储并排序</span></span><br><span class="line">        List&lt;Complex&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(-<span class="number">2</span>, <span class="number">3</span>));</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">3</span>, -<span class="number">5</span>));</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">1</span>, <span class="number">4</span>));</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">&quot;排序前: &quot;</span> + list);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 使用 Collections.sort 和 Comparator 进行排序</span></span><br><span class="line">        <span class="comment">// 按照实部从大到小排序 (降序)</span></span><br><span class="line">        Collections.sort(list, <span class="keyword">new</span> <span class="title class_">Comparator</span>&lt;Complex&gt;() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">compare</span><span class="params">(Complex o1, Complex o2)</span> &#123;</span><br><span class="line">                <span class="comment">// 降序：o2 - o1</span></span><br><span class="line">                <span class="keyword">return</span> o2.getReal() - o1.getReal();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">&quot;排序后(实部降序): &quot;</span> + list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YzRmNThkMTNhNzAzMTQ5YWZkNTQ5MTA3Yjk4Mzc5NjdfYk84UHVJUndmSjVJd0JWWDRiRk91Z3RzUzdDd01QYThfVG9rZW46UUg4UWJMRHJ1b3BlaVZ4TVNWeWNRQ21pbnVwXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<h3 id="1-接口-Solid、实现类-Cube-和-Cylinder-以及-Test-类"><a href="#1-接口-Solid、实现类-Cube-和-Cylinder-以及-Test-类" class="headerlink" title="(1) 接口 Solid、实现类 Cube 和 Cylinder 以及 Test 类"></a><strong>(1) 接口 Solid、实现类 Cube 和 Cylinder 以及 Test 类</strong></h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 定义接口 Solid</span></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span>; <span class="comment">// 计算体积的抽象方法</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 定义正方体类 Cube 实现 Solid 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Cube</span> <span class="keyword">implements</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> side; <span class="comment">// 边长</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Cube</span><span class="params">(<span class="type">double</span> side)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.side = side;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 实现 calVol 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> side * side * side; <span class="comment">// 体积 = 边长^3</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 定义圆柱体类 Cylinder 实现 Solid 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Cylinder</span> <span class="keyword">implements</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> radius; <span class="comment">// 半径</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> height; <span class="comment">// 高</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Cylinder</span><span class="params">(<span class="type">double</span> radius, <span class="type">double</span> height)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.radius = radius;</span><br><span class="line">        <span class="built_in">this</span>.height = height;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 实现 calVol 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> Math.PI * radius * radius * height; <span class="comment">// 体积 = π * r^2 * h</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 4. 定义测试类 Test</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123;</span><br><span class="line">    <span class="comment">// printVol 方法：利用多态，接收 Solid 接口类型</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">printVol</span><span class="params">(Solid solid)</span> &#123;</span><br><span class="line">        <span class="comment">// 格式化输出，保留两位小数更美观（可选）</span></span><br><span class="line">        System.out.println(<span class="string">&quot;该图形的体积为: &quot;</span> + String.format(<span class="string">&quot;%.2f&quot;</span>, solid.calVol()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Cube</span> <span class="variable">cube</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cube</span>(<span class="number">3.0</span>);</span><br><span class="line">        <span class="type">Cylinder</span> <span class="variable">cylinder</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cylinder</span>(<span class="number">5.5</span>, <span class="number">4</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">        test.printVol(cube);      <span class="comment">// 打印 Cube 的体积</span></span><br><span class="line">        test.printVol(cylinder);  <span class="comment">// 打印 Cylinder 的体积</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-设计-GraphCalcu-类"><a href="#2-设计-GraphCalcu-类" class="headerlink" title="(2) 设计 GraphCalcu 类"></a>(2) 设计 GraphCalcu 类</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 5. 设计 GraphCalcu 类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">GraphCalcu</span> &#123;</span><br><span class="line">    <span class="comment">// 数据成员：持有 Solid 接口的引用</span></span><br><span class="line">    <span class="keyword">private</span> Solid solid;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法：接收任意 Solid 的实现类对象（Cube 或 Cylinder）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">GraphCalcu</span><span class="params">(Solid solid)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.solid = solid;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Calcu 方法：调用内部 shape 的 calVol 计算体积</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">Calcu</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (solid != <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> solid.calVol();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0.0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 题目给定的 main 方法用于测试</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Cube</span> <span class="variable">cube</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cube</span>(<span class="number">3.0</span>);</span><br><span class="line">        <span class="type">GraphCalcu</span> <span class="variable">gc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">GraphCalcu</span>(cube);</span><br><span class="line">        System.out.println(gc.Calcu()); <span class="comment">// 提供 Cube 的体积计算</span></span><br><span class="line"></span><br><span class="line">        <span class="type">Cylinder</span> <span class="variable">cylinder</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cylinder</span>(<span class="number">5.5</span>, <span class="number">4</span>);</span><br><span class="line">        gc = <span class="keyword">new</span> <span class="title class_">GraphCalcu</span>(cylinder);  <span class="comment">// 复用 gc 变量，指向新的对象</span></span><br><span class="line">        System.out.println(gc.Calcu()); <span class="comment">// 提供 Cylinder 的体积计算</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MDUxYTljOWVmY2Q5ZTBmNzEzYzY3MTg1YTYzYjZiYWVfRGRETVppVzVlckpwbVdwd0xLaVRzZ2pmb0hZT0NXMmtfVG9rZW46T2ZsMGJmRHFGbzUxVHh4TzBycWM4NEhQbjJnXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>服务端：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 【需求1】监听本机 8377 端口</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">PORT</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="comment">// 【需求3】保存文件的路径 D:\chat.txt</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 用于给客户编号，静态变量保证全局唯一且递增</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听端口 &quot;</span> + PORT + <span class="string">&quot;...&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(PORT)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="comment">// 【需求1】主线程一直监听用户请求</span></span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                </span><br><span class="line">                <span class="comment">// 客户编号 +1</span></span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientCount + <span class="string">&quot; 已连接&quot;</span>);</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 【需求1】对于每一个用户请求，派发一个客户服务线程</span></span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 【需求3】将接收到的消息保存到本地磁盘 D:\chat.txt</span></span><br><span class="line"><span class="comment">     * 关键点：加 synchronized 锁，防止多个线程同时写文件导致内容错乱</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="comment">// 使用 append=true 模式，避免覆盖旧内容</span></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine(); <span class="comment">// 换行</span></span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 内部类：专门处理单个客户端连接的线程</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="comment">// 获取输入流</span></span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="comment">// 获取输出流，true 表示自动刷新</span></span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line">                <span class="comment">// 【需求2】循环接收来自客户端的字符串消息</span></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    </span><br><span class="line">                    <span class="comment">// 【需求4】若消息为 &quot;Bye&quot;，关闭连接并结束循环</span></span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equalsIgnoreCase(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>; </span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    <span class="comment">// 【需求3】保存消息到文件</span></span><br><span class="line">                    <span class="comment">// 格式建议记录是谁发的，方便查看</span></span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line"></span><br><span class="line">                    <span class="comment">// 【需求2】在消息前加上客户编号发送给相应的用户</span></span><br><span class="line">                    <span class="comment">// 题目示例格式: &quot;Client1. Hello&quot; (注意中间是点和空格)</span></span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="comment">// 【需求4】关闭套接字及连接</span></span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>) in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>) out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed()) socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>客户端：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 连接本机的 8377 端口</span></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">             <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">             <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">             <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line"></span><br><span class="line">            System.out.println(<span class="string">&quot;已连接到服务器！请输入消息（输入 Bye 退出）：&quot;</span>);</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 开启一个子线程：专门负责接收并打印服务器发回来的消息</span></span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复: &quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    <span class="comment">// 服务器断开连接或Socket关闭时会触发此异常，属于正常退出流程</span></span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已结束。&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 主线程：专门负责读取键盘输入并发送给服务器</span></span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input); <span class="comment">// 发送给服务器</span></span><br><span class="line">                </span><br><span class="line">                <span class="comment">// 如果输入 Bye，则跳出循环，程序结束，try-with-resources 会自动关闭 socket</span></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equalsIgnoreCase(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDVmOTE2NGE5ZWQyNTFhYTNhMmU3ZjJkMmRjOGQxYzBfOE52cVNFTkpGUmp4dklyekRMZGFiZG43bHZQeFhsMUNfVG9rZW46Q1NaWWJSem5PbzlSRld4MWlXUGM3aXZwbjhmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM4OWNmMjBmM2VlNDI2YWJhNDJmMzNhNDI4N2NiNmVfWVZpRU5BZktCYkdpMXVCZG0wcWdEd0dqMEtRU3JpZDZfVG9rZW46VjJWY2IwbVFpb3BGZnp4UlRQU2NudHdHbm1nXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<p>*<em>这个例子看一下，java变量访问是基于声明的静态类型，而不是对象的实际类型，<strong><strong>父类</strong></strong>声明指向子类对象，变量没有多态性，方法才会有多态性，所以在子类对象中方法有重载</em>*</p>
+<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc3YzVkZmRlMjRiOWNkZDg0OTQ3NTdlMjRjYTIwOWNfUG9aSmdyMExQeHBkQTM4RlZIcGdBUmhyV2M4VW9teklfVG9rZW46SU90NGJlWDBXbzlnOGV4ODhKemN5YUt0bmdiXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
+<h3 id="输入输出流"><a href="#输入输出流" class="headerlink" title="输入输出流"></a>输入输出流</h3><p>1.读入，写出</p>
+<p>2.字节流（大类）：每一种字节流依赖于InputStream和OutputStream</p>
+<p> 文件流：FileInputStream和FileOutputStream（抽象类）</p>
+<p>  FileInputStream类用来打开一个输入文件，若要打开的文件不存在，则会产生例外FileNotFoundException，这是一个非运行时例外，必须捕获或声明抛弃；</p>
+<p>  FileOutputStream类用来打开一个输出文件，若要打开的文件不存在，则会创建一个新的文件，否则原文件的内容会被新写入的内容所覆盖。</p>
+<p>  在进行文件的读&#x2F;写操作时，会产生非运行时例外IOException，必须捕获或声明抛弃（其它的输入&#x2F;输出流处理时也同样需要进行输入&#x2F;输出例外处理）。</p>
+<p> 过滤流：FilterInputStream和FilterOutputStream</p>
+<p> 其中过滤流中的缓冲流用的最多</p>
+<p> BufferedInputStream和BufferedOutputStream实现了带缓冲的过滤流</p>
+<p> 字节流还有其他流，但一般不用</p>
+<p>3.字符流（大类）：Reader和Writer（抽象类）</p>
+<p> 用的最多的：</p>
+<p> 字符输入输出流：InputStreamReader和OutputStreamWriter</p>
+<p> 字符缓冲流：BufferedReader和BufferedWriter</p>
+<p>4.在后面的网络通信中，每个流基本上只用来创建一个对象，然后用这个对象作为另一个对象的构造函数参数</p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大二上</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C/C++</title>
     <url>/2025/12/09/CC++/</url>
     <content><![CDATA[<h1 id="C-笔记"><a href="#C-笔记" class="headerlink" title="C++笔记"></a>C++笔记</h1><h4 id="静态数据成员："><a href="#静态数据成员：" class="headerlink" title="静态数据成员："></a>静态数据成员：</h4><ol>
@@ -409,405 +820,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Java</title>
-    <url>/2025/12/09/java/</url>
-    <content><![CDATA[<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NDExMTM0ZTlkNGRhYWU5MTgyM2M2ZTk1Yjg5YzUzZGFfeUN2U0w2b01zdnBJTFJTdXRvcVlyVWQ5dnlrRlNtbTlfVG9rZW46VHc4UWJtNnlEb1Fta294c250UGM4a1VMblZmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>*<em>1.<strong><strong>值传递</strong></strong>与</em>*<strong>引用传递</strong></p>
-<p>①值传递是基本数据类型的值给形参，在方法中对形参的修改将不会影响原来的变量</p>
-<p>②引用传递是对象引用，是把对象的地址传递给形参，在方法体内对参数的修改会影响原来的对象</p>
-<p>*<em>2.<strong><strong>抽象类</strong></strong>与接口</em>*</p>
-<p>1.abstract：</p>
-<p>1.用abstract修饰的类是抽象类，用abstract修饰的方法是抽象方法</p>
-<p>2.抽象类中可以有零个或多个抽象方法，抽象方法只指定方法名和具体类型，而不写实现代码；也可       以包含非抽象方法，非抽象方法可以调用抽象方法</p>
-<p>3.抽象类不能创建对象，必须派生子类，若子类是具体类，则具体类必须实现抽象类中所有抽象方法     （覆盖），若子类还是抽象类，如果父类中已有同名abstract方法，则子类中不能再有同名的抽象方法</p>
-<p>4.抽象类可以有声明，声明能引用所有具体子类的对象</p>
-<p>  5.abstract不能与final并列修饰同一个类（逻辑矛盾，因为abstract类必须被继承，而final类不能被继  承）；abstract不能与private，static，final，native并列修饰同一个方法；abstract类中不能有   private 成员（因为抽象类必须有子类，抽象类无法自己实例化对象，而子类又无法访问父类的private 成员）</p>
-<p>2.interface：</p>
-<p>1.定义接口</p>
-<blockquote>
-<p>public interface myinterface [extends fatherinterface]{</p>
-<p> static final int a&#x3D;1;</p>
-<p> abstract int function(int a);</p>
-<p>}</p>
-</blockquote>
-<p>用关键字interface定义，要么public要么缺省</p>
-<p>内部数据类型全是final static，访问级别要么public要么缺省</p>
-<p>没有构造方法（因为不是类，没有用class定义，与抽象类不同），但所有成员方法都是抽象方法（可以不用abstract修饰，但性质是抽象方法）</p>
-<p>接口可以通过extends关键字声明接口的父接口</p>
-<p>2.实现接口</p>
-<blockquote>
-<p>public void class A implements myinterface{</p>
-<p> public int function(int a){</p>
-<p>  return a;</p>
-<p> }</p>
-<p>}</p>
-</blockquote>
-<p><strong>在类中用implements关键字实现接口，一个类可以实现多个接口，一个接口也可以被多个类实现</strong></p>
-<p>接口的实现类可以继承接口中定义的静态常量</p>
-<p>如果实现接口的类不是抽象类，那么实现类中必须实现接口中的所有抽象方法；如果实现接口的是抽象类，那么它可以不实现该接口的所有方法，但对抽象类的任何一个非抽象子类而言，接口中所有抽象方法必须被实现，*<em>反正非抽象类中不能有抽象方法（<strong><strong>继承</strong></strong>了</em><em><strong>父类</strong></em><em>的抽象方法必须具体实现）</em>*</p>
-<p><strong>子类实现接口的抽象方法时必须显式使用public修饰符</strong></p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NmIwYTE5OTdjN2Q1Yjc2NDljYzRiOGRmZWUxODA1MDNfZTNwUVpUalhRQXVKT0NsRVlZUEptSWtPRGNMblNxdnhfVG9rZW46RThwbmJISjdLbzZuSUt4MEJNUmN1YXhwbm96XzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=N2I5YWRhNzQ0NGJkM2NjZjg2ODUyNGY1YzM4Njk2ZDhfN0hZdlpBZGRoREM5eHpaSXFITlU2eWN3RmVRSWVBamZfVG9rZW46UXc1S2JicmdvbzNiYXh4OHJKVGNQSDAzbnVjXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>*<em>3.<strong><strong>泛型</strong></strong>与框架</em>*</p>
-<p><strong>ArrayList</strong> <strong>(基于数组)：</strong></p>
-<ul>
-<li><strong>内部结构</strong>：ArrayList 内部封装了一个动态数组 (<code>Object[]</code>)。数组在内存中是<strong>连续存储</strong>的。</li>
-<li><strong>劣势</strong>：当进行<strong>添加或删除</strong>操作（特别是插入到中间或删除中间元素）时，为了保持内存连续性，必须将操作点之后的所有元素<strong>向后或向前移动</strong>（System.arraycopy）。这需要大量的内存复制操作，时间复杂度为 $O(N)$，效率较低。</li>
-</ul>
-<p><strong>LinkedList (基于**<strong>链表</strong></strong>)：**</p>
-<ul>
-<li><strong>内部结构</strong>：LinkedList 内部是<strong>双向链表</strong>结构。每个节点（Node）包含数据以及指向前一个节点（prev）和后一个节点（next）的引用（指针）。</li>
-<li><strong>优势</strong>：进行<strong>添加或删除</strong>操作时，只需要<strong>修改相关节点的引用指向</strong>即可（断开旧链接，连上新链接），不需要移动任何其他元素。无论数据量多大，该物理操作的时间复杂度都是 $O(1)$，因此在频繁增删的场景下性能远优于 ArrayList。</li>
-</ul>
-<p><strong>4.final和finally</strong></p>
-<p><strong>【final 的特点】</strong></p>
-<ol>
-<li><strong>修饰数据成员（变量）：</strong><ol>
-<li>该变量变为<strong>常量</strong>，其值一旦初始化后就<strong>不能被修改</strong>。</li>
-</ol>
-</li>
-<li><strong>修饰方法：</strong><ol>
-<li>该方法可以<strong>被子类****继承</strong>，但是<strong>不能被重载</strong></li>
-</ol>
-</li>
-<li><strong>修饰类：</strong><ol>
-<li>该类<strong>不能被****继承</strong>（即不能有子类）</li>
-</ol>
-</li>
-</ol>
-<p><strong>【finally 的用途】</strong></p>
-<ul>
-<li><strong>用途</strong>：<code>finally</code> 只能配合 <code>try-catch</code> 语句块使用。</li>
-<li><strong>特点</strong>：无论 <code>try</code> 块中是否发生异常，也不管有没有 <code>catch</code> 住异常，<code>finally</code> 代码块中的代码<strong>一定会被执行</strong>。</li>
-<li><strong>场景</strong>：通常用于<strong>释放资源</strong>，例如关闭数据库连接、关闭文件流（IO）、释放锁等操作，确保资源不会泄露。</li>
-</ul>
-<p><strong>【static】</strong></p>
-<p>用static修饰的数据成员不属于任何一个类的具体对象，而是类的静态数据成员，一个类的任何对象访问它获取的都是相同的值</p>
-<p>用static修饰的方法，可以被所有对象访问，static方法内部代码只能访问类中static属性或方法，不能访问类中非static属性或方法（因为那是对象方法），但非static方法（对象方法）可以访问static数据成员</p>
-<p>**5.**<strong>多线程</strong></p>
-<h3 id="线程和进程的区别"><a href="#线程和进程的区别" class="headerlink" title="线程和进程的区别"></a>线程和进程的区别</h3><p>1.进程是独立执行的实体，一个执行中的程序，每个进程有独立的一块内存空间代码，一组系统资源，每个进程内部数据与状态都独立**（程序的一次执行）**</p>
-<p>2.线程是进程内的执行单元，同类的多个线程共享一块内存空间和系统资源，多线程是指一个进程中运行多个不同的线程**（进程中程序代码的一个执行序列）**</p>
-<ol>
-<li><h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3></li>
-</ol>
-<h4 id="方法一：继承-Thread-类"><a href="#方法一：继承-Thread-类" class="headerlink" title="方法一：继承 Thread 类"></a>方法一：继承 <code>Thread</code> 类</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义一个类继承 Thread</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SumThread</span> <span class="keyword">extends</span> <span class="title class_">Thread</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;= <span class="number">10000</span>; i++) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;继承 Thread 方式计算结果: &quot;</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TestThread</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 启动线程</span></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">SumThread</span>().start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>方法二：实现 <code>Runnable</code> 接口</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 定义一个类实现 Runnable 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SumRunnable</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">sum</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">1</span>; i &lt;= <span class="number">10000</span>; i++) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">        System.out.println(<span class="string">&quot;实现 Runnable 方式计算结果: &quot;</span> + sum);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">TestRunnable</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 创建任务对象</span></span><br><span class="line">        <span class="type">SumRunnable</span> <span class="variable">task</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SumRunnable</span>();</span><br><span class="line">        <span class="comment">// 将任务交给 Thread 对象执行</span></span><br><span class="line">        <span class="keyword">new</span> <span class="title class_">Thread</span>(task).start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><h3 id="两种定义方式的区别"><a href="#两种定义方式的区别" class="headerlink" title="两种定义方式的区别"></a><strong>两种定义方式的区别</strong></h3></li>
-</ol>
-<p>比较维度继承 Thread 类实现 Runnable 接口继承限制受限。Java 是单继承机制，如果继承了 Thread 类，就无法再继承其他业务父类。灵活。实现接口后，该类依然可以继承其他父类。资源共享多个线程对象各自独立，不方便共享资源（除非使用 static）。多个 Thread 可以共用同一个 Runnable 任务对象，非常适合多个线程处理同一份资源的情况（如卖票系统）。解耦性线程定义与任务逻辑耦合在一起。将任务逻辑（Runnable）与线程控制（Thread）分离，代码结构更清晰（体现了组合优于继承的原则）。</p>
-<ol>
-<li><h3 id="场景回答"><a href="#场景回答" class="headerlink" title="场景回答"></a>场景回答</h3></li>
-</ol>
-<p><strong>题目问：</strong> 如果该线程类已经继承了某个父类，那么应该使用哪种方法定义该线程？</p>
-<p><strong>回答：</strong> 应该使用 <strong>实现</strong> <strong><code>Runnable</code></strong> <strong>接口</strong> 的方法。 <strong>原因：</strong> 因为 Java <strong>不支持多重****继承</strong>（即一个类不能同时继承两个父类）。如果该类已经继承了某个业务父类，它就不能再继承 <code>Thread</code> 类了，但它可以实现 <code>Runnable</code> 接口，从而兼顾父类功能和多线程能力。</p>
-<ol>
-<li><h3 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h3></li>
-</ol>
-<h3 id="一、-什么是死锁？"><a href="#一、-什么是死锁？" class="headerlink" title="一、 什么是死锁？"></a>一、 什么是死锁？</h3><p>死锁是指两个或两个以上的线程在执行过程中，因<strong>争夺资源</strong>而造成的一种<strong>互相等待</strong>的现象。如果没有外力干涉，它们都将无法继续执行下去。</p>
-<p><strong>通俗比喻：</strong> 两个人过独木桥，A 在桥头要去 B 那边，B 在桥头要去 A 那边。桥很窄（资源互斥），A 占着一边不退让（占有且等待），B 也占着一边不退让，且谁也推不动谁（不可抢占），结果两人大眼瞪小眼，谁也过不去。</p>
-<h3 id="二、-产生死锁的四个必要条件"><a href="#二、-产生死锁的四个必要条件" class="headerlink" title="二、 产生死锁的四个必要条件"></a>二、 产生死锁的四个必要条件</h3><p>这四个条件<strong>必须同时满足</strong>才会发生死锁。只要破坏其中任何一个，死锁就解除了。</p>
-<ol>
-<li><strong>互斥****条件 (<strong><strong>Mutual Exclusion</strong></strong>):</strong><ol>
-<li>资源是独占的，同一时间只能被一个线程使用（如 <code>synchronized</code> 锁住的资源）。</li>
-</ol>
-</li>
-<li><strong>请求与保持条件 (Hold and Wait):</strong><ol>
-<li>线程已经持有了至少一个资源，但又提出了新的资源请求，而新资源被其他线程占有。此时该线程<strong>保持</strong>对自己已获资源的占有，同时<strong>等待</strong>新资源。</li>
-</ol>
-</li>
-<li><strong>不可剥夺条件 (No Preemption):</strong><ol>
-<li>线程已获得的资源在未使用完之前，不能被其他线程强行抢走（<code>synchronized</code> 就是不可抢占的，除非线程自己释放）。</li>
-</ol>
-</li>
-<li><strong>循环等待条件 (Circular Wait):</strong><ol>
-<li>发生死锁时，必然存在一个进程-资源的环形链。例如：线程 A 等待 线程 B 的资源，线程 B 等待 线程 A 的资源。</li>
-</ol>
-</li>
-</ol>
-<p><strong>6.覆盖与重载</strong></p>
-<p>1.重载是在<strong>一个类中方法名相同</strong>，但<strong>参数类型或者参数个数不同</strong>的方法，<strong>重载与修饰符，返回类型无关</strong></p>
-<p>2.覆写是<strong>子类<strong><strong>继承</strong></strong>父类</strong>中的方法，<strong>方法名，参数类型和参数个数要和父类一样，而返回<strong><strong>值类型</strong></strong>以及抛出的异常类型，要么和父类相同，要么是父类类型的子类，修饰符的限制需要大于父类的修饰符</strong></p>
-<p>3.static方法可以覆盖static方法，不能覆盖非static方法，也不能被非static方法覆盖</p>
-<p>4.方法前有final修饰符，则此方法不能在子类方法中进行覆盖</p>
-<p>5.抽象类中如果存在抽象方法，则具体子类中必须对抽象方法进行覆盖</p>
-<p><strong>方法名称相同，参数名称相同，返回类型相同：覆盖</strong></p>
-<p><strong>方法名称相同，参数名称不同：重载</strong></p>
-<p><strong>方法名称相同，参数名称相同，返回类型不同：编译不能通过</strong></p>
-<p><strong>7.Map接口</strong></p>
-<p>以下是针对 <strong>第 7 题</strong> 的完整解答：</p>
-<h3 id="题目内容"><a href="#题目内容" class="headerlink" title="题目内容"></a>题目内容</h3><ol>
-<li><strong>简述 Java 集合框架中 Map 接口的特点，并简述其两个实现类 HashMap 与 TreeMap 的区别。</strong></li>
-</ol>
-<h3 id="解答"><a href="#解答" class="headerlink" title="解答"></a><strong>解答</strong></h3><ol>
-<li><h4 id="Map-接口的特点"><a href="#Map-接口的特点" class="headerlink" title="Map 接口的特点"></a><strong>Map 接口的特点</strong></h4></li>
-</ol>
-<ul>
-<li><strong>键值对存储</strong>：Map 接口用于存储键值对（Key-Value Pair）映射关系的数据。</li>
-<li><strong>键（Key）唯一</strong>：Map 中的键（Key）不允许重复，每个键最多只能映射到一个值。</li>
-<li><strong>值（Value）可重复</strong>：Map 中的值（Value）可以重复，不同的键可以指向相同的值。</li>
-<li><strong>非 Collection 子接口</strong>：Map 接口没有继承 <code>Collection</code> 接口，它是独立的一个顶层接口。</li>
-</ul>
-<p>比较维度HashMapTreeMap底层数据结构哈希表 (数组 + 链表&#x2F;红黑树)。<br>Java 8 之后，当链表长度超过阈值（8）时会转换为红黑树。红黑树 (Red-Black Tree)。<br>一种自平衡的二叉查找树。排序性无序。不保证映射的顺序，插入顺序和遍历顺序可能不一致。有序。默认按照键（Key）的自然顺序（从小到大）排序，或者根据创建时提供的 Comparator 进行排序。查找效率更高。增删改查的平均时间复杂度为 $O(1)$。相对较低。基于树结构，操作的时间复杂度为 $O(\log N)$。对 Null 的支持支持。允许 1 个 Null 键 和 多个 Null 值。不支持 Null 键（通常会抛出 NullPointerException，因为需要进行比较），但允许 Null 值。适用场景适用于大多数需要快速查找、插入、删除的场景，不关心顺序。适用于需要对 Key 进行排序或范围查找的场景。</p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NWQzMzc3OGFlNzVjN2FmMDNlZWMwY2RhMzA3MzY0NDdfZzg5N0ZybzNSeEJPYmt5RXFtUDRyZmZCazNUUkpCdzZfVG9rZW46WVVPaWI3VnFob3R4NlF4bmpGVWNwUXhGbjhkXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p><strong>8.字符串</strong></p>
-<h3 id="1-结果分析"><a href="#1-结果分析" class="headerlink" title="1. 结果分析"></a><strong>1. 结果分析</strong></h3><ul>
-<li><strong>程序一运行结果为 “a” 的原因：</strong><ul>
-<li><strong>String 是不可变类 (Immutable)</strong>。</li>
-<li>在 <code>changePara</code> 方法中，执行 <code>s = s + &quot;hello&quot;</code> 时，并没有修改原来的那个 “a” 对象，而是<strong>在<strong><strong>内存</strong></strong>中创建了一个新的 String 对象</strong> “ahello”，并将方法内的局部变量 <code>s</code> 指向了这个新对象。</li>
-<li><code>main</code> 方法中的 <code>s</code> 依然指向原来的 “a” 对象，所以打印结果为 “a”。</li>
-</ul>
-</li>
-<li><strong>程序二运行结果为 “ahello” 的原因：</strong><ul>
-<li><strong>StringBuilder</strong> <strong>是可变类 (Mutable)</strong>。</li>
-<li>在 <code>changePara</code> 方法中，执行 <code>s.append(&quot;hello&quot;)</code> 时，<strong>直接修改了<strong><strong>堆内存</strong></strong>中同一个</strong> <strong>StringBuilder</strong> <strong>对象的内容</strong>。</li>
-<li><code>main</code> 方法中的 <code>s</code> 指向的也是这个对象，所以打印结果为被修改后的 “ahello”。</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-知识总结"><a href="#2-知识总结" class="headerlink" title="2.知识总结"></a>2.知识总结</h3><p>1.string，stringbuffer，stringbuilder实现都是基于字符数组，都封装了对字符串的一系列操作，<strong>String</strong>内部实现基于常量字符数组，<strong>是final类型，不能被修改，StringBuilder和StringBuffer</strong>内部实现基于普通字符数组，<strong>可以修改，数组大小可以根据字符串实际长度实现自动扩容</strong></p>
-<p>2.字符串构建方法，<strong>考最多创建几个对象</strong></p>
-<p>**&#x2F;&#x2F;**只有用引号包含文本的方式创建的string对象间使用+连接产生的新对象才会加入字符串池中</p>
-<p>**&#x2F;&#x2F;**所有用new方式创建的新对象+连接的表达式所产生的新对象都不会被加入字符串池中</p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YWM5M2I0ZTJiZTI4MGFjMWQ1N2UxYWVmN2UxNmIxYzdfaHhVZFR6SnJYVVFkMU9JelZxdXFHQjNJOERGU0J1QlJfVG9rZW46SEVnTWJIZVpIbzFrM1R4Y3R1eGN2WkJTbnRnXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MjhhMTUwYTlmNWE3NjJiNmFhMWJhNmU1NjVjOGJiYTBfUVhBTXk5SkhEZERZWmp1c1daMTRzSHNybGRDdGVRT0hfVG9rZW46WDA4WmJiVU90b0lLcXF4WjJhRmNkRzcybmVjXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>比较维度StringStringBuilder可变性不可变 (Immutable)。一旦创建，其内容无法被修改。任何拼接、替换操作都会产生新的对象。可变 (Mutable)。内部维护一个可变的字符数组，可以直接对原对象进行修改（如 append, insert）。性能较低（在频繁拼接时）。因为每次拼接都会创建新对象，产生大量垃圾内存，增加 GC 压力。较高。直接在原内存上操作，避免了频繁的对象创建和销毁。线程安全线程安全（因为不可变）。非线程安全。多线程环境下使用 StringBuffer 代替。</p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmVhNTNkZDkyNTc2M2E1OTMzYzYzM2JmMmI1YTJjYTRfVWk2Z1ZNNnliMmp6emo4NEpqNUlINUwzck5ra1ZoSHZfVG9rZW46QWdNZWI1NjZDb2RwYXh4SkJreWN2SDFDbjFlXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p><strong>9.异常</strong></p>
-<h3 id="知识总结"><a href="#知识总结" class="headerlink" title="知识总结"></a><strong>知识总结</strong></h3><ol>
-<li><h3 id="Java-异常体系结构-Hierarchy"><a href="#Java-异常体系结构-Hierarchy" class="headerlink" title="Java 异常体系结构 (Hierarchy)"></a>Java 异常体系结构 (Hierarchy)</h3></li>
-</ol>
-<p>在 Java 中，所有的异常对象都继承自一个共同的父类：<code>java.lang.Throwable</code>。</p>
-<p><code>Throwable</code> 分为两个大分支：</p>
-<ol>
-<li><p><strong>Error (错误)</strong>：</p>
-<ol>
-<li><strong>含义</strong>：这是系统级的灾难，程序通常<strong>无法恢复</strong>。例如：JVM 内存溢出 (<code>OutOfMemoryError</code>)、栈溢出 (<code>StackOverflowError</code>)。</li>
-<li><strong>处理</strong>：我们一般<strong>不</strong>在代码里捕获处理它，因为处理不了。</li>
-</ol>
-</li>
-<li><p><strong>Exception (异常)</strong>：</p>
-<ol>
-<li><strong>含义</strong>：程序运行时的逻辑错误或外部问题，程序<strong>可以处理并恢复</strong>。</li>
-<li><strong>分类</strong>：<ul>
-<li><strong>受检异常 (Checked Exception)</strong>：编译器强制要求你处理（如 <code>IOException</code>, <code>SQLException</code>）。如果你不处理，代码编译都通不过。</li>
-<li><strong>非受检异常 (Unchecked&#x2F;Runtime Exception)</strong>：继承自 <code>RuntimeException</code>。通常是代码逻辑错误（如空指针 <code>NullPointerException</code>、数组越界 <code>IndexOutOfBoundsException</code>）。编译器不强制要求处理。</li>
-</ul>
-</li>
-</ol>
-</li>
-<li><h3 id="捕获异常：try-catch-finally"><a href="#捕获异常：try-catch-finally" class="headerlink" title="捕获异常：try-catch-finally"></a>捕获异常：try-catch-finally</h3></li>
-</ol>
-<p>这是我们处理异常的“盾牌”。</p>
-<ul>
-<li><strong>try</strong>：把可能发生异常的代码包起来。</li>
-<li><strong>catch</strong>：如果 try 里面出事了，在这里进行补救（捕获）。</li>
-<li><strong>finally</strong>：无论出没出事，<strong>一定</strong>要执行的代码（通常用于关闭资源，如数据库连接、IO流）</li>
-</ul>
-<ol>
-<li><h3 id="自定义异常-Custom-Exception"><a href="#自定义异常-Custom-Exception" class="headerlink" title="自定义异常 (Custom Exception)"></a>自定义异常 (Custom Exception)</h3></li>
-</ol>
-<p>Java 自带的异常（如空指针、数组越界）有时候不能准确描述具体的业务问题（比如“余额不足”、“用户不存在”）。这时我们需要自定义异常。</p>
-<p><strong>步骤：</strong></p>
-<ol>
-<li>创建一个类。</li>
-<li>继承 <code>Exception</code> (如果要强制处理) 或 <code>RuntimeException</code> (如果不需要强制处理)。</li>
-<li>提供构造方法，调用父类的 <code>super(message)</code>。</li>
-</ol>
-<h3 id="题目分析"><a href="#题目分析" class="headerlink" title="题目分析"></a><strong>题目分析</strong></h3><p><strong>问题所在</strong>： 代码中的 <code>SelfException</code> 继承自 <code>Exception</code> 类，属于 <strong>检查型异常 (Checked Exception)</strong>。 方法 <code>called()</code> 声明抛出了该异常 (<code>throws SelfException</code>)，因此在 <code>main</code> 方法中调用 <code>called()</code> 时，<strong>必须</strong>对该异常进行处理，否则编译器会报错（编译不通过）。</p>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a><strong>解决方案</strong></h3><p>在 Java 中，处理检查型异常有两种方式，对于 <code>main</code> 方法，通常建议使用 <strong>try-catch 块</strong> 进行捕获处理。</p>
-<p><strong>修正后的代码如下：</strong></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//方法一</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">// 尝试调用可能抛出异常的方法</span></span><br><span class="line">        called();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SelfException e) &#123;</span><br><span class="line">        <span class="comment">// 捕获并处理异常</span></span><br><span class="line">        e.printStackTrace(); <span class="comment">// 打印异常堆栈信息，或者输出自定义错误提示</span></span><br><span class="line">        System.out.println(<span class="string">&quot;捕获到了自定义异常: &quot;</span> + e.getMessage());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//方法二</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> SelfException &#123;     </span><br><span class="line">    called(); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Try-catch-finall:</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">readFile</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="comment">// 1. 尝试执行可能出错的代码</span></span><br><span class="line">        System.out.println(<span class="string">&quot;开始计算...&quot;</span>);</span><br><span class="line">        <span class="type">int</span> <span class="variable">result</span> <span class="operator">=</span> <span class="number">10</span> / <span class="number">0</span>; <span class="comment">// 这里会发生 ArithmeticException</span></span><br><span class="line">        System.out.println(<span class="string">&quot;计算结果：&quot;</span> + result); <span class="comment">// 这行不会执行</span></span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">catch</span> (ArithmeticException e) &#123;</span><br><span class="line">        <span class="comment">// 2. 捕获特定的异常并处理</span></span><br><span class="line">        System.out.println(<span class="string">&quot;出错了：不能除以 0！&quot;</span>);</span><br><span class="line">        e.printStackTrace(); <span class="comment">// 打印错误堆栈信息</span></span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        <span class="comment">// 3. 可以有多个 catch，父类异常通常放在最后兜底</span></span><br><span class="line">        System.out.println(<span class="string">&quot;发生了其他未知异常&quot;</span>);</span><br><span class="line">        </span><br><span class="line">    &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">        <span class="comment">// 4. 无论是否发生异常，这里都会执行</span></span><br><span class="line">        System.out.println(<span class="string">&quot;计算结束，清理资源。&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>抛出异常：throw vs throws</p>
-<p>特性throw (动词：扔)throws (声明：可能抛出)位置写在方法体内部写在方法声明处（方法名后面）数量只能抛出一个异常对象可以声明多个异常类 (用逗号隔开)作用真正的动作。程序执行到这里，立即抛出一个异常对象。一种告知&#x2F;甩锅。告诉调用者：“我这个方法可能会出这些错，你自己看着办”。对象后面跟的是异常对象 (new xxxException)后面跟的是异常类名 (xxxException)</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 使用 throws 声明该方法可能会抛出异常（甩锅给调用者）</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setAge</span><span class="params">(<span class="type">int</span> age)</span> <span class="keyword">throws</span> IllegalArgumentException &#123;</span><br><span class="line">    <span class="keyword">if</span> (age &lt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// 使用 throw 真正地抛出一个异常对象（制造异常）</span></span><br><span class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">IllegalArgumentException</span>(<span class="string">&quot;年龄不能为负数&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    System.out.println(<span class="string">&quot;年龄设置为：&quot;</span> + age);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 调用者必须处理这个异常</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        setAge(-<span class="number">5</span>);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (IllegalArgumentException e) &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;设置失败：&quot;</span> + e.getMessage());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>自定义异常</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 定义一个“余额不足异常”</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">InsufficientBalanceException</span> <span class="keyword">extends</span> <span class="title class_">RuntimeException</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">InsufficientBalanceException</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="built_in">super</span>(message); <span class="comment">// 将错误信息传给父类</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 在业务中使用</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BankAccount</span> &#123;</span><br><span class="line">    <span class="type">double</span> <span class="variable">balance</span> <span class="operator">=</span> <span class="number">100.0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">withdraw</span><span class="params">(<span class="type">double</span> amount)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (amount &gt; balance) &#123;</span><br><span class="line">            <span class="comment">// 抛出自定义异常</span></span><br><span class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="title class_">InsufficientBalanceException</span>(<span class="string">&quot;取款失败：余额不足，当前只有 &quot;</span> + balance);</span><br><span class="line">        &#125;</span><br><span class="line">        balance -= amount;</span><br><span class="line">        System.out.println(<span class="string">&quot;取款成功&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 测试</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">BankAccount</span> <span class="variable">account</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BankAccount</span>();</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            account.withdraw(<span class="number">200</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InsufficientBalanceException e) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;捕获到业务异常：&quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><strong>10.super.i和this.i的作用</strong></p>
-<h3 id="分析下列程序"><a href="#分析下列程序" class="headerlink" title="分析下列程序"></a><strong>分析下列程序</strong></h3><p><strong>1.</strong> <strong><code>this.i</code></strong> <strong>和</strong> <strong><code>super.i</code></strong> <strong>分别是什么含义？</strong></p>
-<ul>
-<li><strong><code>this.i</code></strong>：指的是**当前类（子类 <code>Construct</code>）**中定义的成员变量 <code>i</code>。<ul>
-<li><em>解析：由于子类</em> <em><code>Construct</code></em> <em>定义了一个与<strong>父类</strong>同名的变量</em> <em><code>i</code>**，发生了“变量遮蔽” (Shadowing)。在子类中直接使用</em> <em><code>i</code></em> <em>或</em> <em><code>this.i</code></em> <em>时，默认访问的是子类自己的那个变量。</em></li>
-</ul>
-</li>
-<li><strong><code>super.i</code></strong>：指的是**父类（<code>Pare</code>）**中定义的成员变量 <code>i</code>。<ul>
-<li><em>解析：关键字</em> <em><code>super</code></em> <em>用于显式访问被子类遮蔽的<strong>父类</strong>成员。</em></li>
-</ul>
-</li>
-</ul>
-<ol>
-<li><strong>该程序是否有错误？</strong></li>
-</ol>
-<ul>
-<li><strong>有错误</strong>（编译错误）。</li>
-</ul>
-<p><strong>错误原因：</strong></p>
-<ul>
-<li>父类 <code>Pare</code> 定义了一个带参数的构造方法 <code>Pare(int i)</code>，这导致 Java 编译器<strong>不再自动提供</strong>默认的无参构造方法 <code>Pare()</code>。</li>
-<li>子类 <code>Construct</code> 的构造方法 <code>Construct(int num)</code> 中，没有显式调用父类的构造方法。此时，Java 编译器会默认尝试插入一句 <code>super();</code> 来调用父类的无参构造方法。</li>
-<li>因为父类中<strong>不存在</strong>无参构造方法，所以编译失败。</li>
-</ul>
-<ol>
-<li><strong>指出修改方案</strong></li>
-</ol>
-<p><strong>修改方法：</strong> 在子类 <code>Construct</code> 的构造方法的第一行，<strong>显式调用</strong>父类已存在的带参构造方法。</p>
-<p><strong>代码修改示例：</strong></p>
-<blockquote>
-<p>Construct(int num) {</p>
-<p>​    super(num); &#x2F;&#x2F; 【新增这行】显式调用父类构造器 Pare(int i)</p>
-<p>​    i &#x3D; num;</p>
-<p>}</p>
-</blockquote>
-<h3 id="1-知识总结（this的作用）："><a href="#1-知识总结（this的作用）：" class="headerlink" title="1.知识总结（this的作用）："></a><strong>1.知识总结（this的作用）：</strong></h3><ol>
-<li><h3 id="核心场景一：解决“重名”冲突（最常用）"><a href="#核心场景一：解决“重名”冲突（最常用）" class="headerlink" title="核心场景一：解决“重名”冲突（最常用）"></a>核心场景一：解决“重名”冲突（最常用）</h3></li>
-</ol>
-<p>当<strong>局部变量</strong>（比如方法参数）和<strong>成员变量</strong>（类里定义的属性）名字一样时，Java 会默认遵循“就近原则”，使用局部变量。 这时，我们需要用 <code>this</code> 来特指“成员变量”。</p>
-<ul>
-<li><strong>场景</strong>：构造方法或 Setter 方法中。</li>
-<li><strong>口诀</strong>：<code>this.name</code> 是我的属性，<code>name</code> 是别人传进来的参数</li>
-</ul>
-<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line">    <span class="title class_">String</span> name; <span class="comment">// 成员变量</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title class_">Student</span>(<span class="title class_">String</span> name) &#123;</span><br><span class="line">        <span class="comment">// name = name;  &lt;-- 错误！这是把自己赋值给自己，成员变量没变</span></span><br><span class="line">        </span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">name</span> = name; <span class="comment">// 正确！把参数 name 赋值给当前对象的成员变量 name</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><h3 id="核心场景二：构造方法“偷懒”互调（构造器链）"><a href="#核心场景二：构造方法“偷懒”互调（构造器链）" class="headerlink" title="核心场景二：构造方法“偷懒”互调（构造器链）"></a>核心场景二：构造方法“偷懒”互调（构造器链）</h3></li>
-</ol>
-<p>如果一个类有多个构造方法（重载），我们不想在每个构造方法里都写一遍重复的初始化代码，可以用 <code>this(...)</code> 来调用本类的其他构造方法。</p>
-<ul>
-<li><strong>语法</strong>：<code>this(参数...)</code></li>
-<li><strong>铁律</strong>：<strong>必须写在构造方法的第一行！</strong></li>
-</ul>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Student</span> &#123;</span><br><span class="line">    String name;</span><br><span class="line">    <span class="type">int</span> age;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 1. 全参构造方法（干活最全的）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Student</span><span class="params">(String name, <span class="type">int</span> age)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.name = name;</span><br><span class="line">        <span class="built_in">this</span>.age = age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 2. 无参构造方法（偷懒的）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Student</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 调用上面那个全参构造方法，给个默认值</span></span><br><span class="line">        <span class="comment">// 相当于：我虽然没传参，但我委托全参构造器帮我初始化为 &quot;未知&quot;, 0</span></span><br><span class="line">        <span class="built_in">this</span>(<span class="string">&quot;未知姓名&quot;</span>, <span class="number">0</span>); </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><h3 id="核心场景三：把自己交出去（返回或传递）"><a href="#核心场景三：把自己交出去（返回或传递）" class="headerlink" title="核心场景三：把自己交出去（返回或传递）"></a>核心场景三：把自己交出去（返回或传递）</h3></li>
-</ol>
-<p>有时候我们需要把“我自己”（当前对象）作为一个参数传递给别的函数，或者作为返回值返回（常见于链式调用）。</p>
-<ul>
-<li><strong>用法</strong>：直接使用 <code>this</code>。</li>
-</ul>
-<figure class="highlight typescript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="comment">// 1. 链式调用（Builder模式的基础）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title class_">Person</span> <span class="title function_">grow</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="variable language_">this</span>.<span class="property">age</span>++;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable language_">this</span>; <span class="comment">// 返回当前对象自己，这样可以一直 .grow().grow()</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 2. 把自己传给别人</span></span><br><span class="line">    <span class="keyword">public</span> <span class="built_in">void</span> <span class="title function_">register</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="comment">// 假设有一个登记册类 RegisterBook</span></span><br><span class="line">        <span class="comment">// 把“我”传进去进行登记</span></span><br><span class="line">        <span class="title class_">RegisterBook</span>.<span class="title function_">add</span>(<span class="variable language_">this</span>); </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li><h3 id="⚠️-一个致命禁区：Static-方法中不能用-this"><a href="#⚠️-一个致命禁区：Static-方法中不能用-this" class="headerlink" title="⚠️ 一个致命禁区：Static 方法中不能用 this"></a>⚠️ 一个致命禁区：Static 方法中不能用 this</h3></li>
-</ol>
-<p>这是考试和面试的<strong>超级坑点</strong>。</p>
-<ul>
-<li><strong>规则</strong>：<strong>静态方法</strong><strong>（static）中绝对不能出现</strong> <strong><code>this</code></strong> <strong>关键字。</strong></li>
-</ul>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YmQ1MTRhOTI2ODFlNWU2NDM3YjNlZTQzZjYwZTk5MzZfQlpxRk9zWUhzQlR3d2xROEU1RUY4WDlib2xYYVFSVzVfVG9rZW46UmtSYmJTNWtib0dnS0V4M1B3QWNlWmpabkxlXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>*<em>11.<strong><strong>多线程</strong></strong>的</em><em><strong>互斥</strong></em><em>与同步</em>*</p>
-<h3 id="1-结论"><a href="#1-结论" class="headerlink" title="1.结论"></a><strong>1.结论</strong></h3><p><strong>不能</strong>。 在多线程环境下，如果不采取同步措施，<code>Sta</code> 对象的 <code>size</code> 和 <code>data</code> 数据成员 <strong>不一定</strong> 能够得到预期的结果（即可能会出现数据丢失或覆盖的情况）。</p>
-<ol>
-<li><h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a><strong>原因分析</strong></h3></li>
-</ol>
-<p>根本原因在于 <code>addChar</code> 方法中的代码 <code>data[size++] = c;</code> <strong>不是****原子操作</strong>。</p>
-<p>这行代码在 JVM 底层执行时，实际上包含了以下三个步骤：</p>
-<ol>
-<li><strong>读取</strong>：读取当前 <code>size</code> 的值（例如 <code>size = 0</code>）。</li>
-<li><strong>赋值</strong>：将字符 <code>c</code> 存入数组 <code>data</code> 的指定位置（<code>data[0] = c</code>）。</li>
-<li><strong>自增并写回</strong>：计算 <code>size + 1</code> 并将新值写回内存（<code>size</code> 变为 1）。</li>
-</ol>
-<p><strong>并发冲突场景：</strong> 假设线程 1 和线程 2 同时进入该方法：</p>
-<ol>
-<li>线程 1 读取了 <code>size</code> 为 0。</li>
-<li>线程 2 在同一时刻也读取了 <code>size</code>，因为线程 1 还没来得及修改，所以线程 2 读到的也是 0。</li>
-<li>线程 1 将字符 ‘k’ 写入 <code>data[0]</code>。</li>
-<li>线程 2 将字符 ‘h’ 写入 <code>data[0]</code> —— <strong>注意：这里发生了覆盖，’k’ 丢失了。</strong></li>
-<li>线程 1 将 <code>size</code> 更新为 1。</li>
-<li>线程 2 也将 <code>size</code> 更新为 1。</li>
-</ol>
-<p><strong>最终结果：</strong> 此时 <code>size</code> 为 1（预期应该是 2），且数组中只有 ‘h’（’k’ 被覆盖）。这就是典型的<strong>竞态条件</strong> <strong>(<strong><strong>Race Condition</strong></strong>)</strong> 问题。</p>
-<ol>
-<li><h3 id="修改方案"><a href="#修改方案" class="headerlink" title="修改方案"></a><strong>修改方案</strong></h3></li>
-</ol>
-<p>要解决这个问题，必须保证 <code>addChar</code> 方法的操作是<strong>原子性</strong>的，即同一时刻只能有一个线程执行该方法。</p>
-<p>最简单有效的方法是使用 <code>synchronized</code> 关键字修饰该方法。</p>
-<p><strong>修改后的代码：</strong></p>
-<blockquote>
-<p>class Sta {</p>
-<p>​    private int size &#x3D; 0;</p>
-<p>​    private char[] data &#x3D; new char[10];</p>
-<p>​    &#x2F;&#x2F; 修改方案：添加 <strong>synchronized</strong> 关键字，使其成为同步方法</p>
-<p>​    public synchronized void addChar(char c) {</p>
-<p>​        data[size++] &#x3D; c;</p>
-<p>​    }</p>
-<p>}</p>
-</blockquote>
-<p><strong>修改后的效果：</strong> 当线程 1 进入 <code>addChar</code> 方法时，会获取当前对象的锁（Monitor）。此时线程 2 想要执行该方法，必须在外面等待，直到线程 1 执行完毕并释放锁。这样就保证了 <code>size</code> 的读取、赋值和自增操作是按顺序安全执行的。</p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=OGQyODAyODJmZjgxNmE5Yzc0NjFlMjdkMjQ1Zjg5ZDZfVUc0Tm1nSnAwVzZVcWZoZnE0RU9hRzVsM0xTY0ZvSmpfVG9rZW46VWxiRmJlNnE1b0RXZE54TjlNbWMwUXRobnljXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><p><strong>构造方法的****继承</strong> </p>
-<p>构造方法的继承遵循以下的原则:</p>
-<p>1.父类构造方法，子类可以在自己的构造方法中使用 super 来调用，但必须是子类构造方法的第一个可执行语句。</p>
-<p>2.若子类构造方法中没有显式调用父类构造方法，也没有用this 调用重载的其它构造方法，则在产生子类的对象时，系统在调用子类构造方法的同时，默认调用父类无参构造方法。若子类构造方法中显式调用了父类构造方法，或使用了 this, 则不会默认调用父类无参构造方法。</p>
-<p>综上两点：子类的构造方法必定调用父类的构造方法。如果不显式用super 方法，必然隐含调用 super()。</p>
-<p><strong>创建对象时的初始化顺序:</strong></p>
-<p>1.系统会对数据成员进行默认初始化</p>
-<p>2.执行数据成员定义处的初始化语句</p>
-<p>3.调用构造方法为数据成员指定初值</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">import</span> java.util.Collections;</span><br><span class="line"><span class="keyword">import</span> java.util.Comparator;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Complex</span> &#123;</span><br><span class="line">    <span class="comment">// (1) 定义 private 成员变量</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> real;   <span class="comment">// 实部</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> imagin; <span class="comment">// 虚部</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// (2) 无参构造方法，初始化为 0</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Complex</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.real = <span class="number">0</span>;</span><br><span class="line">        <span class="built_in">this</span>.imagin = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// (2) 带参构造方法，初始化实部和虚部</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Complex</span><span class="params">(<span class="type">int</span> r, <span class="type">int</span> i)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.real = r;</span><br><span class="line">        <span class="built_in">this</span>.imagin = i;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// (3) 定义 sub 方法，实现复数相减</span></span><br><span class="line">    <span class="keyword">public</span> Complex <span class="title function_">sub</span><span class="params">(Complex a)</span> &#123;</span><br><span class="line">        <span class="comment">// 新实部 = 当前实部 - 参数实部</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">newReal</span> <span class="operator">=</span> <span class="built_in">this</span>.real - a.real;</span><br><span class="line">        <span class="comment">// 新虚部 = 当前虚部 - 参数虚部</span></span><br><span class="line">        <span class="type">int</span> <span class="variable">newImagin</span> <span class="operator">=</span> <span class="built_in">this</span>.imagin - a.imagin;</span><br><span class="line">        <span class="comment">// 返回一个新的 Complex 对象</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(newReal, newImagin);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 为了方便打印结果（如题目要求的 -3-5i），重写 toString 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (imagin &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> real + <span class="string">&quot;+&quot;</span> + imagin + <span class="string">&quot;i&quot;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> real + <span class="string">&quot;&quot;</span> + imagin + <span class="string">&quot;i&quot;</span>; <span class="comment">// 虚部本身带负号，不需要加 &quot;+&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 获取实部的方法，用于外部访问（排序时用到）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getReal</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> real;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// (4) 测试两个复数相减：(2+3i) - (5+8i)</span></span><br><span class="line">        <span class="type">Complex</span> <span class="variable">c1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">2</span>, <span class="number">3</span>);</span><br><span class="line">        <span class="type">Complex</span> <span class="variable">c2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">5</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="type">Complex</span> <span class="variable">result</span> <span class="operator">=</span> c1.sub(c2);</span><br><span class="line">        </span><br><span class="line">        System.out.println(<span class="string">&quot;相减的结果: &quot;</span> + result); <span class="comment">// 输出应该为 -3-5i</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// (5) ArrayList 存储并排序</span></span><br><span class="line">        List&lt;Complex&gt; list = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(-<span class="number">2</span>, <span class="number">3</span>));</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">3</span>, -<span class="number">5</span>));</span><br><span class="line">        list.add(<span class="keyword">new</span> <span class="title class_">Complex</span>(<span class="number">1</span>, <span class="number">4</span>));</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">&quot;排序前: &quot;</span> + list);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 使用 Collections.sort 和 Comparator 进行排序</span></span><br><span class="line">        <span class="comment">// 按照实部从大到小排序 (降序)</span></span><br><span class="line">        Collections.sort(list, <span class="keyword">new</span> <span class="title class_">Comparator</span>&lt;Complex&gt;() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">compare</span><span class="params">(Complex o1, Complex o2)</span> &#123;</span><br><span class="line">                <span class="comment">// 降序：o2 - o1</span></span><br><span class="line">                <span class="keyword">return</span> o2.getReal() - o1.getReal();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">&quot;排序后(实部降序): &quot;</span> + list);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=YzRmNThkMTNhNzAzMTQ5YWZkNTQ5MTA3Yjk4Mzc5NjdfYk84UHVJUndmSjVJd0JWWDRiRk91Z3RzUzdDd01QYThfVG9rZW46UUg4UWJMRHJ1b3BlaVZ4TVNWeWNRQ21pbnVwXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<h3 id="1-接口-Solid、实现类-Cube-和-Cylinder-以及-Test-类"><a href="#1-接口-Solid、实现类-Cube-和-Cylinder-以及-Test-类" class="headerlink" title="(1) 接口 Solid、实现类 Cube 和 Cylinder 以及 Test 类"></a><strong>(1) 接口 Solid、实现类 Cube 和 Cylinder 以及 Test 类</strong></h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 1. 定义接口 Solid</span></span><br><span class="line"><span class="keyword">interface</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span>; <span class="comment">// 计算体积的抽象方法</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 2. 定义正方体类 Cube 实现 Solid 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Cube</span> <span class="keyword">implements</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> side; <span class="comment">// 边长</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Cube</span><span class="params">(<span class="type">double</span> side)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.side = side;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 实现 calVol 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> side * side * side; <span class="comment">// 体积 = 边长^3</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 3. 定义圆柱体类 Cylinder 实现 Solid 接口</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Cylinder</span> <span class="keyword">implements</span> <span class="title class_">Solid</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> radius; <span class="comment">// 半径</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> height; <span class="comment">// 高</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Cylinder</span><span class="params">(<span class="type">double</span> radius, <span class="type">double</span> height)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.radius = radius;</span><br><span class="line">        <span class="built_in">this</span>.height = height;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 实现 calVol 方法</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">calVol</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> Math.PI * radius * radius * height; <span class="comment">// 体积 = π * r^2 * h</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 4. 定义测试类 Test</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Test</span> &#123;</span><br><span class="line">    <span class="comment">// printVol 方法：利用多态，接收 Solid 接口类型</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">printVol</span><span class="params">(Solid solid)</span> &#123;</span><br><span class="line">        <span class="comment">// 格式化输出，保留两位小数更美观（可选）</span></span><br><span class="line">        System.out.println(<span class="string">&quot;该图形的体积为: &quot;</span> + String.format(<span class="string">&quot;%.2f&quot;</span>, solid.calVol()));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Cube</span> <span class="variable">cube</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cube</span>(<span class="number">3.0</span>);</span><br><span class="line">        <span class="type">Cylinder</span> <span class="variable">cylinder</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cylinder</span>(<span class="number">5.5</span>, <span class="number">4</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="type">Test</span> <span class="variable">test</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Test</span>();</span><br><span class="line">        test.printVol(cube);      <span class="comment">// 打印 Cube 的体积</span></span><br><span class="line">        test.printVol(cylinder);  <span class="comment">// 打印 Cylinder 的体积</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-设计-GraphCalcu-类"><a href="#2-设计-GraphCalcu-类" class="headerlink" title="(2) 设计 GraphCalcu 类"></a>(2) 设计 GraphCalcu 类</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 5. 设计 GraphCalcu 类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">GraphCalcu</span> &#123;</span><br><span class="line">    <span class="comment">// 数据成员：持有 Solid 接口的引用</span></span><br><span class="line">    <span class="keyword">private</span> Solid solid;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 构造方法：接收任意 Solid 的实现类对象（Cube 或 Cylinder）</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">GraphCalcu</span><span class="params">(Solid solid)</span> &#123;</span><br><span class="line">        <span class="built_in">this</span>.solid = solid;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Calcu 方法：调用内部 shape 的 calVol 计算体积</span></span><br><span class="line">    <span class="keyword">public</span> <span class="type">double</span> <span class="title function_">Calcu</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (solid != <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> solid.calVol();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0.0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 题目给定的 main 方法用于测试</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Cube</span> <span class="variable">cube</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cube</span>(<span class="number">3.0</span>);</span><br><span class="line">        <span class="type">GraphCalcu</span> <span class="variable">gc</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">GraphCalcu</span>(cube);</span><br><span class="line">        System.out.println(gc.Calcu()); <span class="comment">// 提供 Cube 的体积计算</span></span><br><span class="line"></span><br><span class="line">        <span class="type">Cylinder</span> <span class="variable">cylinder</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Cylinder</span>(<span class="number">5.5</span>, <span class="number">4</span>);</span><br><span class="line">        gc = <span class="keyword">new</span> <span class="title class_">GraphCalcu</span>(cylinder);  <span class="comment">// 复用 gc 变量，指向新的对象</span></span><br><span class="line">        System.out.println(gc.Calcu()); <span class="comment">// 提供 Cylinder 的体积计算</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MDUxYTljOWVmY2Q5ZTBmNzEzYzY3MTg1YTYzYjZiYWVfRGRETVppVzVlckpwbVdwd0xLaVRzZ2pmb0hZT0NXMmtfVG9rZW46T2ZsMGJmRHFGbzUxVHh4TzBycWM4NEhQbjJnXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>服务端：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 【需求1】监听本机 8377 端口</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">PORT</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="comment">// 【需求3】保存文件的路径 D:\chat.txt</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 用于给客户编号，静态变量保证全局唯一且递增</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听端口 &quot;</span> + PORT + <span class="string">&quot;...&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(PORT)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="comment">// 【需求1】主线程一直监听用户请求</span></span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                </span><br><span class="line">                <span class="comment">// 客户编号 +1</span></span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientCount + <span class="string">&quot; 已连接&quot;</span>);</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 【需求1】对于每一个用户请求，派发一个客户服务线程</span></span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 【需求3】将接收到的消息保存到本地磁盘 D:\chat.txt</span></span><br><span class="line"><span class="comment">     * 关键点：加 synchronized 锁，防止多个线程同时写文件导致内容错乱</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="comment">// 使用 append=true 模式，避免覆盖旧内容</span></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine(); <span class="comment">// 换行</span></span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 内部类：专门处理单个客户端连接的线程</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="comment">// 获取输入流</span></span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="comment">// 获取输出流，true 表示自动刷新</span></span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line">                <span class="comment">// 【需求2】循环接收来自客户端的字符串消息</span></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    </span><br><span class="line">                    <span class="comment">// 【需求4】若消息为 &quot;Bye&quot;，关闭连接并结束循环</span></span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equalsIgnoreCase(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>; </span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    <span class="comment">// 【需求3】保存消息到文件</span></span><br><span class="line">                    <span class="comment">// 格式建议记录是谁发的，方便查看</span></span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line"></span><br><span class="line">                    <span class="comment">// 【需求2】在消息前加上客户编号发送给相应的用户</span></span><br><span class="line">                    <span class="comment">// 题目示例格式: &quot;Client1. Hello&quot; (注意中间是点和空格)</span></span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="comment">// 【需求4】关闭套接字及连接</span></span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>) in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>) out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed()) socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>客户端：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 连接本机的 8377 端口</span></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">             <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">             <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">             <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line"></span><br><span class="line">            System.out.println(<span class="string">&quot;已连接到服务器！请输入消息（输入 Bye 退出）：&quot;</span>);</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 开启一个子线程：专门负责接收并打印服务器发回来的消息</span></span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复: &quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    <span class="comment">// 服务器断开连接或Socket关闭时会触发此异常，属于正常退出流程</span></span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已结束。&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 主线程：专门负责读取键盘输入并发送给服务器</span></span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input); <span class="comment">// 发送给服务器</span></span><br><span class="line">                </span><br><span class="line">                <span class="comment">// 如果输入 Bye，则跳出循环，程序结束，try-with-resources 会自动关闭 socket</span></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equalsIgnoreCase(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDVmOTE2NGE5ZWQyNTFhYTNhMmU3ZjJkMmRjOGQxYzBfOE52cVNFTkpGUmp4dklyekRMZGFiZG43bHZQeFhsMUNfVG9rZW46Q1NaWWJSem5PbzlSRld4MWlXUGM3aXZwbjhmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM4OWNmMjBmM2VlNDI2YWJhNDJmMzNhNDI4N2NiNmVfWVZpRU5BZktCYkdpMXVCZG0wcWdEd0dqMEtRU3JpZDZfVG9rZW46VjJWY2IwbVFpb3BGZnp4UlRQU2NudHdHbm1nXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<p>*<em>这个例子看一下，java变量访问是基于声明的静态类型，而不是对象的实际类型，<strong><strong>父类</strong></strong>声明指向子类对象，变量没有多态性，方法才会有多态性，所以在子类对象中方法有重载</em>*</p>
-<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc3YzVkZmRlMjRiOWNkZDg0OTQ3NTdlMjRjYTIwOWNfUG9aSmdyMExQeHBkQTM4RlZIcGdBUmhyV2M4VW9teklfVG9rZW46SU90NGJlWDBXbzlnOGV4ODhKemN5YUt0bmdiXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
-<h3 id="输入输出流"><a href="#输入输出流" class="headerlink" title="输入输出流"></a>输入输出流</h3><p>1.读入，写出</p>
-<p>2.字节流（大类）：每一种字节流依赖于InputStream和OutputStream</p>
-<p> 文件流：FileInputStream和FileOutputStream（抽象类）</p>
-<p>  FileInputStream类用来打开一个输入文件，若要打开的文件不存在，则会产生例外FileNotFoundException，这是一个非运行时例外，必须捕获或声明抛弃；</p>
-<p>  FileOutputStream类用来打开一个输出文件，若要打开的文件不存在，则会创建一个新的文件，否则原文件的内容会被新写入的内容所覆盖。</p>
-<p>  在进行文件的读&#x2F;写操作时，会产生非运行时例外IOException，必须捕获或声明抛弃（其它的输入&#x2F;输出流处理时也同样需要进行输入&#x2F;输出例外处理）。</p>
-<p> 过滤流：FilterInputStream和FilterOutputStream</p>
-<p> 其中过滤流中的缓冲流用的最多</p>
-<p> BufferedInputStream和BufferedOutputStream实现了带缓冲的过滤流</p>
-<p> 字节流还有其他流，但一般不用</p>
-<p>3.字符流（大类）：Reader和Writer（抽象类）</p>
-<p> 用的最多的：</p>
-<p> 字符输入输出流：InputStreamReader和OutputStreamWriter</p>
-<p> 字符缓冲流：BufferedReader和BufferedWriter</p>
-<p>4.在后面的网络通信中，每个流基本上只用来创建一个对象，然后用这个对象作为另一个对象的构造函数参数</p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>强化学习论文</title>
     <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
     <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
@@ -823,18 +835,6 @@
       <tags>
         <tag>论文</tag>
         <tag>强化学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
@@ -869,19 +869,6 @@
       </tags>
   </entry>
   <entry>
-    <title>近代史纲要</title>
-    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>概率论</title>
     <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
     <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
@@ -892,6 +879,19 @@
       <tags>
         <tag>复习</tag>
         <tag>大二上</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近代史纲要</title>
+    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
       </tags>
   </entry>
 </search>
