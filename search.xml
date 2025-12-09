@@ -409,18 +409,6 @@
       </tags>
   </entry>
   <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的第一篇测试文章</title>
     <url>/2025/12/09/test/</url>
     <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
@@ -430,6 +418,24 @@
       </categories>
       <tags>
         <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>强化学习论文</title>
+    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
+<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>论文</tag>
+        <tag>强化学习</tag>
       </tags>
   </entry>
   <entry>
@@ -443,6 +449,12 @@
       <tags>
         <tag>复习</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+]]></content>
   </entry>
   <entry>
     <title>Java</title>
@@ -832,12 +844,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>数据结构</title>
     <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
     <content><![CDATA[<p><a href="">数据结构</a></p>
@@ -851,21 +857,15 @@
       </tags>
   </entry>
   <entry>
-    <title>强化学习论文</title>
-    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
-<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
 ]]></content>
       <categories>
-        <category>强化学习</category>
+        <category>复习资料</category>
       </categories>
       <tags>
-        <tag>论文</tag>
-        <tag>强化学习</tag>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
