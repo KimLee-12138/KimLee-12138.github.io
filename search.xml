@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2024/05/20/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+</search>
