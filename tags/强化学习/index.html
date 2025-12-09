@@ -142,37 +142,54 @@
   isHighlightShrink: false,
   isToc: false,
   pageType: 'tag'
-}</script><style>
-  
-
-  
-  /* === 2. 修改全站主题色 === */
-  /* 把原本属于 Butterfly 主题的“天蓝色”统统改成黑色 */
-  :root {
-    --theme-color: #000000 !important;
-    --text-bg-hover: #333333 !important; /* 鼠标选中文字时的背景色 */
-  }
-  
-  /* === 3. 字体放大与美化 === */
+}</script><link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"><style>
+  /* ==============================
+     B. 标题字体放大与美化
+     ============================== */
   #site-title {
-    font-size: 5rem !important;
-    text-shadow: 2px 2px 4px rgba(255,255,255,0.2);
-    
+    font-size: 5rem !important; /* 您设置的超大号字体 */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    color: #ffffff !important;
   }
   
   #site-subtitle {
     font-size: 3rem !important;
+    color: #dddddd !important;
   }
 
+  /* ==============================
+     C. 自定义轮播图样式
+     ============================== */
+  #my-custom-swiper {
+    width: 100%;
+    height: 350px; /* 稍微调高了一点，视觉效果更好 */
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5); /* 给轮播图加点阴影 */
+  }
+  
+  #my-custom-swiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.95; 
+    transition: transform 0.5s;
+  }
+
+  #my-custom-swiper .swiper-slide img:hover {
+    transform: scale(1.03);
+  }
 </style>
-<meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/bg.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">李尚凯的技术小站</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">强化学习</h1></div></header><main class="layout" id="content-inner"><div id="tag"><div class="article-sort-title">标签 - 强化学习</div><div class="article-sort"><div class="article-sort-item year">2025</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div><a class="article-sort-item-title" href="/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/" title="强化学习论文">强化学习论文</a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">小孩不哭站起来lu</div><div class="author-info-description">这是一个关于编程和生活的博客</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/KimLee-12138" target="_blank" title="Github"><i class="fab fa-github" style="color: #191717;"></i></a><a class="social-icon" href="mailto:shangkaifen321@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #000000;"></i></a><a class="social-icon" href="/img/wechat.png" target="_blank" title="Wechat"><i class="fab fa-weixin" style="color: #7bb32e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">👋 欢迎来到李尚凯的技术小站<br>📝 不定期分享技术干货<br>📧 联系我：shangkaifen321@gmail.com</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/CC++/" title="C/C++">C/C++</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/" title="军事理论">军事理论</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/" title="强化学习论文">强化学习论文</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/" title="思想与政治">思想与政治</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="我的第一篇博客"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的第一篇博客"/></a><div class="content"><a class="title" href="/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="我的第一篇博客">我的第一篇博客</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+<!-- hexo injector head_end start --><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.1"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/bg.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">李尚凯的技术小站</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">强化学习</h1></div></header><main class="layout" id="content-inner"><div id="tag"><div class="article-sort-title">标签 - 强化学习</div><div class="article-sort"><div class="article-sort-item year">2025</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div><a class="article-sort-item-title" href="/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/" title="强化学习论文">强化学习论文</a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">小孩不哭站起来lu</div><div class="author-info-description">这是一个关于编程和生活的博客</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/KimLee-12138" target="_blank" title="Github"><i class="fab fa-github" style="color: #191717;"></i></a><a class="social-icon" href="mailto:shangkaifen321@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #000000;"></i></a><a class="social-icon" href="/img/wechat.png" target="_blank" title="Wechat"><i class="fab fa-weixin" style="color: #7bb32e;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">👋 欢迎来到李尚凯的技术小站<br>📝 不定期分享技术干货<br>📧 联系我：shangkaifen321@gmail.com</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/CC++/" title="C/C++">C/C++</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/" title="强化学习论文">强化学习论文</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/" title="思想与政治">思想与政治</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/" title="军事理论">军事理论</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="我的第一篇博客"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的第一篇博客"/></a><div class="content"><a class="title" href="/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="我的第一篇博客">我的第一篇博客</a><time datetime="2025-12-09T10:36:00.000Z" title="发表于 2025-12-09 18:36:00">2025-12-09</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             
           </div>
           <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/"><span class="card-category-list-name">复习资料</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">强化学习</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/"><span class="card-category-list-name">技术日志</span><span class="card-category-list-count">1</span></a></li>
-          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%A4%8D%E4%B9%A0/" style="font-size: 1.5em; color: #99a9bf">复习</a> <a href="/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/" style="font-size: 1.1em; color: #999">强化学习</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" style="font-size: 1.3em; color: #99a1ac">大一下</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.1em; color: #999">论文</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8A/" style="font-size: 1.1em; color: #999">大一上</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.1em; color: #999">测试</a> <a href="/tags/%E5%A4%A7%E4%BA%8C%E4%B8%8A/" style="font-size: 1.3em; color: #99a1ac">大二上</a></div></div><div class="card-widget card-archives">
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/" style="font-size: 1.1em; color: #999">强化学习</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 1.1em; color: #999">测试</a> <a href="/tags/%E5%A4%8D%E4%B9%A0/" style="font-size: 1.5em; color: #99a9bf">复习</a> <a href="/tags/%E5%A4%A7%E4%BA%8C%E4%B8%8A/" style="font-size: 1.3em; color: #99a1ac">大二上</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" style="font-size: 1.3em; color: #99a1ac">大一下</a> <a href="/tags/%E8%AE%BA%E6%96%87/" style="font-size: 1.1em; color: #999">论文</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8A/" style="font-size: 1.1em; color: #999">大一上</a></div></div><div class="card-widget card-archives">
     <div class="item-headline">
       <i class="fas fa-archive"></i>
       <span>归档</span>
@@ -191,4 +208,80 @@
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-09T12:40:42.315Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By 小孩不哭站起来lu</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3-b2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3-b2"></script><script src="/js/main.js?v=5.5.3-b2"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-09T12:58:47.292Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By 小孩不哭站起来lu</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3-b2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3-b2"></script><script src="/js/main.js?v=5.5.3-b2"></script><div class="js-pjax"></div><script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script><script>
+  // === 这里定义您的图片路径 ===
+  var myImages = [
+    '/img/banner1.jpg',
+    '/img/banner2.jpg',
+    '/img/banner3.jpg'
+  ];
+
+  function initMySwiper() {
+    var recentPosts = document.getElementById('recent-posts');
+    // 防止重复插入或非首页报错
+    if (!recentPosts || document.getElementById('my-custom-swiper')) return;
+
+    var slidesHtml = '';
+    myImages.forEach(function(imgUrl) {
+      slidesHtml += '<div class="swiper-slide"><img src="' + imgUrl + '"></div>';
+    });
+
+    // 构建 HTML 结构
+    var swiperHtml = `
+      <div class="swiper-container" id="my-custom-swiper">
+        <div class="swiper-wrapper">${slidesHtml}</div>
+        <div class="swiper-pagination"></div> 
+        <div class="swiper-button-next"></div> 
+        <div class="swiper-button-prev"></div> 
+      </div>
+    `;
+
+    // 创建容器并插入
+    var div = document.createElement('div');
+    div.innerHTML = swiperHtml;
+    div.className = 'recent-post-item'; 
+    div.style.padding = '0';
+    div.style.background = 'transparent'; // 透明背景
+    
+    // 插入到文章列表之前
+    recentPosts.parentNode.insertBefore(div, recentPosts);
+
+    // 启动 Swiper
+    new Swiper('#my-custom-swiper', {
+      loop: true,
+      autoplay: { delay: 3000, disableOnInteraction: false }, // 交互后继续自动播放
+      effect: 'fade', 
+      speed: 600, // 切换速度
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', initMySwiper);
+  document.addEventListener('pjax:complete', initMySwiper);
+</script>
+<script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('undefined');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://unpkg.zhimg.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>
