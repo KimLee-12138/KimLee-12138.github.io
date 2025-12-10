@@ -409,6 +409,85 @@
       </tags>
   </entry>
   <entry>
+    <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
+    <url>/2025/12/10/%E3%80%8AConservative%20Q-learning%20for%20Offline-Reinforcement%20Learning%E3%80%8B/</url>
+    <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
+<p><a href="https://arxiv.org/pdf/2006.04779">点击我跳转到原文</a></p>
+<p><a href="https://www.kdocs.cn/l/cjBZwumL0aMg">点击我跳转到报告</a></p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>科研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
+    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于如何科学上网——Clash配置教程</title>
+    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
+<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
+<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
+<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
+<p><strong>退出软件并重启打开，汉化完成：</strong></p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
+<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
+<p><strong>URL导入：</strong></p>
+<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
+<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
+<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
+<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
+<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
+<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
+<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
+<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
+<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
+<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
+<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>科学上网</tag>
+        <tag>Clash</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JetBrains全家桶免费激活方法</title>
     <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
@@ -423,6 +502,71 @@
       <tags>
         <tag>JetBrains</tag>
         <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华农PPT模版</title>
+    <url>/2025/12/10/%E5%8D%8E%E5%86%9CPPT%E6%A8%A1%E7%89%88/</url>
+    <content><![CDATA[<h1 id="华农PPT模版"><a href="#华农PPT模版" class="headerlink" title="华农PPT模版"></a>华农PPT模版</h1><p><a href="https://www.kdocs.cn/l/cn00RJ4Bn7W4">点击我打开PPT模版</a></p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>PPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>强化学习论文</title>
+    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
+<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>论文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于TCP协议的Socket套接字Java服务器</title>
+    <url>/2025/12/10/%E5%9F%BA%E4%BA%8ETCP%E5%8D%8F%E8%AE%AE%E7%9A%84Socket%E5%A5%97%E6%8E%A5%E5%AD%97Java%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="基于TCP协议的Socket套接字Java服务器"><a href="#基于TCP协议的Socket套接字Java服务器" class="headerlink" title="基于TCP协议的Socket套接字Java服务器"></a>基于TCP协议的Socket套接字Java服务器</h1><p>这份代码实现了一个简单的 TCP 聊天客户端。它的核心难点在于**“全双工通信”<strong>——即客户端需要</strong>同时**做两件事：</p>
+<ol>
+<li><strong>听</strong>：随时接收服务器发来的消息（不能因为我在打字就收不到消息）。</li>
+<li><strong>说</strong>：随时读取键盘输入发送给服务器（不能因为在等服务器回复就卡住不能打字）。</li>
+</ol>
+<p>为了解决这个问题，代码使用了<strong>双线程</strong>模型：主线程负责“说”，子线程负责“听”。</p>
+<h3 id="服务端："><a href="#服务端：" class="headerlink" title="服务端："></a>服务端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">POST</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听接口&quot;</span> + POST + <span class="string">&quot;……&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(POST)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端&quot;</span> + clientCount + <span class="string">&quot;已连接&quot;</span>);</span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine();</span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;bye&quot;</span>.equals(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>)</span><br><span class="line">                        in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>)</span><br><span class="line">                        out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed())</span><br><span class="line">                        socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="客户端："><a href="#客户端：" class="headerlink" title="客户端："></a>客户端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">                <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">                <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;\&quot;已连接到服务器！请输入消息（输入 Bye 退出）：\&quot;&quot;</span>);</span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复：&quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已关闭&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input);</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equals(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思想与政治</title>
+    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
@@ -813,134 +957,29 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
-    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
-    <url>/2025/12/10/%E3%80%8AConservative%20Q-learning%20for%20Offline-Reinforcement%20Learning%E3%80%8B/</url>
-    <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
-<p><a href="https://arxiv.org/pdf/2006.04779">点击我跳转到原文</a></p>
-<p><a href="https://www.kdocs.cn/l/cjBZwumL0aMg">点击我跳转到报告</a></p>
-]]></content>
-      <categories>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>科研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+    <title>概率论</title>
+    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
 ]]></content>
       <categories>
         <category>复习资料</category>
       </categories>
       <tags>
         <tag>复习</tag>
+        <tag>大二上</tag>
       </tags>
   </entry>
   <entry>
-    <title>强化学习论文</title>
-    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
-<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
-]]></content>
-      <categories>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>论文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于如何科学上网——Clash配置教程</title>
-    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
-    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
-<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
-<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
-<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
-<p><strong>退出软件并重启打开，汉化完成：</strong></p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
-<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
-<p><strong>URL导入：</strong></p>
-<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
-<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
-<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
-<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
-<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
-<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
-<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
-<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
-<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
-<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
-<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
-      <categories>
-        <category>实用技巧</category>
-      </categories>
-      <tags>
-        <tag>科学上网</tag>
-        <tag>Clash</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于TCP协议的Socket套接字Java服务器</title>
-    <url>/2025/12/10/%E5%9F%BA%E4%BA%8ETCP%E5%8D%8F%E8%AE%AE%E7%9A%84Socket%E5%A5%97%E6%8E%A5%E5%AD%97Java%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="基于TCP协议的Socket套接字Java服务器"><a href="#基于TCP协议的Socket套接字Java服务器" class="headerlink" title="基于TCP协议的Socket套接字Java服务器"></a>基于TCP协议的Socket套接字Java服务器</h1><p>这份代码实现了一个简单的 TCP 聊天客户端。它的核心难点在于**“全双工通信”<strong>——即客户端需要</strong>同时**做两件事：</p>
-<ol>
-<li><strong>听</strong>：随时接收服务器发来的消息（不能因为我在打字就收不到消息）。</li>
-<li><strong>说</strong>：随时读取键盘输入发送给服务器（不能因为在等服务器回复就卡住不能打字）。</li>
-</ol>
-<p>为了解决这个问题，代码使用了<strong>双线程</strong>模型：主线程负责“说”，子线程负责“听”。</p>
-<h3 id="服务端："><a href="#服务端：" class="headerlink" title="服务端："></a>服务端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">POST</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听接口&quot;</span> + POST + <span class="string">&quot;……&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(POST)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端&quot;</span> + clientCount + <span class="string">&quot;已连接&quot;</span>);</span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine();</span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;bye&quot;</span>.equals(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>)</span><br><span class="line">                        in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>)</span><br><span class="line">                        out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed())</span><br><span class="line">                        socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="客户端："><a href="#客户端：" class="headerlink" title="客户端："></a>客户端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">                <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">                <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;\&quot;已连接到服务器！请输入消息（输入 Bye 退出）：\&quot;&quot;</span>);</span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复：&quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已关闭&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input);</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equals(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思想与政治</title>
-    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
+    <title>数据结构</title>
+    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p><a href="">数据结构</a></p>
 ]]></content>
       <categories>
         <category>复习资料</category>
       </categories>
       <tags>
         <tag>复习</tag>
+        <tag>大一下</tag>
       </tags>
   </entry>
   <entry>
@@ -1061,19 +1100,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数据结构</title>
-    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p><a href="">数据结构</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>滴滴打车高德地图开发票教程</title>
     <url>/2025/12/10/%E6%BB%B4%E6%BB%B4%E6%89%93%E8%BD%A6%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%E5%BC%80%E5%8F%91%E7%A5%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1 id="滴滴打车高德地图开发票教程"><a href="#滴滴打车高德地图开发票教程" class="headerlink" title="滴滴打车高德地图开发票教程"></a>滴滴打车高德地图开发票教程</h1><p><a href="https://www.kdocs.cn/l/cnVjEbt3gwCK">点击我查看滴滴打车开发票教程</a></p>
@@ -1084,19 +1110,6 @@
       </categories>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论</title>
-    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
       </tags>
   </entry>
   <entry>
