@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JetBrains全家桶免费激活方法</title>
+    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
+<p>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</p>
+<p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
+<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
+<p>￼<br>￼</p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>JetBrains</tag>
+        <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C/C++</title>
     <url>/2025/12/09/CC++/</url>
     <content><![CDATA[<h1 id="C-笔记"><a href="#C-笔记" class="headerlink" title="C++笔记"></a>C++笔记</h1><h4 id="静态数据成员："><a href="#静态数据成员：" class="headerlink" title="静态数据成员："></a>静态数据成员：</h4><ol>
@@ -409,19 +438,67 @@
       </tags>
   </entry>
   <entry>
-    <title>JetBrains全家桶免费激活方法</title>
-    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
-<h4 id="激活包下载链接：点击我下载激活包-zip-蓝奏云-https-wwzl-lanzouw-com-i1NbR2twlffa"><a href="#激活包下载链接：点击我下载激活包-zip-蓝奏云-https-wwzl-lanzouw-com-i1NbR2twlffa" class="headerlink" title="激活包下载链接：点击我下载激活包.zip - 蓝奏云](https://wwzl.lanzouw.com/i1NbR2twlffa))"></a>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</h4><p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
-<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
-<p>￼<br>￼</p>
-]]></content>
+    <title>关于如何科学上网——Clash配置教程</title>
+    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
+<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
+<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
+<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
+<p><strong>退出软件并重启打开，汉化完成：</strong></p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
+<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
+<p><strong>URL导入：</strong></p>
+<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
+<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
+<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
+<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
+<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
+<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
+<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
+<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
+<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
+<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
+<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
       <categories>
         <category>实用技巧</category>
       </categories>
       <tags>
-        <tag>JetBrains</tag>
-        <tag>干货</tag>
+        <tag>科学上网</tag>
+        <tag>Clash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>强化学习论文</title>
+    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
+<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>论文</tag>
+        <tag>强化学习</tag>
       </tags>
   </entry>
   <entry>
@@ -812,94 +889,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于如何科学上网——Clash配置教程</title>
-    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
-    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
-<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
-<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
-<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
-<p><strong>退出软件并重启打开，汉化完成：</strong></p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
-<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
-<p><strong>URL导入：</strong></p>
-<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
-<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
-<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
-<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
-<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
-<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
-<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
-<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
-<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
-<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
-<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
-      <categories>
-        <category>实用技巧</category>
-      </categories>
-      <tags>
-        <tag>科学上网</tag>
-        <tag>Clash</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思想与政治</title>
-    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强化学习论文</title>
-    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
-<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
-]]></content>
-      <categories>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>论文</tag>
-        <tag>强化学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的第一篇博客</title>
     <url>/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
@@ -919,16 +908,15 @@
       </tags>
   </entry>
   <entry>
-    <title>近代史纲要</title>
-    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+    <title>思想与政治</title>
+    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
 ]]></content>
       <categories>
         <category>复习资料</category>
       </categories>
       <tags>
         <tag>复习</tag>
-        <tag>大一下</tag>
       </tags>
   </entry>
   <entry>
@@ -942,6 +930,19 @@
       <tags>
         <tag>复习</tag>
         <tag>大二上</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近代史纲要</title>
+    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
       </tags>
   </entry>
 </search>
