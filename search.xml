@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>JetBrains全家桶免费激活方法</title>
-    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
-<p>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</p>
-<p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
-<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
-<p>￼<br>￼</p>
+    <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
+    <url>/2025/12/10/1/</url>
+    <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
+<p><a href="https://arxiv.org/pdf/2006.04779">点击我跳转到原文</a></p>
+<p><a href="https://www.kdocs.cn/l/cjBZwumL0aMg">点击我跳转到报告</a></p>
 ]]></content>
       <categories>
-        <category>实用技巧</category>
+        <category>强化学习</category>
       </categories>
       <tags>
-        <tag>JetBrains</tag>
-        <tag>干货</tag>
+        <tag>强化学习</tag>
+        <tag>科研</tag>
       </tags>
   </entry>
   <entry>
@@ -426,6 +424,23 @@
       </tags>
   </entry>
   <entry>
+    <title>JetBrains全家桶免费激活方法</title>
+    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
+<p>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</p>
+<p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
+<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
+<p>￼<br>￼</p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>JetBrains</tag>
+        <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java</title>
     <url>/2025/12/09/java/</url>
     <content><![CDATA[<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NDExMTM0ZTlkNGRhYWU5MTgyM2M2ZTk1Yjg5YzUzZGFfeUN2U0w2b01zdnBJTFJTdXRvcVlyVWQ5dnlrRlNtbTlfVG9rZW46VHc4UWJtNnlEb1Fta294c250UGM4a1VMblZmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
@@ -813,18 +828,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于如何科学上网——Clash配置教程</title>
     <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
     <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
@@ -859,9 +862,33 @@
       </tags>
   </entry>
   <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>军事理论</title>
     <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
     <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思想与政治</title>
+    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
 ]]></content>
       <categories>
         <category>复习资料</category>
@@ -884,20 +911,8 @@
         <category>强化学习</category>
       </categories>
       <tags>
-        <tag>论文</tag>
         <tag>强化学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思想与政治</title>
-    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
+        <tag>论文</tag>
       </tags>
   </entry>
   <entry>
@@ -905,45 +920,6 @@
     <url>/2025/12/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>数据结构</title>
-    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p><a href="">数据结构</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>近代史纲要</title>
-    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论</title>
-    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
-      </tags>
   </entry>
   <entry>
     <title>《折戟成沙温都尔汗——林彪的崛起与陨落》</title>
@@ -1013,6 +989,45 @@
       <tags>
         <tag>论文</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构</title>
+    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p><a href="">数据结构</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近代史纲要</title>
+    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论</title>
+    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大二上</tag>
       </tags>
   </entry>
 </search>
