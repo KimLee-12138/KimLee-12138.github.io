@@ -418,7 +418,6 @@
 <p>￼<br>￼</p>
 ]]></content>
       <categories>
-        <category>实用技巧</category>
         <category>破解版软件</category>
       </categories>
       <tags>
@@ -639,104 +638,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Origin 2024 解锁版安装教程</title>
-    <url>/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="Origin-2024-解锁版安装教程"><a href="#Origin-2024-解锁版安装教程" class="headerlink" title="Origin 2024 解锁版安装教程"></a>Origin 2024 解锁版安装教程</h1><p>Origin 提供数据统计、数据处理以及数据报告等功能。Origin不仅提供了一个用户友好的界面，适合初学者使用，还融合了高级定制功能，可根据用户对应用程序的熟悉程度执行自定义设置。此外，Origin还支持各种多样的2D和3D图形，拥有出色的功能，满足了广泛的绘图和分析需求。</p>
-<blockquote>
-<p><strong>文末附安装包下载地址</strong></p>
-</blockquote>
-<h1 id="一、安装步骤"><a href="#一、安装步骤" class="headerlink" title="一、安装步骤"></a>一、安装步骤</h1><h2 id="1-运行安装程序"><a href="#1-运行安装程序" class="headerlink" title="1. 运行安装程序"></a>1. 运行安装程序</h2><p>解压后点击进入 <code>Setup</code> 文件夹，双击 <code>setup.exe</code> 运行。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/001.png" class="" title="运行安装程序">
-
-<h2 id="2-选择试用版"><a href="#2-选择试用版" class="headerlink" title="2. 选择试用版"></a>2. 选择试用版</h2><p>勾选试用版，点击下一步（前面两个步骤很简单，忽略过）。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/002.png" class="" title="勾选试用版">
-
-<h2 id="3-试用期检查"><a href="#3-试用期检查" class="headerlink" title="3. 试用期检查"></a>3. 试用期检查</h2><p>如果你弹出的是“试用期结束”提示框，请依次往后看安装步骤；否则直接跳转到 <strong>第7步</strong>。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/003.png" class="" title="试用期提示">
-
-<h2 id="4-修改时间准备"><a href="#4-修改时间准备" class="headerlink" title="4. 修改时间准备"></a>4. 修改时间准备</h2><p>若出现如上图提示，先取消Origin安装。说明以前你安装过试用版，需要修改系统时间，点击如下图设置：</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/004.png" class="" title="时间设置">
-
-<h2 id="5-关闭自动更新"><a href="#5-关闭自动更新" class="headerlink" title="5. 关闭自动更新"></a>5. 关闭自动更新</h2><p>关闭“自动设置时间”，点击如下图手动更改时间：</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/005.png" class="" title="关闭自动更新">
-
-<h2 id="6-更改年份"><a href="#6-更改年份" class="headerlink" title="6. 更改年份"></a>6. 更改年份</h2><p>只需要更改年份即可（改到以前的年份），系统时间修改后，<strong>再重新执行第1步</strong>。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/006.png" class="" title="更改年份">
-
-<h2 id="7-确认安装"><a href="#7-确认安装" class="headerlink" title="7. 确认安装"></a>7. 确认安装</h2><p>弹出如下弹出框，点击确定就行。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/007.png" class="" title="确认安装">
-
-<h2 id="8-填写信息"><a href="#8-填写信息" class="headerlink" title="8. 填写信息"></a>8. 填写信息</h2><p>公司名随便填。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/008.png" class="" title="填写信息">
-
-<h2 id="9-确认注册"><a href="#9-确认注册" class="headerlink" title="9. 确认注册"></a>9. 确认注册</h2><p>点击是，确认。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/009.png" class="" title="确认注册">
-
-<h2 id="10-选择安装路径"><a href="#10-选择安装路径" class="headerlink" title="10. 选择安装路径"></a>10. 选择安装路径</h2><p>选择安装路径，建议安装在D盘，把路径中的“C”改成“D”就行。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/010.png" class="" title="修改路径">
-
-<h2 id="11-创建目录"><a href="#11-创建目录" class="headerlink" title="11. 创建目录"></a>11. 创建目录</h2><p>点击是，创建目录。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/011.png" class="" title="创建目录">
-
-<h2 id="12-选择组件"><a href="#12-选择组件" class="headerlink" title="12. 选择组件"></a>12. 选择组件</h2><p>勾选数据导入（默认即可）。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/012.png" class="" title="选择组件">
-
-<h2 id="13-用户范围"><a href="#13-用户范围" class="headerlink" title="13. 用户范围"></a>13. 用户范围</h2><p>选择“所有用户”。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/013.png" class="" title="所有用户">
-
-<h2 id="14-下一步"><a href="#14-下一步" class="headerlink" title="14. 下一步"></a>14. 下一步</h2><p>默认点击下一步。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/014.png" class="" title="下一步">
-
-<h2 id="15-安装中"><a href="#15-安装中" class="headerlink" title="15. 安装中"></a>15. 安装中</h2><p>软件正在安装中，请耐心等待。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/015.png" class="" title="安装进度">
-
-<h2 id="16-安装完成"><a href="#16-安装完成" class="headerlink" title="16. 安装完成"></a>16. 安装完成</h2><p>下面默认就行，别取消勾选，点击完成。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/016.png" class="" title="安装完成">
-
-<h2 id="17-创建桌面图标"><a href="#17-创建桌面图标" class="headerlink" title="17. 创建桌面图标"></a>17. 创建桌面图标</h2><p>点击上面完成按钮后，会自动弹出一个框（或手动开始菜单找），将里面的 <code>Origin</code> 图标拖到桌面即可。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/017.png" class="" title="拖动图标">
-
-<h1 id="二、-激活与破解"><a href="#二、-激活与破解" class="headerlink" title="二、 激活与破解"></a>二、 激活与破解</h1><h2 id="18-打开安装目录"><a href="#18-打开安装目录" class="headerlink" title="18. 打开安装目录"></a>18. 打开安装目录</h2><p>鼠标右键点击桌面图标，打开该软件安装目录，如下图：</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/018.png" class="" title="打开文件位置">
-
-<h2 id="19-找到破解补丁"><a href="#19-找到破解补丁" class="headerlink" title="19. 找到破解补丁"></a>19. 找到破解补丁</h2><p>返回软件安装包目录下，进入到 <code>Crack</code> 目录。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/019.png" class="" title="Crack目录">
-
-<h2 id="20-替换文件"><a href="#20-替换文件" class="headerlink" title="20. 替换文件"></a>20. 替换文件</h2><p>复制以上两个补丁包，将其复制到 <strong>第18个步骤</strong> 打开的软件安装路径下，选择替换。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/020.png" class="" title="替换文件">
-
-<h2 id="21-运行程序"><a href="#21-运行程序" class="headerlink" title="21. 运行程序"></a>21. 运行程序</h2><p>点击桌面程序图标。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/021.png" class="" title="运行程序">
-
-<h2 id="22-打开成功"><a href="#22-打开成功" class="headerlink" title="22. 打开成功"></a>22. 打开成功</h2><p>软件成功打开，安装结束。</p>
-<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/022.png" class="" title="打开成功">
-
-<hr>
-<h1 id="📥-下载地址"><a href="#📥-下载地址" class="headerlink" title="📥 下载地址"></a>📥 下载地址</h1><blockquote>
-<p><strong>Origin 2024 (数据分析和绘图)</strong></p>
-<p>链接：<a href="https://pan.quark.cn/s/dae13e19f2e8?pwd=fjuR#/list/share">点击下载</a><br>提取码：<code>fjuR</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>破解版软件</category>
-      </categories>
-      <tags>
-        <tag>Origin</tag>
       </tags>
   </entry>
   <entry>
@@ -1127,10 +1028,102 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
-    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
 ]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Origin 2024 解锁版安装教程</title>
+    <url>/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="Origin-2024-解锁版安装教程"><a href="#Origin-2024-解锁版安装教程" class="headerlink" title="Origin 2024 解锁版安装教程"></a>Origin 2024 解锁版安装教程</h1><p>Origin 提供数据统计、数据处理以及数据报告等功能。Origin不仅提供了一个用户友好的界面，适合初学者使用，还融合了高级定制功能，可根据用户对应用程序的熟悉程度执行自定义设置。此外，Origin还支持各种多样的2D和3D图形，拥有出色的功能，满足了广泛的绘图和分析需求。</p>
+<blockquote>
+<p><strong>文末附安装包下载地址</strong></p>
+</blockquote>
+<h1 id="一、安装步骤"><a href="#一、安装步骤" class="headerlink" title="一、安装步骤"></a>一、安装步骤</h1><h2 id="1-运行安装程序"><a href="#1-运行安装程序" class="headerlink" title="1. 运行安装程序"></a>1. 运行安装程序</h2><p>解压后点击进入 <code>Setup</code> 文件夹，双击 <code>setup.exe</code> 运行。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/001.png" class="" title="运行安装程序">
+
+<h2 id="2-选择试用版"><a href="#2-选择试用版" class="headerlink" title="2. 选择试用版"></a>2. 选择试用版</h2><p>勾选试用版，点击下一步（前面两个步骤很简单，忽略过）。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/002.png" class="" title="勾选试用版">
+
+<h2 id="3-试用期检查"><a href="#3-试用期检查" class="headerlink" title="3. 试用期检查"></a>3. 试用期检查</h2><p>如果你弹出的是“试用期结束”提示框，请依次往后看安装步骤；否则直接跳转到 <strong>第7步</strong>。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/003.png" class="" title="试用期提示">
+
+<h2 id="4-修改时间准备"><a href="#4-修改时间准备" class="headerlink" title="4. 修改时间准备"></a>4. 修改时间准备</h2><p>若出现如上图提示，先取消Origin安装。说明以前你安装过试用版，需要修改系统时间，点击如下图设置：</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/004.png" class="" title="时间设置">
+
+<h2 id="5-关闭自动更新"><a href="#5-关闭自动更新" class="headerlink" title="5. 关闭自动更新"></a>5. 关闭自动更新</h2><p>关闭“自动设置时间”，点击如下图手动更改时间：</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/005.png" class="" title="关闭自动更新">
+
+<h2 id="6-更改年份"><a href="#6-更改年份" class="headerlink" title="6. 更改年份"></a>6. 更改年份</h2><p>只需要更改年份即可（改到以前的年份），系统时间修改后，<strong>再重新执行第1步</strong>。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/006.png" class="" title="更改年份">
+
+<h2 id="7-确认安装"><a href="#7-确认安装" class="headerlink" title="7. 确认安装"></a>7. 确认安装</h2><p>弹出如下弹出框，点击确定就行。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/007.png" class="" title="确认安装">
+
+<h2 id="8-填写信息"><a href="#8-填写信息" class="headerlink" title="8. 填写信息"></a>8. 填写信息</h2><p>公司名随便填。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/008.png" class="" title="填写信息">
+
+<h2 id="9-确认注册"><a href="#9-确认注册" class="headerlink" title="9. 确认注册"></a>9. 确认注册</h2><p>点击是，确认。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/009.png" class="" title="确认注册">
+
+<h2 id="10-选择安装路径"><a href="#10-选择安装路径" class="headerlink" title="10. 选择安装路径"></a>10. 选择安装路径</h2><p>选择安装路径，建议安装在D盘，把路径中的“C”改成“D”就行。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/010.png" class="" title="修改路径">
+
+<h2 id="11-创建目录"><a href="#11-创建目录" class="headerlink" title="11. 创建目录"></a>11. 创建目录</h2><p>点击是，创建目录。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/011.png" class="" title="创建目录">
+
+<h2 id="12-选择组件"><a href="#12-选择组件" class="headerlink" title="12. 选择组件"></a>12. 选择组件</h2><p>勾选数据导入（默认即可）。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/012.png" class="" title="选择组件">
+
+<h2 id="13-用户范围"><a href="#13-用户范围" class="headerlink" title="13. 用户范围"></a>13. 用户范围</h2><p>选择“所有用户”。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/013.png" class="" title="所有用户">
+
+<h2 id="14-下一步"><a href="#14-下一步" class="headerlink" title="14. 下一步"></a>14. 下一步</h2><p>默认点击下一步。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/014.png" class="" title="下一步">
+
+<h2 id="15-安装中"><a href="#15-安装中" class="headerlink" title="15. 安装中"></a>15. 安装中</h2><p>软件正在安装中，请耐心等待。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/015.png" class="" title="安装进度">
+
+<h2 id="16-安装完成"><a href="#16-安装完成" class="headerlink" title="16. 安装完成"></a>16. 安装完成</h2><p>下面默认就行，别取消勾选，点击完成。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/016.png" class="" title="安装完成">
+
+<h2 id="17-创建桌面图标"><a href="#17-创建桌面图标" class="headerlink" title="17. 创建桌面图标"></a>17. 创建桌面图标</h2><p>点击上面完成按钮后，会自动弹出一个框（或手动开始菜单找），将里面的 <code>Origin</code> 图标拖到桌面即可。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/017.png" class="" title="拖动图标">
+
+<h1 id="二、-激活与破解"><a href="#二、-激活与破解" class="headerlink" title="二、 激活与破解"></a>二、 激活与破解</h1><h2 id="18-打开安装目录"><a href="#18-打开安装目录" class="headerlink" title="18. 打开安装目录"></a>18. 打开安装目录</h2><p>鼠标右键点击桌面图标，打开该软件安装目录，如下图：</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/018.png" class="" title="打开文件位置">
+
+<h2 id="19-找到破解补丁"><a href="#19-找到破解补丁" class="headerlink" title="19. 找到破解补丁"></a>19. 找到破解补丁</h2><p>返回软件安装包目录下，进入到 <code>Crack</code> 目录。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/019.png" class="" title="Crack目录">
+
+<h2 id="20-替换文件"><a href="#20-替换文件" class="headerlink" title="20. 替换文件"></a>20. 替换文件</h2><p>复制以上两个补丁包，将其复制到 <strong>第18个步骤</strong> 打开的软件安装路径下，选择替换。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/020.png" class="" title="替换文件">
+
+<h2 id="21-运行程序"><a href="#21-运行程序" class="headerlink" title="21. 运行程序"></a>21. 运行程序</h2><p>点击桌面程序图标。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/021.png" class="" title="运行程序">
+
+<h2 id="22-打开成功"><a href="#22-打开成功" class="headerlink" title="22. 打开成功"></a>22. 打开成功</h2><p>软件成功打开，安装结束。</p>
+<img src="/2025/12/11/Origin-2024-%E8%A7%A3%E9%94%81%E7%89%88%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/022.png" class="" title="打开成功">
+
+<hr>
+<h1 id="📥-下载地址"><a href="#📥-下载地址" class="headerlink" title="📥 下载地址"></a>📥 下载地址</h1><blockquote>
+<p><strong>Origin 2024 (数据分析和绘图)</strong></p>
+<p>链接：<a href="https://pan.quark.cn/s/dae13e19f2e8?pwd=fjuR#/list/share">点击下载</a><br>提取码：<code>fjuR</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>破解版软件</category>
+      </categories>
+      <tags>
+        <tag>Origin</tag>
+      </tags>
   </entry>
   <entry>
     <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
@@ -1145,6 +1138,24 @@
       <tags>
         <tag>强化学习</tag>
         <tag>科研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
+    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
@@ -1195,18 +1206,6 @@
       </tags>
   </entry>
   <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>基于TCP协议的Socket套接字Java服务器</title>
     <url>/2025/12/10/%E5%9F%BA%E4%BA%8ETCP%E5%8D%8F%E8%AE%AE%E7%9A%84Socket%E5%A5%97%E6%8E%A5%E5%AD%97Java%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<h1 id="基于TCP协议的Socket套接字Java服务器"><a href="#基于TCP协议的Socket套接字Java服务器" class="headerlink" title="基于TCP协议的Socket套接字Java服务器"></a>基于TCP协议的Socket套接字Java服务器</h1><p>这份代码实现了一个简单的 TCP 聊天客户端。它的核心难点在于**“全双工通信”<strong>——即客户端需要</strong>同时**做两件事：</p>
@@ -1229,65 +1228,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Ubuntu系统安装教程</title>
-    <url>/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/</url>
-    <content><![CDATA[<p>Ubuntu系统安装教程</p>
-<h1 id="一-前言"><a href="#一-前言" class="headerlink" title="一. 前言"></a>一. 前言</h1><p>本篇文章详解介绍一下如何安装Ubuntu系统，笔者在安装的过程中踩过很多坑，重装了很多次，现在把安装过程中遇到的问题也列出来，供大家参考。</p>
-<h1 id="二-准备工作"><a href="#二-准备工作" class="headerlink" title="二. 准备工作"></a>二. 准备工作</h1><p>这个环节很重要，工欲善其事，必先利其器。</p>
-<h2 id="2-1-固态硬盘"><a href="#2-1-固态硬盘" class="headerlink" title="2.1 固态硬盘"></a>2.1 固态硬盘</h2><p>如果是做系统源码开发的话，买一块内存大于 512G的SSD，如果经济条件好的话，容量越大越好。</p>
-<h2 id="2-2-UEFI-GPT-安装"><a href="#2-2-UEFI-GPT-安装" class="headerlink" title="2.2 UEFI + GPT 安装"></a>2.2 UEFI + GPT 安装</h2><p>安装之前，查看一下自己电脑的BIOS系统的类型，使用快捷键 win + R 输入 msinfo32。</p>
-<p>如图：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/001.png" class="" title="msinfo32查看界面">
-
-<p>如上图所示，在右边找到“BIOS模式”，看是否为“UEFI”。</p>
-<h2 id="2-3-制作启动盘"><a href="#2-3-制作启动盘" class="headerlink" title="2.3 制作启动盘"></a>2.3 制作启动盘</h2><p>使用 rufus工具制作启动盘。</p>
-<h2 id="2-4-电脑设置"><a href="#2-4-电脑设置" class="headerlink" title="2.4 电脑设置"></a>2.4 电脑设置</h2><p>以笔者的电脑举个例子，型号:联想E430c。<br>设置 UEFI&#x2F;Legacy Boot选项 为UEFI，如图：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/002.jpg" class="" title="UEFI设置">
-
-<p>关闭secure boot 设置成disable：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/003.png" class="" title="关闭SecureBoot">
-
-<p>USB启动为enable 目的：可以通过USB盘启动系统，如下图：<br>进入StartUp -&gt; Boot：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/004.png" class="" title="设置USB启动">
-
-<p>光标移动到USB选项上，然后按“+”号将USB移动到第一行，从USB启动系统。</p>
-<h1 id="三-普通安装"><a href="#三-普通安装" class="headerlink" title="三. 普通安装"></a>三. 普通安装</h1><h2 id="3-1-解决卡在logo界面"><a href="#3-1-解决卡在logo界面" class="headerlink" title="3.1 解决卡在logo界面"></a>3.1 解决卡在logo界面</h2><p>通过USB系统盘启动后，进入到如下界面：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/005.png" class="" title="启动界面">
-
-<p>这里会有一个坑，Ubuntu启动时卡在logo页面。解决方法：移动到 Install Ubuntu 此项上，然后输入 e （edit模式）。<br>修改 <code>quiet splash ---</code> 为 <code>quiet splash nouveau.modeset=0</code>。</p>
-<p>笔者电脑修改如图：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/006.png" class="" title="修改参数">
-
-<h2 id="3-2-完成安装"><a href="#3-2-完成安装" class="headerlink" title="3.2 完成安装"></a>3.2 完成安装</h2><p>做为开发用途的话，建议选择英文安装。</p>
-<p>点击continue：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/007.png" class="" title="选择语言">
-
-<p>选中第一项“正常安装”：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/008.png" class="" title="正常安装">
-
-<p>最后一步：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/009.png" class="" title="安装完成">
-
-<p>等待10分钟左右，系统会自动安装完成。</p>
-<h1 id="四-分区安装"><a href="#四-分区安装" class="headerlink" title="四. 分区安装"></a>四. 分区安装</h1><p>与普通安装的区别，就是手动设置分区。在此步骤时，选择”其他安装”。</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/010.png" class="" title="其他安装">
-
-<p>举个EFI分区设置实例，图片如下：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/011.png" class="" title="EFI分区设置">
-
-<p>4个分区设置完成后，分区如下：</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/012.png" class="" title="分区概览">
-
-<h1 id="五-双系统切换"><a href="#五-双系统切换" class="headerlink" title="五. 双系统切换"></a>五. 双系统切换</h1><p>此时Ubuntu系统安装完成后，接下来就是设置双系统切换。<br>F1 进入BIOS设置 ,把 UEFI&#x2F;Legacy Boot 模式 设置成 Both。</p>
-<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/013.png" class="" title="设置Both模式">
-
-<p>以后每次开机重启，F12 然后通过 上下键选择你想要进入的系统即可。</p>
+    <title>思想与政治</title>
+    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
 ]]></content>
       <categories>
-        <category>正版软件</category>
+        <category>复习资料</category>
       </categories>
       <tags>
-        <tag>Ubuntu</tag>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
@@ -1356,41 +1305,65 @@
       </tags>
   </entry>
   <entry>
-    <title>思想与政治</title>
-    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
+    <title>Ubuntu系统安装教程</title>
+    <url>/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/</url>
+    <content><![CDATA[<p>Ubuntu系统安装教程</p>
+<h1 id="一-前言"><a href="#一-前言" class="headerlink" title="一. 前言"></a>一. 前言</h1><p>本篇文章详解介绍一下如何安装Ubuntu系统，笔者在安装的过程中踩过很多坑，重装了很多次，现在把安装过程中遇到的问题也列出来，供大家参考。</p>
+<h1 id="二-准备工作"><a href="#二-准备工作" class="headerlink" title="二. 准备工作"></a>二. 准备工作</h1><p>这个环节很重要，工欲善其事，必先利其器。</p>
+<h2 id="2-1-固态硬盘"><a href="#2-1-固态硬盘" class="headerlink" title="2.1 固态硬盘"></a>2.1 固态硬盘</h2><p>如果是做系统源码开发的话，买一块内存大于 512G的SSD，如果经济条件好的话，容量越大越好。</p>
+<h2 id="2-2-UEFI-GPT-安装"><a href="#2-2-UEFI-GPT-安装" class="headerlink" title="2.2 UEFI + GPT 安装"></a>2.2 UEFI + GPT 安装</h2><p>安装之前，查看一下自己电脑的BIOS系统的类型，使用快捷键 win + R 输入 msinfo32。</p>
+<p>如图：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/001.png" class="" title="msinfo32查看界面">
+
+<p>如上图所示，在右边找到“BIOS模式”，看是否为“UEFI”。</p>
+<h2 id="2-3-制作启动盘"><a href="#2-3-制作启动盘" class="headerlink" title="2.3 制作启动盘"></a>2.3 制作启动盘</h2><p>使用 rufus工具制作启动盘。</p>
+<h2 id="2-4-电脑设置"><a href="#2-4-电脑设置" class="headerlink" title="2.4 电脑设置"></a>2.4 电脑设置</h2><p>以笔者的电脑举个例子，型号:联想E430c。<br>设置 UEFI&#x2F;Legacy Boot选项 为UEFI，如图：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/002.jpg" class="" title="UEFI设置">
+
+<p>关闭secure boot 设置成disable：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/003.png" class="" title="关闭SecureBoot">
+
+<p>USB启动为enable 目的：可以通过USB盘启动系统，如下图：<br>进入StartUp -&gt; Boot：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/004.png" class="" title="设置USB启动">
+
+<p>光标移动到USB选项上，然后按“+”号将USB移动到第一行，从USB启动系统。</p>
+<h1 id="三-普通安装"><a href="#三-普通安装" class="headerlink" title="三. 普通安装"></a>三. 普通安装</h1><h2 id="3-1-解决卡在logo界面"><a href="#3-1-解决卡在logo界面" class="headerlink" title="3.1 解决卡在logo界面"></a>3.1 解决卡在logo界面</h2><p>通过USB系统盘启动后，进入到如下界面：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/005.png" class="" title="启动界面">
+
+<p>这里会有一个坑，Ubuntu启动时卡在logo页面。解决方法：移动到 Install Ubuntu 此项上，然后输入 e （edit模式）。<br>修改 <code>quiet splash ---</code> 为 <code>quiet splash nouveau.modeset=0</code>。</p>
+<p>笔者电脑修改如图：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/006.png" class="" title="修改参数">
+
+<h2 id="3-2-完成安装"><a href="#3-2-完成安装" class="headerlink" title="3.2 完成安装"></a>3.2 完成安装</h2><p>做为开发用途的话，建议选择英文安装。</p>
+<p>点击continue：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/007.png" class="" title="选择语言">
+
+<p>选中第一项“正常安装”：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/008.png" class="" title="正常安装">
+
+<p>最后一步：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/009.png" class="" title="安装完成">
+
+<p>等待10分钟左右，系统会自动安装完成。</p>
+<h1 id="四-分区安装"><a href="#四-分区安装" class="headerlink" title="四. 分区安装"></a>四. 分区安装</h1><p>与普通安装的区别，就是手动设置分区。在此步骤时，选择”其他安装”。</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/010.png" class="" title="其他安装">
+
+<p>举个EFI分区设置实例，图片如下：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/011.png" class="" title="EFI分区设置">
+
+<p>4个分区设置完成后，分区如下：</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/012.png" class="" title="分区概览">
+
+<h1 id="五-双系统切换"><a href="#五-双系统切换" class="headerlink" title="五. 双系统切换"></a>五. 双系统切换</h1><p>此时Ubuntu系统安装完成后，接下来就是设置双系统切换。<br>F1 进入BIOS设置 ,把 UEFI&#x2F;Legacy Boot 模式 设置成 Both。</p>
+<img src="/2025/12/11/%E5%AE%89%E8%A3%85Ubuntu%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B1/013.png" class="" title="设置Both模式">
+
+<p>以后每次开机重启，F12 然后通过 上下键选择你想要进入的系统即可。</p>
 ]]></content>
       <categories>
-        <category>复习资料</category>
+        <category>正版软件</category>
       </categories>
       <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构</title>
-    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p><a href="">数据结构</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率论</title>
-    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
+        <tag>Ubuntu</tag>
       </tags>
   </entry>
   <entry>
@@ -1461,6 +1434,32 @@
       <tags>
         <tag>论文</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构</title>
+    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p><a href="">数据结构</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论</title>
+    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大二上</tag>
       </tags>
   </entry>
   <entry>
