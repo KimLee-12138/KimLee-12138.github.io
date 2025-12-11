@@ -409,167 +409,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
-    <url>/2025/12/10/%E3%80%8AConservative%20Q-learning%20for%20Offline-Reinforcement%20Learning%E3%80%8B/</url>
-    <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
-<p><a href="https://arxiv.org/pdf/2006.04779">点击我跳转到原文</a></p>
-<p><a href="https://www.kdocs.cn/l/cjBZwumL0aMg">点击我跳转到报告</a></p>
-]]></content>
-      <categories>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>科研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>军事理论</title>
-    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇博客</title>
-    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
-    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>关于如何科学上网——Clash配置教程</title>
-    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
-    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
-<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
-<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
-<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
-<p><strong>退出软件并重启打开，汉化完成：</strong></p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
-<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
-<p><strong>URL导入：</strong></p>
-<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
-<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
-<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
-<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
-<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
-<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
-<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
-<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
-<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
-<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
-<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
-<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
-      <categories>
-        <category>实用技巧</category>
-      </categories>
-      <tags>
-        <tag>科学上网</tag>
-        <tag>Clash</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JetBrains全家桶免费激活方法</title>
-    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
-<p>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</p>
-<p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
-<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
-<p>￼<br>￼</p>
-]]></content>
-      <categories>
-        <category>实用技巧</category>
-      </categories>
-      <tags>
-        <tag>JetBrains</tag>
-        <tag>干货</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>华农PPT模版</title>
-    <url>/2025/12/10/%E5%8D%8E%E5%86%9CPPT%E6%A8%A1%E7%89%88/</url>
-    <content><![CDATA[<h1 id="华农PPT模版"><a href="#华农PPT模版" class="headerlink" title="华农PPT模版"></a>华农PPT模版</h1><p><a href="https://www.kdocs.cn/l/cn00RJ4Bn7W4">点击我打开PPT模版</a></p>
-]]></content>
-      <categories>
-        <category>实用技巧</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>PPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>强化学习论文</title>
-    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
-<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
-]]></content>
-      <categories>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>论文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于TCP协议的Socket套接字Java服务器</title>
-    <url>/2025/12/10/%E5%9F%BA%E4%BA%8ETCP%E5%8D%8F%E8%AE%AE%E7%9A%84Socket%E5%A5%97%E6%8E%A5%E5%AD%97Java%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="基于TCP协议的Socket套接字Java服务器"><a href="#基于TCP协议的Socket套接字Java服务器" class="headerlink" title="基于TCP协议的Socket套接字Java服务器"></a>基于TCP协议的Socket套接字Java服务器</h1><p>这份代码实现了一个简单的 TCP 聊天客户端。它的核心难点在于**“全双工通信”<strong>——即客户端需要</strong>同时**做两件事：</p>
-<ol>
-<li><strong>听</strong>：随时接收服务器发来的消息（不能因为我在打字就收不到消息）。</li>
-<li><strong>说</strong>：随时读取键盘输入发送给服务器（不能因为在等服务器回复就卡住不能打字）。</li>
-</ol>
-<p>为了解决这个问题，代码使用了<strong>双线程</strong>模型：主线程负责“说”，子线程负责“听”。</p>
-<h3 id="服务端："><a href="#服务端：" class="headerlink" title="服务端："></a>服务端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">POST</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听接口&quot;</span> + POST + <span class="string">&quot;……&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(POST)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端&quot;</span> + clientCount + <span class="string">&quot;已连接&quot;</span>);</span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine();</span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;bye&quot;</span>.equals(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>)</span><br><span class="line">                        in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>)</span><br><span class="line">                        out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed())</span><br><span class="line">                        socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="客户端："><a href="#客户端：" class="headerlink" title="客户端："></a>客户端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">                <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">                <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;\&quot;已连接到服务器！请输入消息（输入 Bye 退出）：\&quot;&quot;</span>);</span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复：&quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已关闭&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input);</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equals(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>思想与政治</title>
-    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java</title>
     <url>/2025/12/09/java/</url>
     <content><![CDATA[<p><img src="https://vcnx4yi81ppb.feishu.cn/space/api/box/stream/download/asynccode/?code=NDExMTM0ZTlkNGRhYWU5MTgyM2M2ZTk1Yjg5YzUzZGFfeUN2U0w2b01zdnBJTFJTdXRvcVlyVWQ5dnlrRlNtbTlfVG9rZW46VHc4UWJtNnlEb1Fta294c250UGM4a1VMblZmXzE3NjUyODEwODA6MTc2NTI4NDY4MF9WNA" alt="img"></p>
@@ -957,29 +796,142 @@
       </tags>
   </entry>
   <entry>
-    <title>概率论</title>
-    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
 ]]></content>
       <categories>
-        <category>复习资料</category>
+        <category>技术日志</category>
       </categories>
       <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
+        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
-    <title>数据结构</title>
-    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p><a href="">数据结构</a></p>
+    <title>我的第一篇博客</title>
+    <url>/2025/12/09/%E4%BB%8E%E3%80%8A%E8%B5%84%E6%9C%AC%E8%AE%BA%E3%80%8B%E5%89%A9%E4%BD%99%E4%BB%B7%E5%80%BC%E7%90%86%E8%AE%BA%E7%9C%8B%E6%95%B0%E5%AD%97%E6%97%B6%E4%BB%A3%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%9B%B0%E5%A2%83%E4%B8%8E%E7%AA%81%E5%9B%B4/</url>
+    <content><![CDATA[<p>大家好，这是我的第一篇博客。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>关于如何科学上网——Clash配置教程</title>
+    <url>/2025/12/10/%E5%85%B3%E4%BA%8E%E5%A6%82%E4%BD%95%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</url>
+    <content><![CDATA[<h2 id="关于如何科学上网——Clash配置教程"><a href="#关于如何科学上网——Clash配置教程" class="headerlink" title="关于如何科学上网——Clash配置教程"></a>关于如何科学上网——Clash配置教程</h2><p><img src="https://clashforwindows.org/wp-content/uploads/2024/11/1730684462-ClashforWindows.jpg" alt="img"></p>
+<h3 id="Clash-for-Windows简介"><a href="#Clash-for-Windows简介" class="headerlink" title="Clash for Windows简介"></a><strong>Clash for Windows简介</strong></h3><p>Clash for Windows是代理工具Clash在Windows系统的图形客户端，同时还支持Linux、macOS系统，功能强大且支持多种代理协议，如V2Ray、Trojan、Shadowsocks(R)、Socks等协议。</p>
+<p>[点击我跳转下载链接](<a href="https://clashchinese.com/clash-for-windows">Clash for Windows - Clash中文网</a>)</p>
+<h3 id="安装配置教程"><a href="#安装配置教程" class="headerlink" title="安装配置教程"></a>安装配置教程</h3><p>下载后解压压缩包，覆盖替换下列路径中的 <strong>app.asar</strong> 文件<br>Clash for Windows\resources*<em>app.asar</em>*</p>
+<p><strong>退出软件并重启打开，汉化完成：</strong></p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140339.png" alt="img"></p>
+<h4 id="Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用"><a href="#Clash-for-Windows机场URL订阅及自建节点配置文件导入配置使用" class="headerlink" title="Clash for Windows机场URL订阅及自建节点配置文件导入配置使用"></a><strong>Clash for Windows机场URL订阅及自建节点配置文件导入配置使用</strong></h4><p>一般情况下，Clash 配置文件 及 URL 都由机场服务商提供复制或下载，自建节点服务器则需自行编写配置文件并导入到 Clash for Windows 客户端；</p>
+<p><strong>URL导入：</strong></p>
+<p>点击界面左侧菜单 【配置】，在顶部输入框粘贴&#x2F;填入机场提供的订阅 URL 地址并点击 【下载】 即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140613.png" alt="img"></p>
+<p>下载完成后点击对应的配置文件即可载入，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430140724.png" alt="img"></p>
+<h4 id="开启系统代理及开机自启选项："><a href="#开启系统代理及开机自启选项：" class="headerlink" title="开启系统代理及开机自启选项："></a><strong>开启系统代理及开机自启选项：</strong></h4><p>点击界面左侧菜单 【代理】，顶部代理模式通常选择【规则】，可在下方选择指定节点，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141117.png" alt="img"></p>
+<p>返回【常规】界面中，打开【系统代理】开关即可，如果需要开机自动启动，打开【开机启动】开关即可，如下图所示：</p>
+<p><img src="https://clashchinese.com/wp-content/uploads/2023/05/20230430141349.png" alt="img"></p>
+<p>现在，Clash for Windows 基本配置已经完成，可以正常使用了。</p>
+<h3 id="机场购买链接"><a href="#机场购买链接" class="headerlink" title="机场购买链接"></a>机场购买链接</h3><p>购买链接一（魔戒，网络延迟较高，但是不限时间，推荐使用科学上网频率低的人群使用）</p>
+<p>购买链接二（椰皮，网络延迟低，但是只能按月或按年购买，推荐需要经常科学上网的人群使用）</p>
+<p><a href="https://mojie.app/docs?id=10">点击我跳转到链接一</a></p>
+<p><a href="https://portal.椰皮.com/">点击我跳转到链接二</a></p>
+<p>购买机场后复制机场链接，按照上述方法导入URL即可实现科学上网</p>
+<h3 id="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"><a href="#注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰" class="headerlink" title="注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰"></a>注：本教程旨在分享经验，无任何不良引导，笔者强烈建议读者们掌握科学上网方法后仍然遵纪守法，可以观看不良引导（如政治内容）内容，但是切不可发表言论，并且笔者希望读者们有一定的信仰，不被外网的文化入侵所侵蚀了信仰</h3>]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>科学上网</tag>
+        <tag>Clash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
+    <url>/2025/12/10/%E3%80%8AConservative%20Q-learning%20for%20Offline-Reinforcement%20Learning%E3%80%8B/</url>
+    <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
+<p><a href="https://arxiv.org/pdf/2006.04779">点击我跳转到原文</a></p>
+<p><a href="https://www.kdocs.cn/l/cjBZwumL0aMg">点击我跳转到报告</a></p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>科研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JetBrains全家桶免费激活方法</title>
+    <url>/2025/12/10/JetBrains%E5%85%A8%E5%AE%B6%E6%A1%B6%E5%85%8D%E8%B4%B9%E6%BF%80%E6%B4%BB%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p><img src="https://www.jetbrains.com/all/img/img-1.png" alt="img"></p>
+<p>激活包下载链接：<a href="%5Bwin2020-2025(%E4%B8%80%E9%94%AE%E6%BF%80%E6%B4%BB">点击我下载激活包</a>.zip - 蓝奏云](<a href="https://wwzl.lanzouw.com/i1NbR2twlffa">https://wwzl.lanzouw.com/i1NbR2twlffa</a>))</p>
+<p>此方法激活操作简单，如激活无效使用在使用教程底部的备用方法<br>￼<br>下载后点击激活包右键，点击全部解压缩<br>￼<br>提示:先安装软件打开后关闭，在执行激活操作</p>
+<h4 id="解压后会多个文件夹，从文件夹打开"><a href="#解压后会多个文件夹，从文件夹打开" class="headerlink" title="解压后会多个文件夹，从文件夹打开"></a>解压后会多个文件夹，从文件夹打开</h4><p><strong>要激活哪款软件就打开对应的激活脚本</strong><br>比如：idea就运行idea激活</p>
+<p>￼<br>￼</p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>JetBrains</tag>
+        <tag>干货</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华农PPT模版</title>
+    <url>/2025/12/10/%E5%8D%8E%E5%86%9CPPT%E6%A8%A1%E7%89%88/</url>
+    <content><![CDATA[<h1 id="华农PPT模版"><a href="#华农PPT模版" class="headerlink" title="华农PPT模版"></a>华农PPT模版</h1><p><a href="https://www.kdocs.cn/l/cn00RJ4Bn7W4">点击我打开PPT模版</a></p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>PPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>军事理论</title>
+    <url>/2025/12/09/%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/WCsubLnhlofP3exmf0qcrnUan0c">军事理论</a></p>
 ]]></content>
       <categories>
         <category>复习资料</category>
       </categories>
       <tags>
         <tag>复习</tag>
-        <tag>大一下</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>强化学习论文</title>
+    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
+<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+]]></content>
+      <categories>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>论文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>思想与政治</title>
+    <url>/2025/12/09/%E6%80%9D%E6%83%B3%E4%B8%8E%E6%94%BF%E6%B2%BB/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/FIpGf64F3lXbUodnDkFc9sRznic">思想与政治</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
       </tags>
   </entry>
   <entry>
@@ -1097,6 +1049,232 @@
       <tags>
         <tag>论文</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构</title>
+    <url>/2025/12/09/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p><a href="">数据结构</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论</title>
+    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大二上</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于TCP协议的Socket套接字Java服务器</title>
+    <url>/2025/12/10/%E5%9F%BA%E4%BA%8ETCP%E5%8D%8F%E8%AE%AE%E7%9A%84Socket%E5%A5%97%E6%8E%A5%E5%AD%97Java%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="基于TCP协议的Socket套接字Java服务器"><a href="#基于TCP协议的Socket套接字Java服务器" class="headerlink" title="基于TCP协议的Socket套接字Java服务器"></a>基于TCP协议的Socket套接字Java服务器</h1><p>这份代码实现了一个简单的 TCP 聊天客户端。它的核心难点在于**“全双工通信”<strong>——即客户端需要</strong>同时**做两件事：</p>
+<ol>
+<li><strong>听</strong>：随时接收服务器发来的消息（不能因为我在打字就收不到消息）。</li>
+<li><strong>说</strong>：随时读取键盘输入发送给服务器（不能因为在等服务器回复就卡住不能打字）。</li>
+</ol>
+<p>为了解决这个问题，代码使用了<strong>双线程</strong>模型：主线程负责“说”，子线程负责“听”。</p>
+<h3 id="服务端："><a href="#服务端：" class="headerlink" title="服务端："></a>服务端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.ServerSocket;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatServer</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">int</span> <span class="variable">POST</span> <span class="operator">=</span> <span class="number">8377</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="type">String</span> <span class="variable">FILE_PATH</span> <span class="operator">=</span> <span class="string">&quot;D:\\chat.txt&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="type">int</span> <span class="variable">clientCount</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;服务器已启动，正在监听接口&quot;</span> + POST + <span class="string">&quot;……&quot;</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">try</span> (<span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(POST)) &#123;</span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>) &#123;</span><br><span class="line">                <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">                clientCount++;</span><br><span class="line">                System.out.println(<span class="string">&quot;客户端&quot;</span> + clientCount + <span class="string">&quot;已连接&quot;</span>);</span><br><span class="line">                <span class="type">ClientHandler</span> <span class="variable">handler</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ClientHandler</span>(socket, clientCount);</span><br><span class="line">                <span class="keyword">new</span> <span class="title class_">Thread</span>(handler).start();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">synchronized</span> <span class="keyword">void</span> <span class="title function_">saveMessageToFile</span><span class="params">(String message)</span> &#123;</span><br><span class="line">        <span class="type">File</span> <span class="variable">file</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">File</span>(FILE_PATH);</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">BufferedWriter</span> <span class="variable">writer</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedWriter</span>(<span class="keyword">new</span> <span class="title class_">FileWriter</span>(file, <span class="literal">true</span>))) &#123;</span><br><span class="line">            writer.write(message);</span><br><span class="line">            writer.newLine();</span><br><span class="line">            writer.flush();</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;写入文件失败 (请检查D盘是否存在或文件权限): &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="title class_">ClientHandler</span> <span class="keyword">implements</span> <span class="title class_">Runnable</span> &#123;</span><br><span class="line">        <span class="keyword">private</span> Socket socket;</span><br><span class="line">        <span class="keyword">private</span> <span class="type">int</span> clientId;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="title function_">ClientHandler</span><span class="params">(Socket socket, <span class="type">int</span> clientId)</span> &#123;</span><br><span class="line">            <span class="built_in">this</span>.socket = socket;</span><br><span class="line">            <span class="built_in">this</span>.clientId = clientId;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">            <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="literal">null</span>;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                in = <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                out = <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line"></span><br><span class="line">                String line;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">while</span> ((line = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (<span class="string">&quot;bye&quot;</span>.equals(line)) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 发送 Bye，断开连接。&quot;</span>);</span><br><span class="line">                        <span class="keyword">break</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    saveMessageToFile(<span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;: &quot;</span> + line);</span><br><span class="line">                    <span class="type">String</span> <span class="variable">response</span> <span class="operator">=</span> <span class="string">&quot;Client&quot;</span> + clientId + <span class="string">&quot;. &quot;</span> + line;</span><br><span class="line">                    out.println(response);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                System.err.println(<span class="string">&quot;客户端 &quot;</span> + clientId + <span class="string">&quot; 异常断开: &quot;</span> + e.getMessage());</span><br><span class="line">            &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (in != <span class="literal">null</span>)</span><br><span class="line">                        in.close();</span><br><span class="line">                    <span class="keyword">if</span> (out != <span class="literal">null</span>)</span><br><span class="line">                        out.close();</span><br><span class="line">                    <span class="keyword">if</span> (socket != <span class="literal">null</span> &amp;&amp; !socket.isClosed())</span><br><span class="line">                        socket.close();</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="客户端："><a href="#客户端：" class="headerlink" title="客户端："></a>客户端：</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">import</span> java.net.Socket;</span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ChatClient</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String agrs[])</span> &#123;</span><br><span class="line">        <span class="keyword">try</span> (<span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Socket</span>(<span class="string">&quot;127.0.0.1&quot;</span>, <span class="number">8377</span>);</span><br><span class="line">                <span class="type">BufferedReader</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">BufferedReader</span>(<span class="keyword">new</span> <span class="title class_">InputStreamReader</span>(socket.getInputStream()));</span><br><span class="line">                <span class="type">PrintWriter</span> <span class="variable">out</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">PrintWriter</span>(socket.getOutputStream(), <span class="literal">true</span>);</span><br><span class="line">                <span class="type">Scanner</span> <span class="variable">scanner</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in)) &#123;</span><br><span class="line">            System.out.println(<span class="string">&quot;\&quot;已连接到服务器！请输入消息（输入 Bye 退出）：\&quot;&quot;</span>);</span><br><span class="line">            <span class="type">Thread</span> <span class="variable">readThread</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Thread</span>(() -&gt; &#123;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    String fromServer;</span><br><span class="line">                    <span class="keyword">while</span> ((fromServer = in.readLine()) != <span class="literal">null</span>) &#123;</span><br><span class="line">                        System.out.println(<span class="string">&quot;收到服务器回复：&quot;</span> + fromServer);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">                    System.out.println(<span class="string">&quot;连接已关闭&quot;</span>);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            readThread.start();</span><br><span class="line">            <span class="keyword">while</span> (scanner.hasNextLine()) &#123;</span><br><span class="line">                <span class="type">String</span> <span class="variable">input</span> <span class="operator">=</span> scanner.nextLine();</span><br><span class="line">                out.println(input);</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (<span class="string">&quot;Bye&quot;</span>.equals(input)) &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException e) &#123;</span><br><span class="line">            System.err.println(<span class="string">&quot;无法连接到服务器，请确保服务端已启动: &quot;</span> + e.getMessage());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python安装与环境配置</title>
+    <url>/2025/12/11/%E6%AD%A3%E7%89%88Python%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="Windows版"><a href="#Windows版" class="headerlink" title="Windows版"></a>Windows版</h1><h2 id="Python的安装与环境配置"><a href="#Python的安装与环境配置" class="headerlink" title="Python的安装与环境配置"></a>Python的安装与环境配置</h2><h3 id="1-下载Python"><a href="#1-下载Python" class="headerlink" title="1.下载Python"></a>1.下载Python</h3><p>Python下载地址：Download Python | Python.org</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/cb5701fbf76649e1980cd82954e415a2.png" alt="img"></p>
+<p>可以在这里直接点击下载，就会下载你电脑对应的最新版本</p>
+<p>如果你要是不想下载对应的最新版或者因为某些原因你想安装某一特定版本的Python你可以在上面的Downloads中点击Windows</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/4bcfd6bdac6a4b27b88983583da2fde2.png" alt="img"></p>
+<p>你就可以看到所有版本的Python，其中左边Stable Releases对应的是稳定版，右边Pre-releases对应的是提前测试版不建议下载</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/1706ba16ce174b78aebe0ae495f2ac67.png" alt="img"></p>
+<p>下载时记得点击Download Windows installer（64-bit） 现在的电脑一般都是64位了，如果你的电脑不是64位请选择对应版本的进行安装，如果你不确定你的电脑是多少位系统，你可以尝试以下几种方法：首先如果你的电脑系统是Win11那一定是64位，你依然可以从以下途径查看</p>
+<p>1.打开设置，点击系统，向下翻找到系统信息，打开后就能清楚看到自己的电 脑是64位处理器的了</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/4b9986ee550b47849dd6ff8efcbe3027.png" alt="img">通过命令行查询，在键盘上同时按住win+r键，然后输入cmd，如图所示，然后按下回车</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d70e757576d846b9a8e74dee072156d6.png" alt="img"></p>
+<p>再输入Systeminfo即可找到自己的系统信息</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/344c4d75dbc74b5197c883b30dcc1803.png" alt="img"></p>
+<p>以上两种方法确认后找到对应版本的进行下载就完成了第一步，下载Python</p>
+<h3 id="2-安装Python"><a href="#2-安装Python" class="headerlink" title="2.安装Python"></a>2.安装Python</h3><p>2.1最轻松安装<br>下载后打开下载里的Python安装包，然后建议勾选下面两项      </p>
+<p><img src="https://i-blog.csdnimg.cn/direct/75bd894c1de545ca99dc1275965e7b94.png" alt="img"></p>
+<p>第一个表示以管理员权限安装Python</p>
+<p>第二个表示自动添加Python的环境路径（强烈建议勾选上否则你需要观看本教学的环境配置一步）</p>
+<p>然后上面的Install Now可以理解成默认路径安装，也就是在C盘进行安装，同样你可以选择下面的Customize installation以自定义选择安装的位置</p>
+<p>如果弹出是否允许之类的弹窗选择是即可</p>
+<p>如果直接点击上面的Install Now等待片刻后，他就会安装完毕，出现如下画面</p>
+<p>这里Diable path length limit是为了防止文件路径名字过长而取消路径长度限制，建议不要点击，直接点击Close就好</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/04e949f2e0fa44b2a4d19ea353392ba3.png" alt="img"></p>
+<p>这是推荐的安装流程，如果你想自定义安装，你可以参考以下教程</p>
+<p>2.2自定义安装<br>在打开安装包后还是建议勾选下面两项，然后选择Customize installation</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/75bd894c1de545ca99dc1275965e7b94.png" alt="img"></p>
+<p>这些都直接不动直接点击Next下一步就好</p>
+<p>下面解释这些选项：</p>
+<p>Documentation：安装Python的文档和帮助文件</p>
+<p>pip：安装Python包管理工具，非常关键，必选</p>
+<p>tcl&#x2F;tk and IDLE：其中tcl&#x2F;tk是两个图形用户界面，而IDLE的名字是Integrated Development Environment and Learning Environment（集成开发环境和学习环境）所以这一项是一个python自带的ide但是我们后文更推荐使用pycharm作为ide进行学习</p>
+<p>Python test suite：Python官方提供的一套用于测试Python解释器和标准库的测试套件，听上去很重要但是对新手来说不重要，留着吧</p>
+<p>py launcher for all users（requires admin privileges）：首先py launcher可以保证用户在命令行里使用python命令启动python，而后半句for all users是询问是否为电脑上的所有用户安装上python，而这一步需要管理员权限对应的是括号里的那句话</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/2f3aeabadb564c4797a41dd958617ff9.png" alt="img"></p>
+<p>这里首先下面Customize install location选择的是安装路径，这个可以自选（建议路径中不要带中文），选择好后点击Install</p>
+<p>下面解释这些选项：</p>
+<p>Install Python 3.12 for all users：为所有用户安装，效果与前面的py launcher for all users（requires admin privileges）一致</p>
+<p>Associate files with Python（requires the ‘py’ launcher）：让系统自动将 Python 关联到特定的文件类型，使得在文件资源管理器中双击 Python 脚本文件时，系统会自动使用 Python 解释器来运行这些脚本</p>
+<p>Create shortcuts for installed applications：创建桌面快捷方式</p>
+<p>Add Python to environment variables：选择这个选项会将 Python 解释器的路径添加到系统的环境变量中，这样就可以在命令行中直接运行 Python 解释器而不需要输入完整的路径，本来就勾着的就不动了</p>
+<p>Precompile standard library：对 Python 标准库进行预编译，以提高标准库模块的导入速度，听着很厉害但是对新手来说不重要，可以勾可以不勾</p>
+<p>Download debugging symbols：给开发人员和调试人员用的调试符号</p>
+<p>Download debug binaries（requires VS 2017 or later）：给开发人员和调试人员用的调试版本的二进制文件</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d0b5fe5166784d42a124da7d2fcdbb5c.png" alt="img"></p>
+<p>安装完毕后，出现如下画面，直接点击Close：</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/04e949f2e0fa44b2a4d19ea353392ba3.png" alt="img"></p>
+<p>至此你已完成安装Python</p>
+<h3 id="3-环境配置"><a href="#3-环境配置" class="headerlink" title="3.环境配置"></a>3.环境配置</h3><p>如果你在安装Python的时候点击了Add python.exe to PATH记得点击了这一步，恭喜你可以直接跳过新手最困难的一个步骤直接看下一环节了！</p>
+<p>如果你没有点击Add python.exe to PATH这一步或者你忘记是否点击这一步，这里建议你可以再次点击安装包，它将出现如下界面，然后点击Uninstall即可开始卸载</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/a35eb7213f114cfaaf22429ccaaf2199.png" alt="img"></p>
+<p>出现如下界面表示卸载成功，然后你可以回到上一步安装Python中重新安装Python，在Python安装的第一页点击Add python.exe to PATH</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/079e4b9b6fb04e28a0ca7a77bbfa3346.png" alt="img"></p>
+<p>当然这个自动环境配置出现于Python 3.3版本，如果你想安装这个版本之前的Python你需要手动进行环境配置，当然如果你不想进行卸载重新安装这样的操作，而是想自己配置环境的话你也可以继续看下面的步骤</p>
+<p>打开设置里的系统信息然后点击高级系统设置，再点击环境变量打开到对应环境配置界面</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/97366380916341f8b3c65fa3b86623e7.png" alt="img"></p>
+<p>也可以右击桌面上的此电脑或者文件管理器中的此电脑选择属性打开系统信息界面再选择高级系统设置打开环境变量</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/f5ed8f267084425ea390b89025bc76b9.png" alt="img"></p>
+<p>文件管理器如上图所示，是菜单栏长的这个像文件夹的软件</p>
+<p>如果你还是找不到文件管理器，你可以再从刚刚下载的地方选择在文件夹中显示，打开文件管理器在左边能找到此电脑</p>
+<p>或者你还可以通过命令行打开文件管理器，只需要像前文中在键盘上同时按住win+r键，然后输入cmd按下回车就可以打开命令行</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d70e757576d846b9a8e74dee072156d6.png" alt="img"></p>
+<p>然后输入explorer，系统即会弹出文件管理器</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/526d084b64ff4d9fbd1d93fc49470f19.png" alt="img"></p>
+<p>打开环境配置后，在下面的系统变量中双击Path</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/dcd314e8390b4158b276808da9ffe157.png" alt="img"></p>
+<p>然后点击新建，然后输入Python的路径，再点击确定。如果你刚刚选择的是默认安装，那路径应该是类似于以下的路径：</p>
+<p>C:\Users\29545\AppData\Local\Programs\Python\Python312\</p>
+<p>其中Users\后面跟的是你个人的用户名，Python后跟的应该是你Python对应的版本，你可以先在文件管理器中尝试寻找到自己电脑上的Python路径。如果你是自定义安装，这里的路径就是自己自定义选择的路径</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/0cdfcc0ad3644a5b92e4fe233737ad71.png" alt="img"></p>
+<p>如果你是在安装的时候选择自动配置环境的话，你可以双击用户变量的Path中查看到Python安装时候自动帮你配置好的环境</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/3767d07a703a43e3b2e5502a08af8511.png" alt="img"></p>
+<p>如果你想知道用户变量和系统变量的不同你可以看本文后面的问题环节</p>
+<p>你也可以使用命令行来配置环境</p>
+<p>如前文在键盘上同时按住win+r键，然后输入cmd，如图所示，然后按下回车</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d70e757576d846b9a8e74dee072156d6.png" alt="img"></p>
+<p>打开命令行后输入path&#x3D;%path%;C:\Users\29545\AppData\Local\Programs\Python\Python312\ 红色部分是对应的路径名，可以看前面讲解怎么找到路径名</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/38d1b6b146364e2484cdbb04e13acdbf.png" alt="img"></p>
+<p>至此你已完成Python的环境配置</p>
+<h3 id="4-测试检验"><a href="#4-测试检验" class="headerlink" title="4.测试检验"></a>4.测试检验</h3><p>让我们再次打开命令行，或者你没有关掉的命令行</p>
+<p>如果你忘记了怎么打开，你可以在键盘上同时按住win+r键，然后输入cmd，如图所示，然后按下回车</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d70e757576d846b9a8e74dee072156d6.png" alt="img"></p>
+<p>然后在命令行里输入python，结果如图类似即可，由于我安装的是Python 3.12.5版本所以出现的就是Python 3.12.5，如果你是其他版本就是对应版本</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/09808c36531843748fea560ee0e64775.png" alt="img"></p>
+<p>你也可以输入python –version，结果如图所示</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/3f0fd1bf851142d3ab8c547b5dc7fcc8.png" alt="img"></p>
+<p>如果你的结果不像上面几张图所示，而是出现的是”…不是外部或内部命令，也不是可运行的程序”，你可能在环境配置中遇到了问题，你可以再次看一遍教程，重做前面的步骤</p>
+<p>至此你已经完成了Python的安装与环境配置</p>
+<h2 id="Python的使用（通过IDE进行使用）"><a href="#Python的使用（通过IDE进行使用）" class="headerlink" title="Python的使用（通过IDE进行使用）"></a>Python的使用（通过IDE进行使用）</h2><p>Python大家一般都喜欢使用PyCharm进行编写，所以这里使用PyCharm作为例子并推荐你使用PyCharm作为未来Python的IDE工具</p>
+<h3 id="1-IDE的下载"><a href="#1-IDE的下载" class="headerlink" title="1.IDE的下载"></a>1.IDE的下载</h3><p>PyCharm的官网：PyCharm: the Python IDE for data science and web development (jetbrains.com)</p>
+<p>打开后点击Download</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/e596ddde6717411982ff400d96893e4a.png" alt="img"></p>
+<p>然后选择自己对应的操作系统，我们是Windows所以选择Windows下的进行下载，当然如果你的电脑是arm64的Windows你需要再次点击旁边的下拉菜单选择arm64进行下载，不知道自己电脑是不是arm64可以翻看前面说的如何查看自己电脑操作系统的信息</p>
+<p>这里我们可以直接点击Download</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/ebfdae184be544e2a40aa7b241bc9792.png" alt="img"></p>
+<p>这里推荐下载Professional版，如果你是学生的话，你可以使用学生认证去免费使用Professional版，如何完成学生认证你可以参考这篇文章：IDEA等JetBrains产品（包含Pycharm、Rider等）该如何使用学生认证免费使用其全部功能_jetbrains 学生 激活-CSDN博客</p>
+<p>两者区别将放在最后的问题当中进行解释</p>
+<p>当然你如果觉得麻烦可以i直接选择下面的Community Edition，如图所示，操作类似</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/7e004ade680f4e68a65bdb7dd6965530.png" alt="img"></p>
+<p>点击后等待直至下载完毕，至此你已完成IDE的下载 </p>
+<h3 id="2-IDE的安装"><a href="#2-IDE的安装" class="headerlink" title="2.IDE的安装"></a>2.IDE的安装</h3><p>我们打开安装包，点击下一步</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/0c38b88ac6584f2c9a1b82c408d66618.png" alt="img"></p>
+<p>这一步选择安装位置，可以选择默认，我这里手动改到了D盘，然后点击下一步</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/561f16a0db344aa4a783424fd562a619.png" alt="img"></p>
+<p>创建桌面快捷方式的这个地方和更新PATH变量的地方可以打上勾，也可以不打勾直接下一步</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/8bd2c5313b8d40d4bac45543d6a4e7ab.png" alt="img"></p>
+<p>直接点击安装</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/c36452ae9db4483ea01038ee2a5b99c3.png" alt="img"></p>
+<p>等待一会直至</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/a736c0b2a7f64b42addc156c1be38872.png" alt="img"></p>
+<p>点击完成</p>
+<p>至此你就完成了IDE的安装</p>
+<h3 id="3-IDE的使用"><a href="#3-IDE的使用" class="headerlink" title="3.IDE的使用"></a>3.IDE的使用</h3><p>你可能是从我的java教程过来的，导致你的电脑上已经安装了IDEA所以会出现如下情况，我们既可以选择点击上面的IDEA，让PyCharm和IDEA设置一样，也可以点击下面的Skip Import</p>
+<p>其实两者使用几乎一致，如果你已学会使用IDEA，那这一部分可以直接跳过</p>
+<p>如果你下载的是Professional版上面需要许可证的话你可以查看该教程：IDEA等JetBrains产品（包含Pycharm、Rider等）该如何使用学生认证免费使用其全部功能-CSDN博客</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/820ae93cc34043a0889b17920d5c7261.png" alt="img"></p>
+<p>我们进入后点击New Project创建新项目</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/1528b3fec5834818b8eaea5f9e342ab0.png" alt="img"></p>
+<p>我们这里可以自己定义新项目的名字，这里我就选择默认名字了，然后我在D盘创建了一个文件夹用于存放我所有的Python项目，然后勾选了Create a welcome script（这一步后续可以不需要添加，这里是为了演示方便），然后点击Create进行创建</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/aea9e4efb6cf4827b9ae8e504f119927.png" alt="img"></p>
+<p>由于我们刚刚选择了Create a welcome script，所以我们进入之后，我们可以看到它给了我们一个示例代码，所以我们这里直接点击右上角绿色的三角形就可以直接运行</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/c43b7121dec54c759b51e46c9cbf5dc7.png" alt="img"></p>
+<p>下面会弹出一个窗口显示运行的结果，如图所示</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/40efe60e7ad94198b6a51cf745ad73b6.png" alt="img"></p>
+<p>我们可以删除当前py文件，右击main然后点击Delete</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/dabe9224c7c84a7aae8bd343685044f2.png" alt="img"></p>
+<p>再直接点击OK</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/2b13e706844c4307a5e45228fca5ee19.png" alt="img"></p>
+<p>然后就成功删除掉了当前py文件，我们再创建一个新的py文件，右击最上面的文件夹，由于我的项目名为pythonProject，所以这里的最上面的文件夹叫pythonProject，点击New，再点击Python File</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/246580fc1c3a41529cb7ffb2af97ebb1.png" alt="img"></p>
+<p>名字我继续输入main为例</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d4a9a94bab9d44918f63593ac64960b9.png" alt="img"></p>
+<p>完成后如图所示</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/10272bf48dfd4fdf82e21f40dfa7f24c.png" alt="img"></p>
+<p>输入以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">print(&quot;Hello World&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>运行项目并下载源码<br>python<br>运行<br>我们就获得了我们第一个程序</p>
+<p>我们再次点击运行，欢迎来到编程的世界~</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d7e7e302a96e4d25963dfb89f6f2cfed.png" alt="img"></p>
+<p>至此我们完成了本教学的全部内容</p>
+<h1 id="Mac版"><a href="#Mac版" class="headerlink" title="Mac版"></a>Mac版</h1><h2 id="Python的安装与环境配置-1"><a href="#Python的安装与环境配置-1" class="headerlink" title="Python的安装与环境配置"></a>Python的安装与环境配置</h2><h3 id="1-下载Python-1"><a href="#1-下载Python-1" class="headerlink" title="1.下载Python"></a>1.下载Python</h3><p> 我们打开左下角启动台，然后在上面的小搜索框中输入terminal或者终端</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/28b40f194d1947c4b4dc6fc93a076f34.jpeg" alt="img"></p>
+<p>打开后输入python3后等待一段时间即可</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/8e9bae8418b342cda7ebe3412bcfdc77.jpeg" alt="img"></p>
+<h3 id="2-安装Python-1"><a href="#2-安装Python-1" class="headerlink" title="2.安装Python"></a>2.安装Python</h3><p>mac的优势直接跳过这一步咯~</p>
+<h3 id="3-环境配置-1"><a href="#3-环境配置-1" class="headerlink" title="3.环境配置"></a>3.环境配置</h3><p>mac能自己找到所以又跳过咯~</p>
+<h3 id="4-测试检验-1"><a href="#4-测试检验-1" class="headerlink" title="4.测试检验"></a>4.测试检验</h3><p>mac都亲自下场帮你安装了，肯定没有问题</p>
+<p>如果你不放心，你也可以再次输入python3，会得到如下结果</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/5eaef8b4c65a4f59a8bde58adf1de5e1.jpeg" alt="img"></p>
+<p>mac轻松速通Python的安装与环境配置 </p>
+<h2 id="Python的使用（通过IDE进行使用）-1"><a href="#Python的使用（通过IDE进行使用）-1" class="headerlink" title="Python的使用（通过IDE进行使用）"></a>Python的使用（通过IDE进行使用）</h2><p>Mac上依然建议使用PyCharm作为IDE</p>
+<h3 id="1-IDE的下载-1"><a href="#1-IDE的下载-1" class="headerlink" title="1.IDE的下载"></a>1.IDE的下载</h3><p>我们打开网站：下载 PyCharm：JetBrains 出品的用于数据科学和 Web 开发的 Python IDE</p>
+<p>下载时需要看清楚macOS系统，然后按照自己的芯片选择对应的版本，但其实苹果的m系列芯片也可以运行上面的intel芯片版本</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/8e5d1c27919341e5b734d1a04f3b5cb3.png" alt="img"></p>
+<p>点击下载后等待其下载完毕就完成IDE的下载</p>
+<h3 id="2-IDE的安装-1"><a href="#2-IDE的安装-1" class="headerlink" title="2.IDE的安装"></a>2.IDE的安装</h3><p>IDE的安装与Windows版相似，这里不再重复</p>
+<h3 id="3-IDE的使用-1"><a href="#3-IDE的使用-1" class="headerlink" title="3.IDE的使用"></a>3.IDE的使用</h3><p>IDE的使用与Windows版相似，这里不再重复</p>
+<h1 id="一些问题"><a href="#一些问题" class="headerlink" title="一些问题"></a>一些问题</h1><h2 id="1-用户变量和系统变量的区别"><a href="#1-用户变量和系统变量的区别" class="headerlink" title="1.用户变量和系统变量的区别"></a>1.用户变量和系统变量的区别</h2><p>用户变量：作用于当前登录的用户，如果你的电脑上有多个用户，那不同的用户可以有不同的Python环境，如果你只为一个用户配置了用户变量，那其他用户不可以使用该变量</p>
+<p>系统变量：该电脑上的所有用户都可以使用的，因此如果你在系统变量中添加了Python环境那该电脑上的所有用户都可以使用该Python</p>
+<p>因此对于初学者来说这两者是没有差别的</p>
+<h2 id="2-PyCharm安装时设置内容都分别是什么"><a href="#2-PyCharm安装时设置内容都分别是什么" class="headerlink" title="2.PyCharm安装时设置内容都分别是什么"></a>2.PyCharm安装时设置内容都分别是什么</h2><p>如图所示</p>
+<p><img src="https://i-blog.csdnimg.cn/direct/d3217c00d42540878271c39c9c7518df.png" alt="img"></p>
+<p>首先第一个创建桌面快捷方式，不用多说，现在安装软件点击这个选项后你能更方便地在桌面上点击这个快捷方式打开软件</p>
+<p>更新PATH变量是将bin目录添加到PATH中，你会发现他与配置环境的操作比较类似，这个操作可以帮助你直接使用命令行运行Pycharm相关的命令</p>
+<p>更新上下文菜单是运行你可以右击文件夹选择以Pycharm打开，这样可以帮助你快速打开一些别人的项目</p>
+<p>创建关联是将所有py文件关联到PyCharm</p>
+<p>所以其实都不勾选也不会影响你的使用<br>————————————————<br>原文链接：<a href="https://blog.csdn.net/sensen_kiss/article/details/141940274">https://blog.csdn.net/sensen_kiss/article/details/141940274</a></p>
+]]></content>
+      <categories>
+        <category>正版软件</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
