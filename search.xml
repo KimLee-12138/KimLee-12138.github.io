@@ -1114,6 +1114,18 @@
       </tags>
   </entry>
   <entry>
+    <title>我的第一篇测试文章</title>
+    <url>/2025/12/09/test/</url>
+    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
+]]></content>
+      <categories>
+        <category>技术日志</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《Conservative Q-learning for Offline-Reinforcement Learning》</title>
     <url>/2025/12/10/%E3%80%8AConservative%20Q-learning%20for%20Offline-Reinforcement%20Learning%E3%80%8B/</url>
     <content><![CDATA[<h1 id="《Conservative-Q-learning-for-Offline-Reinforcement-Learning》"><a href="#《Conservative-Q-learning-for-Offline-Reinforcement-Learning》" class="headerlink" title="《Conservative Q-learning for Offline-Reinforcement Learning》"></a>《Conservative Q-learning for Offline-Reinforcement Learning》</h1><h3 id="摘要："><a href="#摘要：" class="headerlink" title="摘要："></a>摘要：</h3><p>离线强化学习存在一个重大挑战，标准的离策略强化学习方法可能会失效，这是因为数据集和所学策略之间的分布偏移会导致价值被高估，尤其是在对复杂和多模态数据分布进行训练时。在本文中，提出了保守Q学习（CQL），其旨在通过学习一个保守的Q函数来解决这些局限性，使得在该Q函数下某个策略的期望值低于其真实值。从理论上证明，CQL为当前策略的价值提供了一个下界，并且它可以被纳入具有理论改进保证的策略学习过程中。在实践中，CQL通过一个简单的Q值正则化项增强了标准的贝尔曼误差目标，该正则化项很容易在现有的深度Q学习和演员-评论家实现的基础上进行部署。在离散和连续控制领域，我们都表明CQL显著优于现有的离线强化学习方法，通常能学习到最终回报高出2-5倍的策略，尤其是在从复杂和多模态数据分布中学习时。</p>
@@ -1126,18 +1138,6 @@
       <tags>
         <tag>强化学习</tag>
         <tag>科研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇测试文章</title>
-    <url>/2025/12/09/test/</url>
-    <content><![CDATA[<p>这里是正文内容…<br>这里是点击“阅读全文”后才能看到的内容。</p>
-]]></content>
-      <categories>
-        <category>技术日志</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
       </tags>
   </entry>
   <entry>
@@ -1190,6 +1190,19 @@
       </categories>
       <tags>
         <tag>复习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>华农PPT模版</title>
+    <url>/2025/12/10/%E5%8D%8E%E5%86%9CPPT%E6%A8%A1%E7%89%88/</url>
+    <content><![CDATA[<h1 id="华农PPT模版"><a href="#华农PPT模版" class="headerlink" title="华农PPT模版"></a>华农PPT模版</h1><p><a href="https://www.kdocs.cn/l/cn00RJ4Bn7W4">点击我打开PPT模版</a></p>
+]]></content>
+      <categories>
+        <category>实用技巧</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>PPT</tag>
       </tags>
   </entry>
   <entry>
@@ -1314,16 +1327,21 @@
       </tags>
   </entry>
   <entry>
-    <title>华农PPT模版</title>
-    <url>/2025/12/10/%E5%8D%8E%E5%86%9CPPT%E6%A8%A1%E7%89%88/</url>
-    <content><![CDATA[<h1 id="华农PPT模版"><a href="#华农PPT模版" class="headerlink" title="华农PPT模版"></a>华农PPT模版</h1><p><a href="https://www.kdocs.cn/l/cn00RJ4Bn7W4">点击我打开PPT模版</a></p>
+    <title>强化学习论文</title>
+    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
+    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
+<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
+<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
 ]]></content>
       <categories>
-        <category>实用技巧</category>
+        <category>强化学习</category>
       </categories>
       <tags>
-        <tag>生活</tag>
-        <tag>PPT</tag>
+        <tag>强化学习</tag>
+        <tag>论文</tag>
       </tags>
   </entry>
   <entry>
@@ -1386,21 +1404,16 @@
       </tags>
   </entry>
   <entry>
-    <title>强化学习论文</title>
-    <url>/2025/12/09/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%AE%BA%E6%96%87/</url>
-    <content><![CDATA[<p> <a href="C:\Users\Lenovo\Desktop\论文\2006.04779v3.pdf">2006.04779v3.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\15095_Revisiting_Cooperative_O.pdf">15095_Revisiting_Cooperative_O.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\fujimoto19a.pdf">fujimoto19a.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\Lange_Gabel_EtAl_RL-Book-12.pdf">Lange_Gabel_EtAl_RL-Book-12.pdf</a> </p>
-<p> <a href="C:\Users\Lenovo\Desktop\论文\NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf">NeurIPS-2020-conservative-q-learning-for-offline-reinforcement-learning-Paper.pdf</a> </p>
-<p><a href="C:\Users\Lenovo\Desktop\论文\2005.01643v3.pdf">2005.01643v3.pdf</a> </p>
+    <title>概率论</title>
+    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
 ]]></content>
       <categories>
-        <category>强化学习</category>
+        <category>复习资料</category>
       </categories>
       <tags>
-        <tag>强化学习</tag>
-        <tag>论文</tag>
+        <tag>复习</tag>
+        <tag>大二上</tag>
       </tags>
   </entry>
   <entry>
@@ -1487,19 +1500,6 @@
       </tags>
   </entry>
   <entry>
-    <title>概率论</title>
-    <url>/2025/12/09/%E6%A6%82%E7%8E%87%E8%AE%BA/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/file/POBzb8OxQopjLuxZS60cly25nIe">概率论笔记</a></p>
-]]></content>
-      <categories>
-        <category>复习资料</category>
-      </categories>
-      <tags>
-        <tag>复习</tag>
-        <tag>大二上</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>滴滴打车高德地图开发票教程</title>
     <url>/2025/12/10/%E6%BB%B4%E6%BB%B4%E6%89%93%E8%BD%A6%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE%E5%BC%80%E5%8F%91%E7%A5%A8%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<h1 id="滴滴打车高德地图开发票教程"><a href="#滴滴打车高德地图开发票教程" class="headerlink" title="滴滴打车高德地图开发票教程"></a>滴滴打车高德地图开发票教程</h1><p><a href="https://www.kdocs.cn/l/cnVjEbt3gwCK">点击我查看滴滴打车开发票教程</a></p>
@@ -1513,16 +1513,98 @@
       </tags>
   </entry>
   <entry>
-    <title>近代史纲要</title>
-    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
-    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+    <title>算法：二分查找</title>
+    <url>/2025/12/16/%E7%AE%97%E6%B3%95%EF%BC%9A%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/</url>
+    <content><![CDATA[<h1 id="算法：二分查找"><a href="#算法：二分查找" class="headerlink" title="算法：二分查找"></a>算法：二分查找</h1><p>二分算法（Binary Search）的核心不仅仅是“在有序数组里找个数”，更高级的理解是：<strong>在一个具有单调性（或二段性）的区间上，通过不断的折半查找，逼近目标值。</strong></p>
+<p>针对你的考试准备，我将二分法拆解为<strong>标准模板</strong>和**核心思维（如何缩减范围）**两部分。</p>
+<hr>
+<h3 id="一、-二分算法的本质：二段性"><a href="#一、-二分算法的本质：二段性" class="headerlink" title="一、 二分算法的本质：二段性"></a>一、 二分算法的本质：二段性</h3><p>不要只盯着“有序”，要盯着**“二段性”**。</p>
+<p>只要你能找到一个判断条件（我们称为 check(x) 函数），将整个搜索区间一分为二，使得：</p>
+<ul>
+<li><strong>左半边</strong>满足某个性质（比如全是红色）。</li>
+<li><strong>右半边</strong>不满足该性质（比如全是绿色）。</li>
+<li><strong>分界点</strong>就是我们要找的答案。</li>
+</ul>
+<hr>
+<h3 id="二、-一般步骤（三步走）"><a href="#二、-一般步骤（三步走）" class="headerlink" title="二、 一般步骤（三步走）"></a>二、 一般步骤（三步走）</h3><h4 id="1-确定搜索区间-L-R"><a href="#1-确定搜索区间-L-R" class="headerlink" title="1. 确定搜索区间 [L, R]"></a>1. 确定搜索区间 <code>[L, R]</code></h4><p>这是最开始的一步。</p>
+<ul>
+<li>如果是数组查找，区间就是下标 <code>[0, n-1]</code>。</li>
+<li>如果是求某个具体的数值（二分答案），区间就是答案可能的<strong>最小值</strong>到<strong>最大值</strong>。</li>
+</ul>
+<h4 id="2-确定-check-mid-函数（最关键）"><a href="#2-确定-check-mid-函数（最关键）" class="headerlink" title="2. 确定 check(mid) 函数（最关键）"></a>2. 确定 <code>check(mid)</code> 函数（最关键）</h4><p>你需要设计一个逻辑，输入中间值 <code>mid</code>，返回 <code>true</code> 或 <code>false</code>。</p>
+<ul>
+<li>这个函数决定了你如何“砍掉”一半的区间。</li>
+<li><strong>核心逻辑：</strong> 如果 <code>check(mid)</code> 成立，说明答案在 <code>mid</code> 的某一侧（或者就是 <code>mid</code>）；如果不成立，说明答案在另一侧。</li>
+</ul>
+<h4 id="3-根据-check-的结果更新区间"><a href="#3-根据-check-的结果更新区间" class="headerlink" title="3. 根据 check 的结果更新区间"></a>3. 根据 <code>check</code> 的结果更新区间</h4><p>这是最容易写出<strong>死循环</strong>的地方。为了避免死循环，业界通常推荐使用两套由<strong>边界行为</strong>决定的模板（C++风格，Java通用）：</p>
+<p>情况 A：找左边界（例如：在 1 2 2 2 3 中找第一个 2）</p>
+<p>我们希望区间向左收缩。</p>
+<p>C++</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">    <span class="type">int</span> mid = l + r &gt;&gt; <span class="number">1</span>;  <span class="comment">// 下取整</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) &#123;</span><br><span class="line">        r = mid;      <span class="comment">// 答案在左半边（包含mid），抛弃右边</span></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        l = mid + <span class="number">1</span>;  <span class="comment">// 答案在右半边，抛弃左边</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 循环结束时 l == r，即为答案</span></span><br></pre></td></tr></table></figure>
+
+<p>情况 B：找右边界（例如：在 1 2 2 2 3 中找最后一个 2）</p>
+<p>我们希望区间向右收缩。注意 mid 计算方式的变化。</p>
+<p>C++</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">    <span class="type">int</span> mid = l + r + <span class="number">1</span> &gt;&gt; <span class="number">1</span>; <span class="comment">// 注意：这里必须 +1 (上取整)，否则会死循环</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) &#123;</span><br><span class="line">        l = mid;      <span class="comment">// 答案在右半边（包含mid），抛弃左边</span></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        r = mid - <span class="number">1</span>;  <span class="comment">// 答案在左半边，抛弃右边</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="三、-怎么通过观察题目来缩减范围（如何设计-Check-函数）"><a href="#三、-怎么通过观察题目来缩减范围（如何设计-Check-函数）" class="headerlink" title="三、 怎么通过观察题目来缩减范围（如何设计 Check 函数）"></a>三、 怎么通过观察题目来缩减范围（如何设计 Check 函数）</h3><p>这是考试中最难的部分，通常称为 <strong>“二分答案” (Binary Search on Answer)</strong>。当你发现题目有以下特征时，立刻想到二分：</p>
+<h4 id="1-题目特征信号"><a href="#1-题目特征信号" class="headerlink" title="1. 题目特征信号"></a>1. 题目特征信号</h4><ul>
+<li><strong>关键词：</strong> “最大值最小”、“最小值最大”、“满足条件的最大&#x2F;最小值”。</li>
+<li><strong>数据范围：</strong> 答案通常是一个具体的整数，且范围较大（如 $1$ 到 $10^9$），但验证一个答案是否正确很简单。</li>
+</ul>
+<h4 id="2-缩减范围的思维推导（以“切绳子”或“分配资源”为例）"><a href="#2-缩减范围的思维推导（以“切绳子”或“分配资源”为例）" class="headerlink" title="2. 缩减范围的思维推导（以“切绳子”或“分配资源”为例）"></a>2. 缩减范围的思维推导（以“切绳子”或“分配资源”为例）</h4><p>假设题目问：<em>“你可以得到某种资源的最大长度是多少？”</em></p>
+<p>第一步：假设答案是 X</p>
+<p>不要去想怎么直接算 X，而是想：“如果我告诉你答案就是 X，你能验证它行不行吗？”</p>
+<p><strong>第二步：寻找单调性（缩减范围的依据）</strong></p>
+<ul>
+<li>如果 <strong>长度 X</strong> 可以满足条件，那么 <strong>长度 X-1</strong> 一定也能满足吗？（通常是的，更短更容易满足）。</li>
+<li>如果 <strong>长度 X</strong> 太长了不满足，那么 <strong>长度 X+1</strong> 一定也不满足吗？（是的）。</li>
+</ul>
+<p>这就是<strong>单调性</strong>！</p>
+<ul>
+<li>区间 [0, Max] 被分成了两段：<ul>
+<li>[0, Ans]：全部 <code>check</code> 为 True。</li>
+<li>[Ans+1, Max]：全部 <code>check</code> 为 False。</li>
+</ul>
+</li>
+</ul>
+<p>第三步：编写 Check 逻辑</p>
+<p>你的任务变成了：给定一个固定的 mid，判断它是否合法。</p>
+<blockquote>
+<p>实战案例：进击的奶牛 (Aggressive Cows)</p>
+<p>题目：有 N 个隔间，放 C 头牛，让最近的两头牛之间距离尽可能大。求这个最大距离。</p>
+<ol>
+<li><strong>确定区间：</strong> 距离最小是 0，最大是 <code>10^9</code>。<code>L=0, R=10^9</code>。</li>
+<li><strong>观察单调性：</strong><ul>
+<li>假设距离是 <code>mid</code>。</li>
+<li>如果我们能以 <code>mid</code> 为间隔放下 C 头牛，那说明距离这就够了，甚至可以尝试<strong>更大</strong>的距离（答案在右边，<code>L = mid</code>）。</li>
+<li>如果放不下，说明 <code>mid</code> 太大了，必须减小距离（答案在左边，<code>R = mid - 1</code>）。</li>
+</ul>
+</li>
+<li><strong>Check(mid) 怎么写：</strong> 贪心算法。<ul>
+<li>放第一头牛在起点。</li>
+<li>遍历隔间，只要当前隔间和上一头牛距离 $\ge mid$，就放一头。</li>
+<li>看最后放的牛总数是不是 $\ge C$。</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h4 id="3-总结：缩减范围的口诀"><a href="#3-总结：缩减范围的口诀" class="headerlink" title="3. 总结：缩减范围的口诀"></a>3. 总结：缩减范围的口诀</h4><ol>
+<li><strong>定两头：</strong> 答案可能的最小值 <code>L</code> 和最大值 <code>R</code> 是多少？</li>
+<li><strong>猜中间：</strong> 假设答案是 <code>mid</code>。</li>
+<li><strong>判合法：</strong> 写一个 <code>check(mid)</code> 函数。<ul>
+<li>如果 <code>mid</code> 满足条件，我是该往大了找（<code>L=mid</code>），还是往小了找（<code>R=mid</code>）？</li>
+<li><em>这决定了你用哪一套模板。</em></li>
+</ul>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>复习资料</category>
+        <category>算法</category>
       </categories>
       <tags>
-        <tag>复习</tag>
-        <tag>大一下</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -1624,6 +1706,19 @@
       </categories>
       <tags>
         <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>近代史纲要</title>
+    <url>/2025/12/09/%E8%BF%91%E4%BB%A3%E5%8F%B2%E7%BA%B2%E8%A6%81/</url>
+    <content><![CDATA[<p><a href="https://vcnx4yi81ppb.feishu.cn/drive/folder/LFxDfzpi8lp625dOrfhcvXgenKh">近代史纲要</a></p>
+]]></content>
+      <categories>
+        <category>复习资料</category>
+      </categories>
+      <tags>
+        <tag>复习</tag>
+        <tag>大一下</tag>
       </tags>
   </entry>
 </search>
